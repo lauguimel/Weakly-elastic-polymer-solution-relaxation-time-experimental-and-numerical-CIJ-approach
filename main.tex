@@ -1,12 +1,11 @@
-\documentclass[preprint,3p,times]{elsarticle}
+\documentclass[twocolumn,10pt]{asme2ej}
 
 
 %% The amssymb package provides various useful mathematical symbols
 \usepackage{amssymb}
 %% The amsthm package provides extended theorem environments
-\usepackage{amsthm}
-\usepackage{epstopdf}
 \usepackage{graphics,graphicx,amsbsy,amssymb}
+\usepackage{epstopdf}
 \usepackage{float}
 \usepackage{import} 
 \usepackage{color} 
@@ -15,37 +14,53 @@
 %% \begin{linenumbers}, end it with \end{linenumbers}. Or switch it on
 %% for the whole article with \linenumbers.
 %% \usepackage{lineno}
+% \journal{International Journal of Engineering Science}
 
-\journal{}
+\title{Breakup length determination of Continuous Ink Jets: application to a shear thinning industrial ink}
+
+\author{Guillaume Ma\^itrejean
+\affiliation{
+    Laboratoire Rh\'eologie et Proc\'ed\'es\\
+    Univ. Grenoble Alpes, LRP\\ F-38000 Grenoble France\\
+    Email: guillaume.maitrejean@univ-grenoble-alpes.fr
+}}
+
+\author{Maxime Rosello
+\affiliation{
+    Laboratoire Rh\'eologie et Proc\'ed\'es\\
+    Univ. Grenoble Alpes, LRP\\ F-38000 Grenoble France
+}}
+\author{Denis CD Roux
+\affiliation{
+    Laboratoire Rh\'eologie et Proc\'ed\'es\\
+    Univ. Grenoble Alpes, LRP\\ F-38000 Grenoble France
+}}
+\author{Pascal Jay
+\affiliation{
+    Laboratoire Rh\'eologie et Proc\'ed\'es\\
+    Univ. Grenoble Alpes, LRP\\ F-38000 Grenoble\\France
+}}
+\author{Jean Xing
+\affiliation{
+    Markem-Imaje Industries\\
+    ZA de l'Armailler 9\\ rue Gaspard Monge\\
+    BP 110 26501 Bourg-L\'es-Valence \\ France
+}}
+\author{Bruno Barbet
+\affiliation{
+    Markem-Imaje Industries\\
+    ZA de l'Armailler 9\\ rue Gaspard Monge\\
+    BP 110 26501 Bourg-L\'es-Valence \\ France
+}}
+
 
 \begin{document}
-
-\begin{frontmatter}
-
-\title{Weakly elastic industrial ink: an experimental and numerical study for relaxation time determination}
-
-\author[1]{Guillaume Ma\^itrejean\corref{cor1}}
-\ead{guillaume.maitrejean@univ-grenoble-alpes.fr}
-
-\author[1]{Maxime Rosello}
-\author[1]{Denis CD Roux}
-\author[1]{Pascal Jay}
-\author[2]{Bruno Barbet}
-\author[2]{Jean Xing}
-
-\cortext[cor1]{Corresponding author}
-
-\address[1]{Laboratoire Rh\'éologie et Proc\'ed\'es, Univ. Grenoble Alpes, LRP, F-38000 Grenoble, France CNRS, LRP, F-38000 Grenoble, France }
-\address[2]{Markem-Imaje Industries, ZA de l'Armailler 9, rue Gaspard Monge - BP 110 26501 Bourg-L\'és-Valence - France}
+\maketitle 
 
 \begin{abstract}
     The relaxation time of a weakly elastic polymer solution is measured by comparing numerical and experimental drop shapes. Computations use a viscoelastic Oldroyd-B model, the relaxation time of which is fitted using experimental results. This numerical approach is particularly convenient for weakly elastic solution physical parameters of which can not be measured by experimental rheometry.
 \end{abstract}
 
-\begin{keyword}
-\end{keyword}
-
-\end{frontmatter}
 
 %% \linenumbers
 
@@ -94,7 +109,7 @@ Both the density $\rho = 873 kg.m^{-3}$ and the surface tension $\sigma = 22.8 m
 The shear viscosity is measured using three devices covering a wide range of shear rates, from $1s^{-1}$ to $10^6 s^{-1}$:
 \begin{itemize}
     \item ARG-2 from TA-Instruments for low shear rates (from $10^0 s^{-1}$ to $10^3 s^{-1}$),
-    \item a piezo-rheometer developed by \citet{buchanan2005high} for medium range shear rates (from $10^1 s^{-1}$ to $10^5 s^{-1}$),
+    \item a piezo-rheometer developed by \cite{buchanan2005high} for medium range shear rates (from $10^1 s^{-1}$ to $10^5 s^{-1}$),
     \item m-VROC from RheoSense for high shear rates (from $10^4 s^{-1}$ to $10^6 s^{-1}$)
 \end{itemize}
 As we can see on \ref{beahaviorLaw}, the viscosity can be fitted using a Cross model depicting the shear-thinning behavior:
@@ -177,6 +192,6 @@ It is worth noting that this value, lower than that obtained via the ROJER metho
 
 The experimental characterization of the present polymer solution gave an accurate description of of the shear viscosity but failed to accurately measure the viscoelastic relaxation time. The closest value of that relaxation time has been obtained with the piezorheometer. To assess this value numerical calculation of a 
 
-\bibliographystyle{plainnat}
+\bibliographystyle{asmems4}
 \bibliography{biblio}
 \end{document}
