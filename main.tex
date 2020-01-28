@@ -112,6 +112,36 @@ In the present work, the polymer relaxation time predicted by Zimm theory is ver
 
 To the knowledge of the authors, no experimental device can capture such a short relaxation time and we follow another route in section \ref{numericalDetermination} by comparing numerical simulation to experimental results in order to determine it.
 
+\section{Numerical results}
+The computation is performed using OpenFoam and more specifically with its multiphase solver interFoam. In order to evaluate the ability of the solver to to numerically model the jetting of a non-Newtonian fluid, it is first assessed on the well-known capillary instability growth of a Newtonian fluid and eventually jetting of Newtonian fluid is considered.
+
+\subsection{Simulation of capillary instability growth}
+We first assess the performance of the interFoam solver by simulating the growth of a perturbation at the surface of a column of Newtonian liquid \cite{delteil2011numerical,cervone2010simulation,deshpande2012evaluating}. 
+An axisymmetric flow is modeled within a rectangular domain of width $\lambda$ and height $h$, and composed of a liquid and a gaz, at $t = 0s$ the liquid is at rest and a small perturbation of wavelength $\lambda$ and amplitude $\delta$ is applied to its surface, i.e. at the radius $R_0$. 
+
+\begin{table}
+    \begin{center}
+        \begin{tabular}{lr}
+            \hline
+            $\rho_{l} (kg.m^{-3})$ & $1000$\\
+            $\rho_{g} (kg.m^{-3})$ & $1$\\
+            $\nu_{l} (Pa.s)$ & $10^{-3}$\\
+            $\nu_{g} (Pa.s)$ & $10^{-6}$\\
+            $h(m)$ & $28\, 10^{-4}$\\
+            $\lambda (m)$ & $64\, 10^{-4}$\\
+            $R_0(m)$ & $7.07\, 10^{-4}$\\
+            $\delta (m)$ & $1.6\, 10^{-5}$\\
+            $Oh$ & $0.2$\\
+            $t_{cap}(s)$ & $0.1$  \\          
+            \hline
+        \end{tabular}
+    \end{center}
+    
+    \caption{\label{tab:table-name}Your caption.}
+\end{table}
+
+
+
 \section{Numerical determination of the relaxation time} \label{numericalDetermination}
 
 
