@@ -9,6 +9,9 @@
 \usepackage{float}
 \usepackage{import} 
 \usepackage{color} 
+\usepackage{tikz,pgfplots}
+\usepackage[per-mode=symbol]{siunitx}
+
 
 %% The lineno packages adds line numbers. Start line numbering with
 %% \begin{linenumbers}, end it with \end{linenumbers}. Or switch it on
@@ -129,7 +132,7 @@ with $\gamma$ the growth rate, $\displaystyle \tau_c = \sqrt{\frac{\rho_f R_0^3}
 \end{equation} 
 
 Simulation of the capillary instability growth consists in an axisymmetric flow within a rectangular domain of width $\lambda$ and height $h$, and composed of a liquid of radius $R_0$ and a gaz. At $t = 0s$ the liquid is at rest and a small perturbation of wavelength $\lambda$ and amplitude $\delta$ is applied to its surface. 
-Domain is meshed with square elements of side $\Delta_x$ and simulation is found to converge with $\Delta_x< 7\,10^{-5}m$. Parameters of the simulation are summed up Table \ref{tab:parameters} and Fig \ref{fig:capillaryGrowth} shows numerical results at different time $t \in [0s,2s]$.
+Domain is meshed with square elements of side $\Delta_x$ and simulation is found to converge with $\Delta_x< 7\,10^{-5}m$. Parameters of the simulation are summed up Table \ref{tab:parametersPinch} and Fig \ref{fig:capillaryGrowth} shows numerical results at different time $t \in [0s,2s]$.
 
 \begin{table}
     \begin{center}
@@ -150,7 +153,7 @@ Domain is meshed with square elements of side $\Delta_x$ and simulation is found
         \end{tabular}
     \end{center}
     
-    \caption{\label{tab:parameters}Parameters of capillary instability simulations.}
+    \caption{\label{tab:parametersPinch}Parameters of capillary instability simulations.}
 \end{table}
 
 \begin{figure*}[h]
@@ -164,13 +167,62 @@ Comparison of theoretical growth rate from Eq. \ref{eq:growthRateAnalytical} wit
 
 \begin{figure}[]
     \centering
-    \includegraphics[width=8cm]{dispersion1.eps}
+    \includegraphics[width=8cm]{dispersion.eps}
     \caption{Growth rate $\gamma \tau_c$ as a function of of the dimensionless wave number $x$}
     \label{fig:growthrate}
 \end{figure}
 
 \subsection{Numerical simulation of Newtonian CIJ}
-In order to calibrate the numerical model, jetting of a Newtonian fluid of water and glycerol is addressed. 
+In order to fine tune the numerical model for CIJ cases, jetting of a Newtonian solution of water and glycerol is addressed. The density, viscosity and surface tension of the solution has been carefully measured using, respectively, an Anton Paar DMA4500, an Anton Paar Lovis 2000MME and a Lauda MPT-2. Table \ref{tab:parametersGlycerol} sums up the physical properties of the solution used in the numerical simulation.
+
+\begin{table}
+    \begin{center}
+        \begin{tabular}{lr}
+            \hline
+            $\rho_{l} (kg.m^{-3})$ & $1128.88$\\
+            $\nu_{l} (mPa.s)$ & $6.4$\\
+            $\sigma (mN.m^{-1})$ & $69.16$\\
+            \hline
+        \end{tabular}
+    \end{center}
+    
+    \caption{\label{tab:parametersGlycerol} Physical parameters of glycerol + water solution.}
+\end{table}
+
+Figure \ref{fig:glycerolCIJExp}(a-i) shows experimental jets for different stimulation amplitude (given in Volts). 
+
+\begin{figure*}[]
+    \centering
+    \includegraphics[width=10cm]{Glycerol/gouttes_exp.png}
+    \caption{Experimental jets for different stimulation amplitude (in Volts) located a the breakup length.}
+    \label{fig:glycerolCIJExp}
+\end{figure*}
+
+The numerical model of the CIJ device takes advantage of the axisymmetry of the problem and the a part of the numerical domain, which is thus 2-dimensional, including fluid tank and nozzle is depicted Fig. \ref{fig:meshGlycerol}. At $t=0s$, both tank and nozzle are filled with fluid and the rest of the domain is filled with air. In order to jet the fluid, a pressure is applied on inlet of the domain (left side of the tank) such as:
+\begin{equation} \label{eq:plim}
+    P=P_{tank}+P_{stim}\sin(2\pi f t)
+\end{equation}
+where $P_tank$ and $P_stim$ are related, respectively, to the steady pressure in the fluid tank, driving the jetting velocity of the fluid, and the amplitude of stimulation.
+\begin{figure}[h]
+    \centering    
+    \begin{tikzpicture}
+        \node[anchor=south west,inner sep=0] (0,0) {\includegraphics[width=3cm,angle=90]{maillage.png}};
+        
+        \draw[dashed] (0,3) -- (0,3.3);       
+        \draw[dashed] (4.8,3) -- (4.8,3.3);
+        \draw[dashed] (5.75,2.05) -- (5.75,3.3);
+        \draw[dashed] (7.9,2.05) -- (7.9,3.3);
+        
+        \draw (2.5,3.5) node {Fluid Tank};
+        \draw (5.3,3.5) node {Nozzle};
+        \draw (6.9,3.5) node {Air};
+        
+        \end{tikzpicture}
+    \caption{Converged mesh of the tank, nozzle and nozzle outlet.} 
+    \label{fig:meshGlycerol}
+\end{figure}
+
+To accurately determine $P_tank$, both the mass flow and the dimensionless wave number are experimentally measured. 
 
 
 \section{Numerical determination of the relaxation time} \label{numericalDetermination}
