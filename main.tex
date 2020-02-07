@@ -12,6 +12,9 @@
 \usepackage{tikz,pgfplots}
 \usepackage[per-mode=symbol]{siunitx}
 
+\usepackage{caption}
+\usepackage{subcaption}
+
 
 %% The lineno packages adds line numbers. Start line numbering with
 %% \begin{linenumbers}, end it with \end{linenumbers}. Or switch it on
@@ -19,7 +22,7 @@
 %% \usepackage{lineno}
 % \journal{International Journal of Engineering Science}
 
-\title{Breakup length determination of Continuous Ink Jets: application to a shear thinning industrial ink}
+\title{Characterization of a low relaxation time Oldroyd-B polymer solution using both numerical and experimental Continuous Ink Jet}
 
 \author{Guillaume Ma\^itrejean
 \affiliation{
@@ -115,7 +118,7 @@ In the present work, the polymer relaxation time predicted by Zimm theory is ver
 
 To the knowledge of the authors, no experimental device can capture such a short relaxation time and we follow another route in section \ref{numericalDetermination} by comparing numerical simulation to experimental results in order to determine it.
 
-\section{Numerical results}
+\section{Validation of the numerical model}
 The computation is performed using OpenFoam and more specifically with its multiphase solver interFoam \cite{deshpande2012evaluating}. In order to evaluate the ability of the solver to numerically model the jetting of a non-Newtonian fluid, it is first assessed on the well-known capillary instability growth of a Newtonian fluid and eventually jetting of Newtonian fluid is considered.
 
 \subsection{Simulation of the capillary instability growth}
@@ -163,7 +166,7 @@ Domain is meshed with square elements of side $\Delta_x$ and simulation is found
     \label{fig:capillaryGrowth}
 \end{figure*}
 
-Comparison of theoretical growth rate from Eq. \ref{eq:growthRateAnalytical} with numerical results Fig. \ref{fig:growthrate} shows good agreement as analytical solution is based on linearized approach whereas interFoam solves Navier-Stokes equation.
+Comparison of theoretical growth rate from Eq. \ref{eq:growthRateAnalytical} with numerical results Fig. \ref{fig:growthrate} shows good agreement as analytical solution is based on linearized approach whereas interFoam solves full Navier-Stokes equation.
 
 \begin{figure}[]
     \centering
@@ -172,7 +175,7 @@ Comparison of theoretical growth rate from Eq. \ref{eq:growthRateAnalytical} wit
     \label{fig:growthrate}
 \end{figure}
 
-\subsection{Numerical simulation of Newtonian CIJ}
+\subsection{Numerical simulation of Newtonian CIJ}\label{sec:glycerol}
 In order to fine tune the numerical model for CIJ cases, jetting of a Newtonian solution of water and glycerol is addressed. The density, viscosity and surface tension of the solution has been carefully measured using, respectively, an Anton Paar DMA4500, an Anton Paar Lovis 2000MME and a Lauda MPT-2. Table \ref{tab:parametersGlycerol} sums up the physical properties of the solution used in the numerical simulation.
 
 \begin{table}
@@ -198,11 +201,13 @@ Figure \ref{fig:glycerolCIJExp}(a-i) shows experimental jets for different stimu
     \label{fig:glycerolCIJExp}
 \end{figure*}
 
-The numerical model of the CIJ device takes advantage of the axisymmetry of the problem and the a part of the numerical domain, which is thus 2-dimensional, including fluid tank and nozzle is depicted Fig. \ref{fig:meshGlycerol}. At $t=0s$, both tank and nozzle are filled with fluid and the rest of the domain is filled with air. In order to jet the fluid, a pressure is applied on inlet of the domain (left side of the tank) such as:
+The numerical model of the CIJ device takes advantage of the axisymmetry of the problem the upper part of the numerical domain, which is thus 2-dimensional and includes fluid tank and nozzle, is depicted Fig. \ref{fig:meshGlycerol}. 
+
+At $t=0s$, both tank and nozzle are filled with fluid and the rest of the domain is filled with air. In order to jet the fluid, a pressure is applied on inlet of the domain (left side of the tank) such as:
 \begin{equation} \label{eq:plim}
-    P=P_{tank}+P_{stim}\sin(2\pi f t)
+    P=P_{tank}+P_{stim}\cos(2\pi f t)
 \end{equation}
-where $P_tank$ and $P_stim$ are related, respectively, to the steady pressure in the fluid tank, driving the jetting velocity of the fluid, and the amplitude of stimulation.
+where $P_{tank}$ and $P_{stim}$ are related, respectively, to the absolute steady pressure in the fluid tank, driving the jetting velocity of the fluid, and the amplitude of stimulation.
 \begin{figure}[h]
     \centering    
     \begin{tikzpicture}
@@ -218,17 +223,72 @@ where $P_tank$ and $P_stim$ are related, respectively, to the steady pressure in
         \draw (6.9,3.5) node {Air};
         
         \end{tikzpicture}
-    \caption{Converged mesh of the tank, nozzle and nozzle outlet.} 
+    \caption{Converged mesh of the tank, nozzle and nozzle outlet of the axisymmetric numerical model.} 
     \label{fig:meshGlycerol}
 \end{figure}
 
-To accurately determine $P_tank$, both the mass flow and the dimensionless wave number are experimentally measured. 
+To accurately determine $P_{tank}$, both the mass flow and the dimensionless wave number $x$ are experimentally measured. The dimensionless wave number $x$ writes
+\begin{equation}
+    x=2 \pi R_0 \frac{v}{f}
+\end{equation}
+with $R_0$ the radius of the unperturbed jet, $v$ the jet velocity and $f$ the stimulation frequency. 
 
+In the present case the $P_{tank}$ has been found $P_{tank}=4140 \, mbar$. 
+$P_{stim}$ is directly related to the tension applied to the piezoelectric actuator and there is no direct relation between the amplitude of stimulation in Volt and the one in Pascal. In order to determine the pressure exerted on the fluid by the piezoelectric device, i.e. $P_{stim}$, as a function of the tension applied $T_{stim}$, we must compare experimental and numerical breakup jets. One way to do so lies in comparing droplet shapes, but in this present case and due to the hight tension surface exhibited by the glycerol solution, the droplets created looks very similar (see Fig. \ref{fig:glycerolCIJExp}) and one can not use this criterion to discriminate the jets. We then use the breakup lengths of the jets, respectively, $\mathcal{L}_{exp}^b$ and $\mathcal{L}_{num}^b$, to assess the relation between $P_{stim}$ and $T_{stim}$. 
+
+\begin{figure}[]
+    \centering
+    \includegraphics[width=9cm]{LbGlycerol.eps}
+    \caption{Numerical and Experimental breakup lengths for glycerol solution.}
+    \label{fig:LbGlycerol}
+\end{figure}
+
+Figure \ref{fig:LbGlycerol} shows both $\mathcal{L}_{exp}^b$ and $\mathcal{L}_{num}^b$ and an excellent agreement can be found between $P_{stim}$ and $T_{stim}$:
+\begin{equation}
+    P_{stim} = 36.4 \, T_{stim}^{0.792}
+\end{equation}
+
+It is worth noting that the numerical breakup length can strongly impacted by the mesh as $\mathcal{L}_{num}^b$ relates to the length where fluid thread thickness tends towards zero. However the high surface tension exhibited by the glycerol solution prevent $\mathcal{L}_{num}^b$ to diverge from $\mathcal{L}_{exp}^b$ and excellent agreement is found between them both. 
+
+\begin{figure}[h]
+    \centering
+    \begin{subfigure}{2.7cm}
+        \centering
+        \includegraphics[width=2.5cm]{Glycerol/num_exp_053mbar_1.png}
+        % \captionsetup{font={scriptsize,it}}
+        \caption{1.6$V$ - 53$mbar$}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{2.7cm}
+        \centering
+        \includegraphics[width=2.5cm]{Glycerol/num_exp_264mbar.png}
+        \caption{12.2$V$ - 264$mbar$}
+        % \label{fig:three sin x}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{2.7cm}
+        \centering
+        \includegraphics[width=2.5cm]{Glycerol/num_exp_580mbar_1.png}
+        \caption{33$V$ - 580$mbar$}
+        % \label{fig:five over x}
+    \end{subfigure}
+       \caption{Comparison between experimental (black and white) and numerical (colour) droplet shapes for different amplitudes of stimulation}
+       \label{fig:glycerolDrop}
+\end{figure}
+Droplet shapes depicted \ref{fig:glycerolDrop}(a-c) shows excellent agreement between numerical and experimental results and satellites dynamic is also captured by the numerical model from low ($1.6V$) to high amplitude stimulations ($33V$).
 
 \section{Numerical determination of the relaxation time} \label{numericalDetermination}
+\subsection{Newtonian approach of }
+The computation is performed using the previously finetuned interFoam solver and the same 2D-axisymmetric geometry as in section \ref{sec:glycerol}. 
 
 
 
+
+
+
+Neither shear thinning nor strain thickening behavior is expected, thus the Oldroyd-B viscoelastic model \cite{oldroyd1950formulation} is assumed to accurately describe the viscoelastic behavior of the present work. 
+
+The solvent and polymer contribution to viscosity, respectively $\eta_s$ and $\eta_p$ have been carefully measured and the influence of the relaxation time $\tau_e$ onto the breakup shape is investigated. Giving the value τZ = 0.4 μs, $\tau_e$ from 0.5 μs to 1 μs will be tested. A Dirichlet boundary condition is applied, generating the fluid jet and triggering the instability :
 
 
 Jetting conditions are chosen to ensure a constant dimensionless wave number $x=0.6$ for all nozzles and all inks. $x$ is calculated with the wave length $\lambda$ and made dimensionless with the unperturbed jet radius $R_0$ as follow :
@@ -248,7 +308,7 @@ Jets obtained for small disturbance amplitudes, i.e. $A_t \in [2 \, V,13 \, V]$,
 %       \label{BUlinear}
 %   \end{figure}
  
-The latter observation of viscoelasticity of the ink is consistent with its molecular composition. Indeed the ink is in the semi-dilute regime and it presents quite flexible polymer chains likely to exhibit an elastic behavior. In the next en extensive experimental study is performed to accurately determine the rheological characteristics of the ink.
+The latter observation of viscoelasticity of th e ink is consistent with its molecular composition. Indeed the ink is in the semi-dilute regime and it presents quite flexible polymer chains likely to exhibit an elastic behavior. In the next en extensive experimental study is performed to accurately determine the rheological characteristics of the ink.
 
 
 
