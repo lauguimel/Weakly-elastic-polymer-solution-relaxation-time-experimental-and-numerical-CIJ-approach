@@ -1,0 +1,110 @@
+\begin{thebibliography}{10}
+
+\bibitem{morrison2011inkjet}
+Morrison, N.~F., and Harlen, O.~G., 2011.
+\newblock ``Inkjet printing of non-newtonian fluids''.
+\newblock In NIP \& Digital Fabrication Conference, Vol.~2011, Society for
+  Imaging Science and Technology, pp.~360--364.
+
+\bibitem{rodriguez2015experimental}
+Rodr{\'\i}guez-Rivero, C., Del~Valle, E.~M., and Gal{\'a}n, M.~A., 2015.
+\newblock ``Experimental and linear analysis for the instability of non-n
+  ewtonian liquid jets issuing from a pressurized vibrating nozzle''.
+\newblock {\em AIChE Journal, {\bf 61}}(6), pp.~2070--2078.
+
+\bibitem{mcilroy2013modelling}
+McIlroy, C., Harlen, O., and Morrison, N., 2013.
+\newblock ``Modelling the jetting of dilute polymer solutions in drop-on-demand
+  inkjet printing''.
+\newblock {\em Journal of Non-Newtonian Fluid Mechanics, {\bf 201}},
+  pp.~17--28.
+
+\bibitem{rayleigh1892xvi}
+Rayleigh, L., 1892.
+\newblock ``Xvi. on the instability of a cylinder of viscous liquid under
+  capillary force''.
+\newblock {\em The London, Edinburgh, and Dublin Philosophical Magazine and
+  Journal of Science, {\bf 34}}(207), pp.~145--154.
+
+\bibitem{gordon1973instability}
+Gordon, M., Yerushalmi, J., and Shinnar, R., 1973.
+\newblock ``Instability of jets of non-newtonian fluids''.
+\newblock {\em Transactions of The Society of Rheology (1957-1977), {\bf
+  17}}(2), pp.~303--324.
+
+\bibitem{zimm1956dynamics}
+Zimm, B.~H., 1956.
+\newblock ``Dynamics of polymer molecules in dilute solution: viscoelasticity,
+  flow birefringence and dielectric loss''.
+\newblock {\em The journal of chemical physics, {\bf 24}}(2), pp.~269--278.
+
+\bibitem{keshavarz2015studying}
+Keshavarz, B., Sharma, V., Houze, E.~C., Koerner, M.~R., Moore, J.~R., Cotts,
+  P.~M., Threlfall-Holmes, P., and McKinley, G.~H., 2015.
+\newblock ``Studying the effects of elongational properties on atomization of
+  weakly viscoelastic solutions using rayleigh ohnesorge jetting extensional
+  rheometry (rojer)''.
+\newblock {\em Journal of Non-Newtonian Fluid Mechanics, {\bf 222}},
+  pp.~171--189.
+
+\bibitem{galindo2013microdevices}
+Galindo-Rosales, F.~J., Alves, M., and Oliveira, M.~S., 2013.
+\newblock ``Microdevices for extensional rheometry of low viscosity elastic
+  liquids: a review''.
+\newblock {\em Microfluidics and nanofluidics, {\bf 14}}(1-2), pp.~1--19.
+
+\bibitem{christanti2002effect}
+Christanti, Y., and Walker, L.~M., 2002.
+\newblock ``Effect of fluid relaxation time of dilute polymer solutions on jet
+  breakup due to a forced disturbance''.
+\newblock {\em Journal of Rheology (1978-present), {\bf 46}}(3), pp.~733--748.
+
+\bibitem{eggers2008physics}
+Eggers, J., and Villermaux, E., 2008.
+\newblock ``Physics of liquid jets''.
+\newblock {\em Reports on progress in physics, {\bf 71}}(3), p.~036601.
+
+\bibitem{pimbley1977satellite}
+Pimbley, W., and Lee, H., 1977.
+\newblock ``Satellite droplet formation in a liquid jet''.
+\newblock {\em IBM Journal of Research and Development, {\bf 21}}(1),
+  pp.~21--30.
+
+\bibitem{rosello2018influence}
+Rosello, M., Ma{\^\i}trejean, G., Roux, D.~C., Jay, P., Barbet, B., and Xing,
+  J., 2018.
+\newblock ``Influence of the nozzle shape on the breakup behavior of continuous
+  ink jets''.
+\newblock {\em Journal of Fluids Engineering, {\bf 140}}(3).
+
+\bibitem{deshpande2012evaluating}
+Deshpande, S.~S., Anumolu, L., and Trujillo, M.~F., 2012.
+\newblock ``Evaluating the performance of the two-phase flow solver
+  interfoam''.
+\newblock {\em Computational science \& discovery, {\bf 5}}(1), p.~014016.
+
+\bibitem{chandrasekhar2013hydrodynamic}
+Chandrasekhar, S., 2013.
+\newblock {\em Hydrodynamic and hydromagnetic stability}.
+\newblock Courier Corporation.
+
+\bibitem{delteil2011numerical}
+Delteil, J., Vincent, S., Erriguible, A., and Subra-Paternault, P., 2011.
+\newblock ``Numerical investigations in rayleigh breakup of round liquid jets
+  with vof methods''.
+\newblock {\em Computers \& Fluids, {\bf 50}}(1), pp.~10--23.
+
+\bibitem{cervone2010simulation}
+Cervone, A., Manservisi, S., and Scardovelli, R., 2010.
+\newblock ``Simulation of axisymmetric jets with a finite element
+  navier--stokes solver and a multilevel vof approach''.
+\newblock {\em Journal of Computational Physics, {\bf 229}}(19),
+  pp.~6853--6873.
+
+\bibitem{oldroyd1950formulation}
+Oldroyd, J., 1950.
+\newblock ``On the formulation of rheological equations of state''.
+\newblock In Proceedings of the Royal Society of London A: Mathematical,
+  Physical and Engineering Sciences, Vol.~200, The Royal Society, pp.~523--541.
+
+\end{thebibliography}

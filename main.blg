@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2020)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+The style file: asmems4.bst
+Database file #1: biblio.bib
+Warning--can't use both volume and number fields in morrison2011inkjet
+Warning--can't use both volume and number fields in oldroyd1950formulation
+You've used 17 entries,
+            1984 wiz_defined-function locations,
+            611 strings with 7084 characters,
+and the built_in function-call counts, 5290 in all, are:
+= -- 524
+> -- 161
+< -- 0
++ -- 65
+- -- 48
+* -- 383
+:= -- 702
+add.period$ -- 51
+call.type$ -- 17
+change.case$ -- 16
+chr.to.int$ -- 0
+cite$ -- 19
+duplicate$ -- 268
+empty$ -- 480
+format.name$ -- 48
+if$ -- 1259
+int.to.chr$ -- 0
+int.to.str$ -- 17
+missing$ -- 18
+newline$ -- 88
+num.names$ -- 17
+pop$ -- 49
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 215
+stack$ -- 0
+substring$ -- 419
+swap$ -- 155
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 2
+while$ -- 58
+width$ -- 19
+write$ -- 191
+(There were 2 warnings)

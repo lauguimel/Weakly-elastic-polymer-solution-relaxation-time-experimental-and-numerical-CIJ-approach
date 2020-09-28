@@ -1,0 +1,846 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.9.28)  28 SEP 2020 18:17
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**/home/guillaume/Clouds/Mega/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/main
+(/home/guillaume/Clouds/Mega/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/main.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-09-24> (./asme2ej.cls
+
+LaTeX Warning: You have requested document class `asme2ej',
+               but the document class provides `asme2e'.
+
+Document Class: asme2e 2001/2/14 v2.0 Standard LaTeX document class
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/times.sty
+Package: times 2020/03/25 PSNFSS-v9.3 (SPQR) 
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/mathptm.sty
+Package: mathptm 2020/03/25 PSNFSS-v9.3 Times w/ Math (SPQR, WaS) 
+
+
+Package mathptm Warning: This package is to be regarded as obsolete.
+(mathptm)                See the PSNFSS documentation.
+
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 31.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/ptmcm/m/n on input line 31.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptmcm/m/n on input line 31.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 32.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ptmcm/m/it on input line 32.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ptmcm/m/it on input line 32.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 33.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/pzccm/m/n on input line 33.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/pzccm/m/n on input line 33.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 34.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/psycm/m/n on input line 34.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/psycm/m/n on input line 34.
+\symbold=\mathgroup4
+\symitalic=\mathgroup5
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 37.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 38.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 38.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 38.
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+Ten Point
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 301.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/ot1phv.fd
+File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
+)
+\c@part=\count168
+\c@section=\count169
+\c@subsection=\count170
+\c@subsubsection=\count171
+\c@paragraph=\count172
+\c@subparagraph=\count173
+\tempbox=\box45
+\c@figure=\count174
+\c@table=\count175
+\@authcnt=\count176
+\@tmpcnt=\count177
+\bibindent=\dimen134
+\tempbox=\box46
+\minute=\count178
+\hour=\count179
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks15
+\symAMSa=\mathgroup6
+\symAMSb=\mathgroup7
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/08/26 v1.2 Graphics/color driver for pdftex
+)) (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+\Gin@req@height=\dimen135
+\Gin@req@width=\dimen136
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks17
+\ex@=\dimen137
+)
+\pmbraise@=\dimen138
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf.sty
+Package: epstopdf 2020-01-24 v2.11 Conversion with epstopdf on the fly (HO)
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)) (/usr/local/texlive/2020/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))) (/usr/local/texlive/2020/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count180
+\float@exts=\toks18
+\float@box=\box47
+\@float@everytoks=\toks19
+\@floatcapt=\box48
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/import/import.sty
+Package: import 2020/04/01  v 6.2
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2019/11/23 v1.2a Standard LaTeX Color (DPC)
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks20
+\pgfutil@tempdima=\dimen139
+\pgfutil@tempdimb=\dimen140
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box49
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2020/01/08 v3.1.5b (3.1.5b)
+))
+Package: pgf 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks21
+\pgfkeys@temptoks=\toks22
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks23
+))
+\pgf@x=\dimen141
+\pgf@y=\dimen142
+\pgf@xa=\dimen143
+\pgf@ya=\dimen144
+\pgf@xb=\dimen145
+\pgf@yb=\dimen146
+\pgf@xc=\dimen147
+\pgf@yc=\dimen148
+\pgf@xd=\dimen149
+\pgf@yd=\dimen150
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count181
+\c@pgf@countb=\count182
+\c@pgf@countc=\count183
+\c@pgf@countd=\count184
+\t@pgf@toka=\toks24
+\t@pgf@tokb=\toks25
+\t@pgf@tokc=\toks26
+\pgf@sys@id@count=\count185
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2020/01/08 v3.1.5b (3.1.5b)
+)
+Driver file for pgf: pgfsys-pdftex.def
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2020/01/08 v3.1.5b (3.1.5b)
+))) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfsyssoftpath@smallbuffer@items=\count186
+\pgfsyssoftpath@bigbuffer@items=\count187
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)) (/usr/local/texlive/2020/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+LaTeX Info: Redefining \color on input line 709.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen151
+\pgfmath@count=\count188
+\pgfmath@box=\box50
+\pgfmath@toks=\toks27
+\pgfmath@stack@operand=\toks28
+\pgfmath@stack@operation=\toks29
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex))) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count189
+)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@picminx=\dimen152
+\pgf@picmaxx=\dimen153
+\pgf@picminy=\dimen154
+\pgf@picmaxy=\dimen155
+\pgf@pathminx=\dimen156
+\pgf@pathmaxx=\dimen157
+\pgf@pathminy=\dimen158
+\pgf@pathmaxy=\dimen159
+\pgf@xx=\dimen160
+\pgf@xy=\dimen161
+\pgf@yx=\dimen162
+\pgf@yy=\dimen163
+\pgf@zx=\dimen164
+\pgf@zy=\dimen165
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@path@lastx=\dimen166
+\pgf@path@lasty=\dimen167
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@shorten@end@additional=\dimen168
+\pgf@shorten@start@additional=\dimen169
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfpic=\box51
+\pgf@hbox=\box52
+\pgf@layerbox@main=\box53
+\pgf@picture@serial@count=\count190
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgflinewidth=\dimen170
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@pt@x=\dimen171
+\pgf@pt@y=\dimen172
+\pgf@pt@temp=\dimen173
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfarrowsep=\dimen174
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@max=\dimen175
+\pgf@sys@shading@range@num=\count191
+\pgf@shadingcount=\count192
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfexternal@startupbox=\box54
+)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+))) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfnodeparttextbox=\box55
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@nodesepstart=\dimen176
+\pgf@nodesepend=\dimen177
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2020/01/08 v3.1.5b (3.1.5b)
+)) (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen178
+\pgffor@skip=\dimen179
+\pgffor@stack=\toks30
+\pgffor@toks=\toks31
+)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@plot@mark@count=\count193
+\pgfplotmarksize=\dimen180
+)
+\tikz@lastx=\dimen181
+\tikz@lasty=\dimen182
+\tikz@lastxsaved=\dimen183
+\tikz@lastysaved=\dimen184
+\tikz@lastmovetox=\dimen185
+\tikz@lastmovetoy=\dimen186
+\tikzleveldistance=\dimen187
+\tikzsiblingdistance=\dimen188
+\tikz@figbox=\box56
+\tikz@figbox@bg=\box57
+\tikz@tempbox=\box58
+\tikz@tempbox@bg=\box59
+\tikztreelevel=\count194
+\tikznumberofchildren=\count195
+\tikznumberofcurrentchild=\count196
+\tikz@fig@count=\count197
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfmatrixcurrentrow=\count198
+\pgfmatrixcurrentcolumn=\count199
+\pgf@matrix@numberofcolumns=\count266
+)
+\tikz@expandcount=\count267
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+))) (/usr/local/texlive/2020/texmf-dist/tex/latex/pgfplots/pgfplots.sty (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
+Package: pgfplots 2020/02/29 v1.17 Data Visualization (1.17)
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
+\t@pgfplots@toka=\toks32
+\t@pgfplots@tokb=\toks33
+\t@pgfplots@tokc=\toks34
+\pgfplots@tmpa=\dimen189
+\c@pgfplots@coordindex=\count268
+\c@pgfplots@scanlineindex=\count269
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.tex)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_loader.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructure.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructureext.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray.code.tex
+\c@pgfplotsarray@tmp=\count270
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatrix.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshared.code.tex
+\c@pgfplotstable@counta=\count271
+\t@pgfplotstable@a=\toks35
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.code.tex)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.surfshading.code.tex
+\c@pgfplotslibrarysurf@no=\count272
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.pgfsys-pdftex.def))) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.tex))) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen190
+\pgfdecoratedremainingdistance=\dimen191
+\pgfdecoratedinputsegmentcompleteddistance=\dimen192
+\pgfdecoratedinputsegmentremainingdistance=\dimen193
+\pgf@decorate@distancetomove=\dimen194
+\pgf@decorate@repeatstate=\count273
+\pgfdecorationsegmentamplitude=\dimen195
+\pgfdecorationsegmentlength=\dimen196
+)
+\tikz@lib@dec@box=\box60
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathmorphing.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathmorphing.code.tex)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex))
+\pgfplots@numplots=\count274
+\pgfplots@xmin@reg=\dimen197
+\pgfplots@xmax@reg=\dimen198
+\pgfplots@ymin@reg=\dimen199
+\pgfplots@ymax@reg=\dimen256
+\pgfplots@zmin@reg=\dimen257
+\pgfplots@zmax@reg=\dimen258
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex
+File: pgflibraryplotmarks.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+))) (/usr/local/texlive/2020/texmf-dist/tex/latex/siunitx/siunitx.sty (/usr/local/texlive/2020/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2020-09-24 L3 programming layer (loader) 
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
+\l__kernel_color_stack_int=\count275
+\l__pdf_internal_box=\box61
+)) (/usr/local/texlive/2020/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2020-05-15 L3 Experimental document command parser
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.tex
+\l__xparse_current_arg_int=\count276
+\g__xparse_grabber_int=\count277
+\l__xparse_m_args_int=\count278
+\l__xparse_v_nesting_int=\count279
+))
+Package: siunitx 2020/02/25 v2.8b A comprehensive (SI) units package
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/array.sty
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen259
+\ar@mcellbox=\box62
+\extrarowheight=\dimen260
+\NC@list=\toks36
+\extratabsurround=\skip47
+\backup@length=\skip48
+\ar@cellbox=\box63
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2020-05-15 LaTeX2e option processing using LaTeX3 keys
+)
+\l__siunitx_tmp_box=\box64
+\l__siunitx_tmp_dim=\dimen261
+\l__siunitx_tmp_int=\count280
+\l__siunitx_number_mantissa_length_int=\count281
+\l__siunitx_number_uncert_length_int=\count282
+\l__siunitx_round_int=\count283
+\l__siunitx_process_decimal_int=\count284
+\l__siunitx_process_uncertainty_int=\count285
+\l__siunitx_process_fixed_int=\count286
+\l__siunitx_process_integer_min_int=\count287
+\l__siunitx_process_precision_int=\count288
+\l__siunitx_group_min_int=\count289
+\l__siunitx_angle_marker_box=\box65
+\l__siunitx_angle_unit_box=\box66
+\l__siunitx_angle_marker_dim=\dimen262
+\l__siunitx_angle_unit_dim=\dimen263
+\l__siunitx_unit_int=\count290
+\l__siunitx_unit_denominator_int=\count291
+\l__siunitx_unit_numerator_int=\count292
+\l__siunitx_unit_prefix_int=\count293
+\l__siunitx_unit_prefix_base_int=\count294
+\l__siunitx_unit_prefix_gram_int=\count295
+\l__siunitx_number_product_int=\count296
+\c__siunitx_one_fill_skip=\skip49
+\l__siunitx_table_unit_align_skip=\skip50
+\l__siunitx_table_exponent_dim=\dimen264
+\l__siunitx_table_integer_dim=\dimen265
+\l__siunitx_table_mantissa_dim=\dimen266
+\l__siunitx_table_marker_dim=\dimen267
+\l__siunitx_table_result_dim=\dimen268
+\l__siunitx_table_uncert_dim=\dimen269
+\l__siunitx_table_fill_pre_dim=\dimen270
+\l__siunitx_table_fill_post_dim=\dimen271
+\l__siunitx_table_fill_mid_dim=\dimen272
+\l__siunitx_table_pre_box=\box67
+\l__siunitx_table_post_box=\box68
+\l__siunitx_table_mantissa_box=\box69
+\l__siunitx_table_result_box=\box70
+\l__siunitx_table_number_align_skip=\skip51
+\l__siunitx_table_text_align_skip=\skip52
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/translator/translator.sty
+Package: translator 2020-08-03 v1.12c Easy translation of strings in LaTeX
+)) (/usr/local/texlive/2020/texmf-dist/tex/latex/sttools/stfloats.sty
+Package: stfloats 2017/03/27 v3.3 Improve float mechanism and baselineskip settings
+\@dblbotnum=\count297
+\c@dblbotnumber=\count298
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/09/12 v3.5b Customizing captions (AR)
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/09/17 v2.1b caption3 kernel (AR)
+\captionmargin=\dimen273
+\captionmargin@=\dimen274
+\captionwidth=\dimen275
+\caption@tempdima=\dimen276
+\caption@indent=\dimen277
+\caption@parindent=\dimen278
+\caption@hangindent=\dimen279
+\abovecaptionskip=\skip53
+\belowcaptionskip=\skip54
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+Package caption Info: \@makecaption = \long macro:#1#2-> \par \addvspace {6pt}{\tensf \setbox \@tempboxa \hbox {\egtsf #1.\quad #2}\ifdim \wd \@tempboxa >\hsize {\egtsf #1.\quad \ignorespaces #2}\par \else \hbox to\hsize {\hfil \box \@tempboxa \hfil }\fi } on input line 1120.
+)
+
+Package caption Warning: Unknown document class (or package),
+(caption)                standard defaults will be used.
+See the caption package documentation for explanation.
+
+\c@caption@flags=\count299
+\c@continuedfloat=\count300
+Package caption Info: float package is loaded.
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2020/08/23 v1.3g Sub-captions (AR)
+\c@subfigure=\count301
+\c@subtable=\count302
+) (./main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 83.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+\big@size=\dimen280
+ (/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count303
+\scratchdimen=\dimen281
+\scratchbox=\box71
+\nofMPsegments=\count304
+\nofMParguments=\count305
+\everyMPshowfont=\toks37
+\MPscratchCnt=\count306
+\MPscratchDim=\dimen282
+\MPnumerator=\count307
+\makeMPintoPDFobject=\count308
+\everyMPtoPDFconversion=\toks38
+) ABD: EveryShipout initializing macros
+
+Package pgfplots Warning: running in backwards compatibility mode (unsuitable tick labels; missing features). Consider writing \pgfplotsset{compat=1.17} into your preamble.
+ on input line 83.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
+Dictionary: translator-basic-dictionary, Language: English 
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
+File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Trying to load font information for OT1+ptmcm on input line 83.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/ot1ptmcm.fd
+File: ot1ptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ptmcm.
+)
+LaTeX Font Info:    Trying to load font information for OML+ptmcm on input line 83.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/omlptmcm.fd
+File: omlptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ptmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMS+pzccm on input line 83.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/omspzccm.fd
+File: omspzccm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
+)
+LaTeX Font Info:    Trying to load font information for OMX+psycm on input line 83.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/omxpsycm.fd
+File: omxpsycm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/psycm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 83.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 83.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 83.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 83.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 83.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Underfull \hbox (badness 10000) detected at line 84
+[]
+ []
+
+<device.png, id=4, 1102.87032pt x 575.14874pt>
+File: device.png Graphic file (type png)
+<use device.png>
+Package pdftex.def Info: device.png  used on input line 103.
+(pdftex.def)             Requested size: 227.62204pt x 118.70486pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 114.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+) [1{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+
+]
+<Encre/expAll.png, id=19, 1694.33pt x 730.73pt>
+File: Encre/expAll.png Graphic file (type png)
+<use Encre/expAll.png>
+Package pdftex.def Info: Encre/expAll.png  used on input line 130.
+(pdftex.def)             Requested size: 247.52496pt x 106.75035pt.
+
+Overfull \hbox (6.14288pt too wide) in paragraph at lines 130--131
+ [][] 
+ []
+
+Package epstopdf Info: Source file: <LbInk.eps>
+(epstopdf)                    date: 2020-09-28 15:32:02
+(epstopdf)                    size: 212466 bytes
+(epstopdf)             Output file: <LbInk-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-09-28 15:32:02
+(epstopdf)                    size: 14093 bytes
+(epstopdf)             Command: <repstopdf --outfile=LbInk-eps-converted-to.pdf LbInk.eps>
+(epstopdf)             \includegraphics on input line 138.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./LbInk-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<LbInk-eps-converted-to.pdf, id=20, 462.72874pt x 347.2975pt>
+File: LbInk-eps-converted-to.pdf Graphic file (type pdf)
+<use LbInk-eps-converted-to.pdf>
+Package pdftex.def Info: LbInk-eps-converted-to.pdf  used on input line 138.
+(pdftex.def)             Requested size: 241.84842pt x 181.51782pt.
+Package epstopdf Info: Source file: <./visco.eps>
+(epstopdf)                    date: 2020-09-28 15:32:02
+(epstopdf)                    size: 244323 bytes
+(epstopdf)             Output file: <./visco-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-09-28 15:32:02
+(epstopdf)                    size: 18678 bytes
+(epstopdf)             Command: <repstopdf --outfile=./visco-eps-converted-to.pdf ./visco.eps>
+(epstopdf)             \includegraphics on input line 151.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./visco-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./visco-eps-converted-to.pdf, id=21, 462.72874pt x 347.2975pt>
+File: ./visco-eps-converted-to.pdf Graphic file (type pdf)
+<use ./visco-eps-converted-to.pdf>
+Package pdftex.def Info: ./visco-eps-converted-to.pdf  used on input line 151.
+(pdftex.def)             Requested size: 227.62204pt x 170.83968pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2 <./device.png (PNG copy)> <./Encre/expAll.png> <./LbInk-eps-converted-to.pdf>]
+<pinch.png, id=45, 2277.50874pt x 807.015pt>
+File: pinch.png Graphic file (type png)
+<use pinch.png>
+Package pdftex.def Info: pinch.png  used on input line 218.
+(pdftex.def)             Requested size: 495.04993pt x 175.41351pt.
+Package epstopdf Info: Source file: <dispersion.eps>
+(epstopdf)                    date: 2020-09-28 15:32:02
+(epstopdf)                    size: 193253 bytes
+(epstopdf)             Output file: <dispersion-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-09-28 15:32:02
+(epstopdf)                    size: 10127 bytes
+(epstopdf)             Command: <repstopdf --outfile=dispersion-eps-converted-to.pdf dispersion.eps>
+(epstopdf)             \includegraphics on input line 227.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./dispersion-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<dispersion-eps-converted-to.pdf, id=47, 462.72874pt x 347.2975pt>
+File: dispersion-eps-converted-to.pdf Graphic file (type pdf)
+<use dispersion-eps-converted-to.pdf>
+Package pdftex.def Info: dispersion-eps-converted-to.pdf  used on input line 227.
+(pdftex.def)             Requested size: 227.62204pt x 170.83968pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[3 <./visco-eps-converted-to.pdf>]
+<Glycerol/gouttes_exp.png, id=65, 1399.2275pt x 667.49374pt>
+File: Glycerol/gouttes_exp.png Graphic file (type png)
+<use Glycerol/gouttes_exp.png>
+Package pdftex.def Info: Glycerol/gouttes_exp.png  used on input line 253.
+(pdftex.def)             Requested size: 284.52756pt x 135.72693pt.
+<maillage.png, id=66, 1095.09125pt x 2879.75874pt>
+File: maillage.png Graphic file (type png)
+<use maillage.png>
+Package pdftex.def Info: maillage.png  used on input line 268.
+(pdftex.def)             Requested size: 85.35826pt x 224.4533pt.
+ [4 <./pinch.png> <./dispersion-eps-converted-to.pdf> <./maillage.png>]
+Package epstopdf Info: Source file: <LbGlycerol.eps>
+(epstopdf)                    date: 2020-09-28 15:32:02
+(epstopdf)                    size: 213620 bytes
+(epstopdf)             Output file: <LbGlycerol-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-09-28 15:32:02
+(epstopdf)                    size: 14478 bytes
+(epstopdf)             Command: <repstopdf --outfile=LbGlycerol-eps-converted-to.pdf LbGlycerol.eps>
+(epstopdf)             \includegraphics on input line 291.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./LbGlycerol-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<LbGlycerol-eps-converted-to.pdf, id=80, 462.72874pt x 347.2975pt>
+File: LbGlycerol-eps-converted-to.pdf Graphic file (type pdf)
+<use LbGlycerol-eps-converted-to.pdf>
+Package pdftex.def Info: LbGlycerol-eps-converted-to.pdf  used on input line 291.
+(pdftex.def)             Requested size: 241.84842pt x 181.51782pt.
+<Glycerol/num_exp_053mbar_1.png, id=81, 215.80624pt x 416.55624pt>
+File: Glycerol/num_exp_053mbar_1.png Graphic file (type png)
+<use Glycerol/num_exp_053mbar_1.png>
+Package pdftex.def Info: Glycerol/num_exp_053mbar_1.png  used on input line 306.
+(pdftex.def)             Requested size: 71.13188pt x 137.29872pt.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 308.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 308.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 308.
+<Glycerol/num_exp_264mbar.png, id=82, 231.86626pt x 456.70625pt>
+File: Glycerol/num_exp_264mbar.png Graphic file (type png)
+<use Glycerol/num_exp_264mbar.png>
+Package pdftex.def Info: Glycerol/num_exp_264mbar.png  used on input line 313.
+(pdftex.def)             Requested size: 71.13188pt x 140.10706pt.
+<Glycerol/num_exp_580mbar_1.png, id=83, 210.7875pt x 416.55624pt>
+File: Glycerol/num_exp_580mbar_1.png Graphic file (type png)
+<use Glycerol/num_exp_580mbar_1.png>
+Package pdftex.def Info: Glycerol/num_exp_580mbar_1.png  used on input line 320.
+(pdftex.def)             Requested size: 71.13188pt x 140.57213pt.
+
+Underfull \hbox (badness 1112) in paragraph at lines 324--324
+[]\OT1/ptm/m/n/10 Fig. 10: |Com-par-i-son be-tween ex-per-i-men-tal (black and
+ []
+
+[5 <./Glycerol/gouttes_exp.png> <./LbGlycerol-eps-converted-to.pdf> <./Glycerol/num_exp_053mbar_1.png> <./Glycerol/num_exp_264mbar.png> <./Glycerol/num_exp_580mbar_1.png>]
+Package epstopdf Info: Source file: <dP.eps>
+(epstopdf)                    date: 2020-09-28 15:32:02
+(epstopdf)                    size: 194544 bytes
+(epstopdf)             Output file: <dP-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-09-28 15:32:02
+(epstopdf)                    size: 10302 bytes
+(epstopdf)             Command: <repstopdf --outfile=dP-eps-converted-to.pdf dP.eps>
+(epstopdf)             \includegraphics on input line 344.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./dP-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<dP-eps-converted-to.pdf, id=101, 462.72874pt x 347.2975pt>
+File: dP-eps-converted-to.pdf Graphic file (type pdf)
+<use dP-eps-converted-to.pdf>
+Package pdftex.def Info: dP-eps-converted-to.pdf  used on input line 344.
+(pdftex.def)             Requested size: 241.84842pt x 181.51782pt.
+Package epstopdf Info: Source file: <rProfilesInk.eps>
+(epstopdf)                    date: 2020-09-28 15:32:02
+(epstopdf)                    size: 205937 bytes
+(epstopdf)             Output file: <rProfilesInk-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-09-28 15:32:02
+(epstopdf)                    size: 15213 bytes
+(epstopdf)             Command: <repstopdf --outfile=rProfilesInk-eps-converted-to.pdf rProfilesInk.eps>
+(epstopdf)             \includegraphics on input line 353.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./rProfilesInk-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<rProfilesInk-eps-converted-to.pdf, id=102, 462.72874pt x 347.2975pt>
+File: rProfilesInk-eps-converted-to.pdf Graphic file (type pdf)
+<use rProfilesInk-eps-converted-to.pdf>
+Package pdftex.def Info: rProfilesInk-eps-converted-to.pdf  used on input line 353.
+(pdftex.def)             Requested size: 241.84842pt x 181.51782pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+<Encre/exp_A3.png, id=103, 966.61125pt x 143.53625pt>
+File: Encre/exp_A3.png Graphic file (type png)
+<use Encre/exp_A3.png>
+Package pdftex.def Info: Encre/exp_A3.png  used on input line 371.
+(pdftex.def)             Requested size: 966.6089pt x 143.53589pt.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 373.
+<Encre/0_A3.png, id=104, 966.61125pt x 143.53625pt>
+File: Encre/0_A3.png Graphic file (type png)
+<use Encre/0_A3.png>
+Package pdftex.def Info: Encre/0_A3.png  used on input line 378.
+(pdftex.def)             Requested size: 966.6089pt x 143.53589pt.
+<Encre/05_A3.png, id=105, 966.61125pt x 143.53625pt>
+File: Encre/05_A3.png Graphic file (type png)
+<use Encre/05_A3.png>
+Package pdftex.def Info: Encre/05_A3.png  used on input line 387.
+(pdftex.def)             Requested size: 966.6089pt x 143.53589pt.
+<Encre/075_A3.png, id=106, 966.61125pt x 143.53625pt>
+File: Encre/075_A3.png Graphic file (type png)
+<use Encre/075_A3.png>
+Package pdftex.def Info: Encre/075_A3.png  used on input line 394.
+(pdftex.def)             Requested size: 966.6089pt x 143.53589pt.
+<Encre/085_A3.png, id=107, 966.61125pt x 143.53625pt>
+File: Encre/085_A3.png Graphic file (type png)
+<use Encre/085_A3.png>
+Package pdftex.def Info: Encre/085_A3.png  used on input line 402.
+(pdftex.def)             Requested size: 966.6089pt x 143.53589pt.
+<Encre/1_A3.png, id=108, 966.61125pt x 143.53625pt>
+File: Encre/1_A3.png Graphic file (type png)
+<use Encre/1_A3.png>
+Package pdftex.def Info: Encre/1_A3.png  used on input line 410.
+(pdftex.def)             Requested size: 966.6089pt x 143.53589pt.
+ [6 <./dP-eps-converted-to.pdf> <./rProfilesInk-eps-converted-to.pdf> <./Encre/exp_A3.png> <./Encre/0_A3.png> <./Encre/05_A3.png> <./Encre/075_A3.png> <./Encre/085_A3.png> <./Encre/1_A3.png>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 423.
+
+<Encre/exp_A5.png, id=138, 952.55875pt x 145.54375pt>
+File: Encre/exp_A5.png Graphic file (type png)
+<use Encre/exp_A5.png>
+Package pdftex.def Info: Encre/exp_A5.png  used on input line 429.
+(pdftex.def)             Requested size: 952.55643pt x 145.54338pt.
+<Encre/0_A5.png, id=139, 952.55875pt x 145.54375pt>
+File: Encre/0_A5.png Graphic file (type png)
+<use Encre/0_A5.png>
+Package pdftex.def Info: Encre/0_A5.png  used on input line 436.
+(pdftex.def)             Requested size: 952.55643pt x 145.54338pt.
+<Encre/05_A5.png, id=140, 952.55875pt x 145.54375pt>
+File: Encre/05_A5.png Graphic file (type png)
+<use Encre/05_A5.png>
+Package pdftex.def Info: Encre/05_A5.png  used on input line 445.
+(pdftex.def)             Requested size: 952.55643pt x 145.54338pt.
+<Encre/075_A5.png, id=141, 952.55875pt x 145.54375pt>
+File: Encre/075_A5.png Graphic file (type png)
+<use Encre/075_A5.png>
+Package pdftex.def Info: Encre/075_A5.png  used on input line 452.
+(pdftex.def)             Requested size: 952.55643pt x 145.54338pt.
+<Encre/085_A5.png, id=142, 952.55875pt x 145.54375pt>
+File: Encre/085_A5.png Graphic file (type png)
+<use Encre/085_A5.png>
+Package pdftex.def Info: Encre/085_A5.png  used on input line 460.
+(pdftex.def)             Requested size: 952.55643pt x 145.54338pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ (./main.bbl [7 <./Encre/exp_A5.png> <./Encre/0_A5.png> <./Encre/05_A5.png> <./Encre/075_A5.png> <./Encre/085_A5.png>]) [8
+
+] (./main.aux) ) 
+Here is how much of TeX's memory you used:
+ 27169 strings out of 480875
+ 703447 string characters out of 5907551
+ 991850 words of memory out of 5000000
+ 42270 multiletter control sequences out of 15000+600000
+ 589246 words of font info for 143 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 63i,12n,98p,1506b,696s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/times/utmri8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/zapfchan/uzcmi8a.pfb>
+Output written on main.pdf (8 pages, 906648 bytes).
+PDF statistics:
+ 197 PDF objects out of 1000 (max. 8388607)
+ 127 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 138 words of extra memory for PDF output out of 10000 (max. 10000000)
+
