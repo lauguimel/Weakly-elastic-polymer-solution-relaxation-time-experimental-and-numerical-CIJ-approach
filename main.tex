@@ -84,7 +84,7 @@
 \maketitle 
 
 \begin{abstract}
-    For very low relaxation time (i.e. lower than a microsecond) viscoelastic fluid experimental determination is difficult, if not impossible. In the present work the relaxation time measurement of a weakly elastic polymer solution used in industrial CIJ is done by comparing drop shapes obtained both numerically and experimentally. The numerical simulations use a viscoelastic Oldroyd-B model which relaxation time is fitted using experimental results. That kind of numerical rheometry is particularly convenient for weakly elastic solution physical parameters which can not be measured by experimental means.
+    For very low relaxation time (i.e. close to a microsecond) viscoelastic fluid experimental determination is difficult, if not impossible. In the present work the relaxation time measurement of a weakly elastic polymer solution used in industrial CIJ is done by comparing drop shapes obtained both numerically and experimentally. The numerical simulations use a viscoelastic Oldroyd-B model which relaxation time is fitted using experimental results. That kind of numerical rheometry is particularly convenient for weakly elastic solution physical parameters which can not be measured by experimental means.
 \end{abstract}
 
 
@@ -261,7 +261,7 @@ At $t=0s$, both tank and nozzle are filled with fluid and the rest of the domain
 \begin{equation} \label{eq:plim}
     P=P_{tank}+P_{stim}\cos(2\pi f t)
 \end{equation}
-where $P_{tank}$ and $P_{stim}$ are related, respectively, to the absolute steady pressure in the fluid tank, driving the jetting velocity of the fluid, and the amplitude of stimulation.
+where $P_{tank}$ and $P_{stim}$ are related, respectively, to the absolute steady pressure in the fluid tank, driving the jetting velocity of the fluid, and the maximum stimulation pressure applied by the piezoelectric actuator.
 \begin{figure}[H]
     \centering    
     \begin{tikzpicture}
@@ -281,7 +281,7 @@ where $P_{tank}$ and $P_{stim}$ are related, respectively, to the absolute stead
     \label{fig:meshGlycerol}
 \end{figure}
 
-To accurately determine $P_{tank}$, $P_stim$ is set to zero, i.e. resulting in unperturbed jet of glycerol, and both the mass flow and the dimensionless wave number $x$ are experimentally measured and compared to numerical results by try and error process . In the present case the $P_{tank}$ has been found $P_{tank}=4140 \, mbar$. 
+To accurately determine $P_{tank}$, $P_{stim}$ is set to zero, i.e. jetting an unperturbed jet of glycerol, and both the mass flow and the dimensionless wave number $x$ are experimentally measured and compared to numerical results by try and error process . In the present case the $P_{tank}$ has been found to be $P_{tank}=4140 \, mbar$. 
 
 
 $P_{stim}$ is directly related to the tension applied to the piezoelectric actuator and there is no direct relation between the amplitude of stimulation in Volt and the one in Pascal. In order to determine the pressure exerted on the fluid by the piezoelectric device, i.e. $P_{stim}$, as a function of the tension applied $T_{stim}$, we must compare experimental and numerical breakup jets. One way to do so lies in comparing droplet shapes, but in this present case and due to the hight tension surface exhibited by the glycerol solution, the droplets created looks very similar (see Fig. \ref{fig:glycerolCIJExp}) and one can not use this criterion to discriminate the jets. We then use the breakup lengths of the jets, respectively, $\mathcal{L}_{exp}^b$ and $\mathcal{L}_{num}^b$, to assess the relation between $P_{stim}$ and $T_{stim}$. 
@@ -497,7 +497,10 @@ polymer chains in the present solution have higher molecular mass which increase
 
 \section{Conclusion}
 This original approach allows to determine the rheological properties of low viscosity and weakly viscoelastic polymer solution that can not be addressed by any experimental measurement method. Based on a trial-and-error technique, it relies on the strong dependency of the pinching curvature onto the viscoelastic relaxation time at high disturbance amplitude. However, this approach rely on an accurate numerical description of the physics at play in the process. The rheological model used must be carefully chosen to adequately model the experimental fluid.
+\section{Acknowledgements}
 
+
+The Laboratoire Rhéologie et Procédés is part of the LabEx Tec 21 (Investissements d'Avenir - grant agreement #ANR-11-LABX-0030) and of the PolyNat Carnot Institut (Investissements d'Avenir - grant agreement #ANR-11- CARN-030-01).
 \bibliographystyle{asmems4}
 \bibliography{biblio}
 \end{document}
