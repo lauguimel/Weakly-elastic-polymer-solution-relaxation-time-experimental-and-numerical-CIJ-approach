@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.9.28)  28 SEP 2020 18:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.9.28)  27 OCT 2020 15:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -498,26 +498,133 @@ Package caption Info: float package is loaded.
 Package: subcaption 2020/08/23 v1.3g Sub-captions (AR)
 \c@subfigure=\count301
 \c@subtable=\count302
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/txfonts/txfonts.sty
+Package: txfonts 2008/01/22 v3.2.1
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/ptmcm/m/n --> OT1/txr/m/n on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/ptmcm/m/n --> OT1/txr/m/n on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/txr/m/n --> OT1/txr/bx/n on input line 22.
+LaTeX Font Info:    Redeclaring symbol font `italic' on input line 25.
+LaTeX Font Info:    Overwriting symbol font `italic' in version `normal'
+(Font)                  OT1/ptm/m/it --> OT1/txr/m/it on input line 25.
+LaTeX Font Info:    Overwriting symbol font `italic' in version `bold'
+(Font)                  OT1/ptm/m/it --> OT1/txr/m/it on input line 25.
+LaTeX Font Info:    Overwriting symbol font `italic' in version `bold'
+(Font)                  OT1/txr/m/it --> OT1/txr/bx/it on input line 26.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/ptm/bx/n --> OT1/txr/bx/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/ptm/bx/n --> OT1/txr/bx/n on input line 29.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/ptm/m/it --> OT1/txr/m/it on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/ptm/m/it --> OT1/txr/m/it on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/txr/m/it --> OT1/txr/bx/it on input line 31.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/txss/m/n on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/txss/m/n on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/txss/m/n --> OT1/txss/b/n on input line 41.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/txtt/m/n on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/txtt/m/n on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/txtt/m/n --> OT1/txtt/b/n on input line 51.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/ptmcm/m/it --> OML/txmi/m/it on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/ptmcm/m/it --> OML/txmi/m/it on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/txmi/m/it --> OML/txmi/bx/it on input line 59.
+\symlettersA=\mathgroup8
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `bold'
+(Font)                  U/txmia/m/it --> U/txmia/bx/it on input line 67.
+LaTeX Font Info:    Redeclaring math alphabet \mathfrak on input line 70.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/pzccm/m/n --> OMS/txsy/m/n on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/pzccm/m/n --> OMS/txsy/m/n on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/txsy/m/n --> OMS/txsy/bx/n on input line 78.
+LaTeX Font Info:    Redeclaring symbol font `AMSa' on input line 93.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `normal'
+(Font)                  U/msa/m/n --> U/txsya/m/n on input line 93.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
+(Font)                  U/msa/m/n --> U/txsya/m/n on input line 93.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
+(Font)                  U/txsya/m/n --> U/txsya/bx/n on input line 94.
+LaTeX Font Info:    Redeclaring symbol font `AMSb' on input line 102.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `normal'
+(Font)                  U/msb/m/n --> U/txsyb/m/n on input line 102.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
+(Font)                  U/msb/m/n --> U/txsyb/m/n on input line 102.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
+(Font)                  U/txsyb/m/n --> U/txsyb/bx/n on input line 103.
+\symsymbolsC=\mathgroup9
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `bold'
+(Font)                  U/txsyc/m/n --> U/txsyc/bx/n on input line 113.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/psycm/m/n --> OMX/txex/m/n on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/psycm/m/n --> OMX/txex/m/n on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/txex/m/n --> OMX/txex/bx/n on input line 121.
+\symlargesymbolsA=\mathgroup10
+LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `bold'
+(Font)                  U/txexa/m/n --> U/txexa/bx/n on input line 129.
+LaTeX Font Info:    Redeclaring math symbol \mathsterling on input line 164.
+LaTeX Info: Redefining \not on input line 1043.
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 83.
- (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/ot1ptm.fd
-File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 85.
+LaTeX Font Info:    Trying to load font information for OML+txmi on input line 85.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/txfonts/omltxmi.fd
+File: omltxmi.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 85.
+LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 85.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/txfonts/omstxsy.fd
+File: omstxsy.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 85.
+LaTeX Font Info:    Trying to load font information for OMX+txex on input line 85.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/txfonts/omxtxex.fd
+File: omxtxex.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 85.
+LaTeX Font Info:    Trying to load font information for U+txexa on input line 85.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/txfonts/utxexa.fd
+File: utxexa.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Trying to load font information for OT1+txr on input line 85.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/txfonts/ot1txr.fd
+File: ot1txr.fd 2000/12/15 v3.1
 )
 \big@size=\dimen280
  (/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -536,7 +643,7 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 ) ABD: EveryShipout initializing macros
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable tick labels; missing features). Consider writing \pgfplotsset{compat=1.17} into your preamble.
- on input line 83.
+ on input line 85.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
@@ -545,64 +652,83 @@ File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for OT1+ptmcm on input line 83.
- (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/ot1ptmcm.fd
-File: ot1ptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ptmcm.
-)
-LaTeX Font Info:    Trying to load font information for OML+ptmcm on input line 83.
- (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/omlptmcm.fd
-File: omlptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ptmcm.
-)
-LaTeX Font Info:    Trying to load font information for OMS+pzccm on input line 83.
- (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/omspzccm.fd
-File: omspzccm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
-)
-LaTeX Font Info:    Trying to load font information for OMX+psycm on input line 83.
- (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/omxpsycm.fd
-File: omxpsycm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/psycm.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 85.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 83.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 85.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 83.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 85.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 83.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 83.
- (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 85.
+LaTeX Font Info:    Trying to load font information for U+txsya on input line 85.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/txfonts/utxsya.fd
+File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 83.
- (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+LaTeX Font Info:    Trying to load font information for U+txsyb on input line 85.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/txfonts/utxsyb.fd
+File: utxsyb.fd 2000/12/15 v3.1
 )
-Underfull \hbox (badness 10000) detected at line 84
+LaTeX Font Info:    Trying to load font information for U+txmia on input line 85.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/txfonts/utxmia.fd
+File: utxmia.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Trying to load font information for U+txsyc on input line 85.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/txfonts/utxsyc.fd
+File: utxsyc.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Trying to load font information for OT1+txss on input line 85.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/txfonts/ot1txss.fd
+File: ot1txss.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+(Font)              scaled to size 9.49997pt on input line 85.
+LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+(Font)              scaled to size 7.02997pt on input line 85.
+LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+(Font)              scaled to size 5.69998pt on input line 85.
+LaTeX Font Info:    Trying to load font information for OT1+txtt on input line 85.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/txfonts/ot1txtt.fd
+File: ot1txtt.fd 2000/12/15 v3.1
+)
+Underfull \hbox (badness 10000) detected at line 86
 []
  []
 
-<device.png, id=4, 1102.87032pt x 575.14874pt>
-File: device.png Graphic file (type png)
-<use device.png>
-Package pdftex.def Info: device.png  used on input line 103.
-(pdftex.def)             Requested size: 227.62204pt x 118.70486pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 114.
-(/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+(Font)              scaled to size 6.64998pt on input line 86.
+LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <10> not available
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 96.
+LaTeX Font Info:    Trying to load font information for TS1+txr on input line 104.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/txfonts/ts1txr.fd
+File: ts1txr.fd 2000/12/15 v3.1
 ) [1{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
+<device.png, id=18, 1102.87032pt x 575.14874pt>
+File: device.png Graphic file (type png)
+<use device.png>
+Package pdftex.def Info: device.png  used on input line 107.
+(pdftex.def)             Requested size: 227.62204pt x 118.70486pt.
+
+Underfull \hbox (badness 2088) in paragraph at lines 128--129
+[]\OT1/txr/m/n/10 For high stim-u-la-tion am-pli-tude, we ob-serve Fig.2[]
+ []
+
 <Encre/expAll.png, id=19, 1694.33pt x 730.73pt>
 File: Encre/expAll.png Graphic file (type png)
 <use Encre/expAll.png>
-Package pdftex.def Info: Encre/expAll.png  used on input line 130.
+Package pdftex.def Info: Encre/expAll.png  used on input line 135.
 (pdftex.def)             Requested size: 247.52496pt x 106.75035pt.
 
-Overfull \hbox (6.14288pt too wide) in paragraph at lines 130--131
+Overfull \hbox (6.14288pt too wide) in paragraph at lines 135--136
  [][] 
  []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 Package epstopdf Info: Source file: <LbInk.eps>
 (epstopdf)                    date: 2020-09-28 15:32:02
@@ -611,7 +737,7 @@ Package epstopdf Info: Source file: <LbInk.eps>
 (epstopdf)                    date: 2020-09-28 15:32:02
 (epstopdf)                    size: 14093 bytes
 (epstopdf)             Command: <repstopdf --outfile=LbInk-eps-converted-to.pdf LbInk.eps>
-(epstopdf)             \includegraphics on input line 138.
+(epstopdf)             \includegraphics on input line 143.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -619,8 +745,13 @@ pdfTeX warning: pdflatex (file ./LbInk-eps-converted-to.pdf): PDF inclusion: fou
 <LbInk-eps-converted-to.pdf, id=20, 462.72874pt x 347.2975pt>
 File: LbInk-eps-converted-to.pdf Graphic file (type pdf)
 <use LbInk-eps-converted-to.pdf>
-Package pdftex.def Info: LbInk-eps-converted-to.pdf  used on input line 138.
+Package pdftex.def Info: LbInk-eps-converted-to.pdf  used on input line 143.
 (pdftex.def)             Requested size: 241.84842pt x 181.51782pt.
+
+Underfull \hbox (badness 3623) in paragraph at lines 150--151
+[]\OT1/txr/m/n/10 Density $\OML/txmi/m/it/10 ^^Z \OT1/txr/m/n/10 = 873\OML/txmi/m/it/10 kg:m[]$ \OT1/txr/m/n/10 and sur-face ten-sion $\OML/txmi/m/it/10 ^^[ \OT1/txr/m/n/10 =
+ []
+
 Package epstopdf Info: Source file: <./visco.eps>
 (epstopdf)                    date: 2020-09-28 15:32:02
 (epstopdf)                    size: 244323 bytes
@@ -628,7 +759,7 @@ Package epstopdf Info: Source file: <./visco.eps>
 (epstopdf)                    date: 2020-09-28 15:32:02
 (epstopdf)                    size: 18678 bytes
 (epstopdf)             Command: <repstopdf --outfile=./visco-eps-converted-to.pdf ./visco.eps>
-(epstopdf)             \includegraphics on input line 151.
+(epstopdf)             \includegraphics on input line 156.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -636,16 +767,13 @@ pdfTeX warning: pdflatex (file ./visco-eps-converted-to.pdf): PDF inclusion: fou
 <./visco-eps-converted-to.pdf, id=21, 462.72874pt x 347.2975pt>
 File: ./visco-eps-converted-to.pdf Graphic file (type pdf)
 <use ./visco-eps-converted-to.pdf>
-Package pdftex.def Info: ./visco-eps-converted-to.pdf  used on input line 151.
+Package pdftex.def Info: ./visco-eps-converted-to.pdf  used on input line 156.
 (pdftex.def)             Requested size: 227.62204pt x 170.83968pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [2 <./device.png (PNG copy)> <./Encre/expAll.png> <./LbInk-eps-converted-to.pdf>]
+[2 <./device.png (PNG copy)> <./Encre/expAll.png> <./LbInk-eps-converted-to.pdf>]
 <pinch.png, id=45, 2277.50874pt x 807.015pt>
 File: pinch.png Graphic file (type png)
 <use pinch.png>
-Package pdftex.def Info: pinch.png  used on input line 218.
+Package pdftex.def Info: pinch.png  used on input line 223.
 (pdftex.def)             Requested size: 495.04993pt x 175.41351pt.
 Package epstopdf Info: Source file: <dispersion.eps>
 (epstopdf)                    date: 2020-09-28 15:32:02
@@ -654,7 +782,7 @@ Package epstopdf Info: Source file: <dispersion.eps>
 (epstopdf)                    date: 2020-09-28 15:32:02
 (epstopdf)                    size: 10127 bytes
 (epstopdf)             Command: <repstopdf --outfile=dispersion-eps-converted-to.pdf dispersion.eps>
-(epstopdf)             \includegraphics on input line 227.
+(epstopdf)             \includegraphics on input line 232.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -662,23 +790,29 @@ pdfTeX warning: pdflatex (file ./dispersion-eps-converted-to.pdf): PDF inclusion
 <dispersion-eps-converted-to.pdf, id=47, 462.72874pt x 347.2975pt>
 File: dispersion-eps-converted-to.pdf Graphic file (type pdf)
 <use dispersion-eps-converted-to.pdf>
-Package pdftex.def Info: dispersion-eps-converted-to.pdf  used on input line 227.
+Package pdftex.def Info: dispersion-eps-converted-to.pdf  used on input line 232.
 (pdftex.def)             Requested size: 227.62204pt x 170.83968pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Reference `sec:experimentalInk' on page 3 undefined on input line 238.
 
 [3 <./visco-eps-converted-to.pdf>]
 <Glycerol/gouttes_exp.png, id=65, 1399.2275pt x 667.49374pt>
 File: Glycerol/gouttes_exp.png Graphic file (type png)
 <use Glycerol/gouttes_exp.png>
-Package pdftex.def Info: Glycerol/gouttes_exp.png  used on input line 253.
+Package pdftex.def Info: Glycerol/gouttes_exp.png  used on input line 258.
 (pdftex.def)             Requested size: 284.52756pt x 135.72693pt.
 <maillage.png, id=66, 1095.09125pt x 2879.75874pt>
 File: maillage.png Graphic file (type png)
 <use maillage.png>
-Package pdftex.def Info: maillage.png  used on input line 268.
+Package pdftex.def Info: maillage.png  used on input line 273.
 (pdftex.def)             Requested size: 85.35826pt x 224.4533pt.
- [4 <./pinch.png> <./dispersion-eps-converted-to.pdf> <./maillage.png>]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4 <./pinch.png> <./dispersion-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <LbGlycerol.eps>
 (epstopdf)                    date: 2020-09-28 15:32:02
 (epstopdf)                    size: 213620 bytes
@@ -686,43 +820,56 @@ Package epstopdf Info: Source file: <LbGlycerol.eps>
 (epstopdf)                    date: 2020-09-28 15:32:02
 (epstopdf)                    size: 14478 bytes
 (epstopdf)             Command: <repstopdf --outfile=LbGlycerol-eps-converted-to.pdf LbGlycerol.eps>
-(epstopdf)             \includegraphics on input line 291.
+(epstopdf)             \includegraphics on input line 296.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./LbGlycerol-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<LbGlycerol-eps-converted-to.pdf, id=80, 462.72874pt x 347.2975pt>
+<LbGlycerol-eps-converted-to.pdf, id=79, 462.72874pt x 347.2975pt>
 File: LbGlycerol-eps-converted-to.pdf Graphic file (type pdf)
 <use LbGlycerol-eps-converted-to.pdf>
-Package pdftex.def Info: LbGlycerol-eps-converted-to.pdf  used on input line 291.
+Package pdftex.def Info: LbGlycerol-eps-converted-to.pdf  used on input line 296.
 (pdftex.def)             Requested size: 241.84842pt x 181.51782pt.
-<Glycerol/num_exp_053mbar_1.png, id=81, 215.80624pt x 416.55624pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Glycerol/num_exp_053mbar_1.png, id=80, 215.80624pt x 416.55624pt>
 File: Glycerol/num_exp_053mbar_1.png Graphic file (type png)
 <use Glycerol/num_exp_053mbar_1.png>
-Package pdftex.def Info: Glycerol/num_exp_053mbar_1.png  used on input line 306.
+Package pdftex.def Info: Glycerol/num_exp_053mbar_1.png  used on input line 311.
 (pdftex.def)             Requested size: 71.13188pt x 137.29872pt.
+LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+(Font)              scaled to size 8.54997pt on input line 313.
+LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+(Font)              scaled to size 4.74998pt on input line 313.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 308.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 313.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 308.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 313.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 308.
-<Glycerol/num_exp_264mbar.png, id=82, 231.86626pt x 456.70625pt>
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 313.
+<Glycerol/num_exp_264mbar.png, id=81, 231.86626pt x 456.70625pt>
 File: Glycerol/num_exp_264mbar.png Graphic file (type png)
 <use Glycerol/num_exp_264mbar.png>
-Package pdftex.def Info: Glycerol/num_exp_264mbar.png  used on input line 313.
+Package pdftex.def Info: Glycerol/num_exp_264mbar.png  used on input line 318.
 (pdftex.def)             Requested size: 71.13188pt x 140.10706pt.
-<Glycerol/num_exp_580mbar_1.png, id=83, 210.7875pt x 416.55624pt>
+<Glycerol/num_exp_580mbar_1.png, id=82, 210.7875pt x 416.55624pt>
 File: Glycerol/num_exp_580mbar_1.png Graphic file (type png)
 <use Glycerol/num_exp_580mbar_1.png>
-Package pdftex.def Info: Glycerol/num_exp_580mbar_1.png  used on input line 320.
+Package pdftex.def Info: Glycerol/num_exp_580mbar_1.png  used on input line 325.
 (pdftex.def)             Requested size: 71.13188pt x 140.57213pt.
 
-Underfull \hbox (badness 1112) in paragraph at lines 324--324
-[]\OT1/ptm/m/n/10 Fig. 10: |Com-par-i-son be-tween ex-per-i-men-tal (black and
+Underfull \hbox (badness 1112) in paragraph at lines 329--329
+[]\OT1/txr/m/n/10 Fig. 10: |Com-par-i-son be-tween ex-per-i-men-tal (black and
  []
 
-[5 <./Glycerol/gouttes_exp.png> <./LbGlycerol-eps-converted-to.pdf> <./Glycerol/num_exp_053mbar_1.png> <./Glycerol/num_exp_264mbar.png> <./Glycerol/num_exp_580mbar_1.png>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[5 <./Glycerol/gouttes_exp.png> <./maillage.png> <./LbGlycerol-eps-converted-to.pdf> <./Glycerol/num_exp_053mbar_1.png> <./Glycerol/num_exp_264mbar.png> <./Glycerol/num_exp_580mbar_1.png>]
+
+LaTeX Warning: Reference `sec:experimentalInk' on page 6 undefined on input line 339.
+
 Package epstopdf Info: Source file: <dP.eps>
 (epstopdf)                    date: 2020-09-28 15:32:02
 (epstopdf)                    size: 194544 bytes
@@ -730,7 +877,7 @@ Package epstopdf Info: Source file: <dP.eps>
 (epstopdf)                    date: 2020-09-28 15:32:02
 (epstopdf)                    size: 10302 bytes
 (epstopdf)             Command: <repstopdf --outfile=dP-eps-converted-to.pdf dP.eps>
-(epstopdf)             \includegraphics on input line 344.
+(epstopdf)             \includegraphics on input line 349.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -738,7 +885,7 @@ pdfTeX warning: pdflatex (file ./dP-eps-converted-to.pdf): PDF inclusion: found 
 <dP-eps-converted-to.pdf, id=101, 462.72874pt x 347.2975pt>
 File: dP-eps-converted-to.pdf Graphic file (type pdf)
 <use dP-eps-converted-to.pdf>
-Package pdftex.def Info: dP-eps-converted-to.pdf  used on input line 344.
+Package pdftex.def Info: dP-eps-converted-to.pdf  used on input line 349.
 (pdftex.def)             Requested size: 241.84842pt x 181.51782pt.
 Package epstopdf Info: Source file: <rProfilesInk.eps>
 (epstopdf)                    date: 2020-09-28 15:32:02
@@ -747,7 +894,7 @@ Package epstopdf Info: Source file: <rProfilesInk.eps>
 (epstopdf)                    date: 2020-09-28 15:32:02
 (epstopdf)                    size: 15213 bytes
 (epstopdf)             Command: <repstopdf --outfile=rProfilesInk-eps-converted-to.pdf rProfilesInk.eps>
-(epstopdf)             \includegraphics on input line 353.
+(epstopdf)             \includegraphics on input line 358.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -755,92 +902,103 @@ pdfTeX warning: pdflatex (file ./rProfilesInk-eps-converted-to.pdf): PDF inclusi
 <rProfilesInk-eps-converted-to.pdf, id=102, 462.72874pt x 347.2975pt>
 File: rProfilesInk-eps-converted-to.pdf Graphic file (type pdf)
 <use rProfilesInk-eps-converted-to.pdf>
-Package pdftex.def Info: rProfilesInk-eps-converted-to.pdf  used on input line 353.
+Package pdftex.def Info: rProfilesInk-eps-converted-to.pdf  used on input line 358.
 (pdftex.def)             Requested size: 241.84842pt x 181.51782pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 <Encre/exp_A3.png, id=103, 966.61125pt x 143.53625pt>
 File: Encre/exp_A3.png Graphic file (type png)
 <use Encre/exp_A3.png>
-Package pdftex.def Info: Encre/exp_A3.png  used on input line 371.
+Package pdftex.def Info: Encre/exp_A3.png  used on input line 374.
 (pdftex.def)             Requested size: 966.6089pt x 143.53589pt.
+LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+(Font)              scaled to size 7.59998pt on input line 376.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 373.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 376.
 <Encre/0_A3.png, id=104, 966.61125pt x 143.53625pt>
 File: Encre/0_A3.png Graphic file (type png)
 <use Encre/0_A3.png>
-Package pdftex.def Info: Encre/0_A3.png  used on input line 378.
+Package pdftex.def Info: Encre/0_A3.png  used on input line 381.
 (pdftex.def)             Requested size: 966.6089pt x 143.53589pt.
 <Encre/05_A3.png, id=105, 966.61125pt x 143.53625pt>
 File: Encre/05_A3.png Graphic file (type png)
 <use Encre/05_A3.png>
-Package pdftex.def Info: Encre/05_A3.png  used on input line 387.
+Package pdftex.def Info: Encre/05_A3.png  used on input line 390.
 (pdftex.def)             Requested size: 966.6089pt x 143.53589pt.
 <Encre/075_A3.png, id=106, 966.61125pt x 143.53625pt>
 File: Encre/075_A3.png Graphic file (type png)
 <use Encre/075_A3.png>
-Package pdftex.def Info: Encre/075_A3.png  used on input line 394.
+Package pdftex.def Info: Encre/075_A3.png  used on input line 397.
 (pdftex.def)             Requested size: 966.6089pt x 143.53589pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 399--399
+[] \OT1/txr/m/n/8 (d)
+ []
+
 <Encre/085_A3.png, id=107, 966.61125pt x 143.53625pt>
 File: Encre/085_A3.png Graphic file (type png)
 <use Encre/085_A3.png>
-Package pdftex.def Info: Encre/085_A3.png  used on input line 402.
+Package pdftex.def Info: Encre/085_A3.png  used on input line 405.
 (pdftex.def)             Requested size: 966.6089pt x 143.53589pt.
 <Encre/1_A3.png, id=108, 966.61125pt x 143.53625pt>
 File: Encre/1_A3.png Graphic file (type png)
 <use Encre/1_A3.png>
-Package pdftex.def Info: Encre/1_A3.png  used on input line 410.
+Package pdftex.def Info: Encre/1_A3.png  used on input line 413.
 (pdftex.def)             Requested size: 966.6089pt x 143.53589pt.
- [6 <./dP-eps-converted-to.pdf> <./rProfilesInk-eps-converted-to.pdf> <./Encre/exp_A3.png> <./Encre/0_A3.png> <./Encre/05_A3.png> <./Encre/075_A3.png> <./Encre/085_A3.png> <./Encre/1_A3.png>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 423.
+               Default added (so using `tbp') on input line 426.
 
-<Encre/exp_A5.png, id=138, 952.55875pt x 145.54375pt>
+<Encre/exp_A5.png, id=109, 952.55875pt x 145.54375pt>
 File: Encre/exp_A5.png Graphic file (type png)
 <use Encre/exp_A5.png>
-Package pdftex.def Info: Encre/exp_A5.png  used on input line 429.
+Package pdftex.def Info: Encre/exp_A5.png  used on input line 432.
 (pdftex.def)             Requested size: 952.55643pt x 145.54338pt.
-<Encre/0_A5.png, id=139, 952.55875pt x 145.54375pt>
+<Encre/0_A5.png, id=110, 952.55875pt x 145.54375pt>
 File: Encre/0_A5.png Graphic file (type png)
 <use Encre/0_A5.png>
-Package pdftex.def Info: Encre/0_A5.png  used on input line 436.
+Package pdftex.def Info: Encre/0_A5.png  used on input line 439.
 (pdftex.def)             Requested size: 952.55643pt x 145.54338pt.
-<Encre/05_A5.png, id=140, 952.55875pt x 145.54375pt>
+<Encre/05_A5.png, id=111, 952.55875pt x 145.54375pt>
 File: Encre/05_A5.png Graphic file (type png)
 <use Encre/05_A5.png>
-Package pdftex.def Info: Encre/05_A5.png  used on input line 445.
+Package pdftex.def Info: Encre/05_A5.png  used on input line 448.
 (pdftex.def)             Requested size: 952.55643pt x 145.54338pt.
-<Encre/075_A5.png, id=141, 952.55875pt x 145.54375pt>
+<Encre/075_A5.png, id=112, 952.55875pt x 145.54375pt>
 File: Encre/075_A5.png Graphic file (type png)
 <use Encre/075_A5.png>
-Package pdftex.def Info: Encre/075_A5.png  used on input line 452.
+Package pdftex.def Info: Encre/075_A5.png  used on input line 455.
 (pdftex.def)             Requested size: 952.55643pt x 145.54338pt.
-<Encre/085_A5.png, id=142, 952.55875pt x 145.54375pt>
+<Encre/085_A5.png, id=113, 952.55875pt x 145.54375pt>
 File: Encre/085_A5.png Graphic file (type png)
 <use Encre/085_A5.png>
-Package pdftex.def Info: Encre/085_A5.png  used on input line 460.
+Package pdftex.def Info: Encre/085_A5.png  used on input line 463.
 (pdftex.def)             Requested size: 952.55643pt x 145.54338pt.
-
+[6 <./dP-eps-converted-to.pdf> <./rProfilesInk-eps-converted-to.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- (./main.bbl [7 <./Encre/exp_A5.png> <./Encre/0_A5.png> <./Encre/05_A5.png> <./Encre/075_A5.png> <./Encre/085_A5.png>]) [8
+ (./main.bbl [7 <./Encre/exp_A3.png> <./Encre/0_A3.png> <./Encre/05_A3.png> <./Encre/075_A3.png> <./Encre/085_A3.png> <./Encre/1_A3.png> <./Encre/exp_A5.png> <./Encre/0_A5.png> <./Encre/05_A5.png> <./Encre/075_A5.png> <./Encre/085_A5.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-] (./main.aux) ) 
+) [8] (./main.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 27169 strings out of 480875
- 703447 string characters out of 5907551
- 991850 words of memory out of 5000000
- 42270 multiletter control sequences out of 15000+600000
- 589246 words of font info for 143 fonts, out of 8000000 for 9000
+ 27927 strings out of 480875
+ 712501 string characters out of 5907551
+ 994086 words of memory out of 5000000
+ 43015 multiletter control sequences out of 15000+600000
+ 593958 words of font info for 159 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,12n,98p,1506b,696s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/times/utmri8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/zapfchan/uzcmi8a.pfb>
-Output written on main.pdf (8 pages, 906648 bytes).
+ 63i,11n,98p,1522b,696s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/txfonts/rtcxr.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/txfonts/rtxi.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (8 pages, 889079 bytes).
 PDF statistics:
- 197 PDF objects out of 1000 (max. 8388607)
- 127 compressed objects within 2 object streams
+ 201 PDF objects out of 1000 (max. 8388607)
+ 130 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  138 words of extra memory for PDF output out of 10000 (max. 10000000)
 
