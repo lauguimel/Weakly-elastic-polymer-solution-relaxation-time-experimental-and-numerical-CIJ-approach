@@ -1,4 +1,4 @@
-\documentclass[twocolumn,10pt]{asme2ej}
+\documentclass[onecolumn, 12pt]{asme2ej}
 
 
 %% The amssymb package provides various useful mathematical symbols
@@ -14,6 +14,9 @@
 \usepackage{stfloats}
 \usepackage{caption}
 \usepackage{subcaption}
+\usepackage[nomarkers,figuresonly]{endfloat}
+ \usepackage{setspace}
+ \doublespacing
 
 \usepackage{txfonts} % this is the font
 \usepackage{textcomp}
@@ -104,7 +107,7 @@ The visualization software is ImageXpert.
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=8cm]{device.png}
+    \includegraphics[width=15cm]{device.png}
     \caption{}
     \label{device}
 \end{figure}
@@ -132,7 +135,7 @@ For small stimulation amplitude (left on the figure), drop shape remains almost 
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.5\textwidth]{Encre/expAll.png}
+    \includegraphics[width=15cm]{Encre/expAll.png}
     \caption{Breakup shapes of the polymer solution for stimulation amplitudes ranging from 2V (left) to 62V (right).} 
     \label{fig:expAll}
 \end{figure}
@@ -140,7 +143,7 @@ Figure \ref{fig:LbInk} shows the breakup length as a function of the disturbance
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=8.5cm]{LbInk.eps}
+    \includegraphics[width=15cm]{LbInk.eps}
     \caption{Experimental breakup lengths $\mathcal{L}^b_{exp}$ for the weak elastic ink studied in the present work.}
     \label{fig:LbInk}
 \end{figure}
@@ -153,7 +156,7 @@ The shear viscosity was measured using both ARG-2 from TA-Instruments, for low s
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=8cm]{./visco.eps}
+    \includegraphics[width=15cm]{./visco.eps}
     \caption{Dynamic viscosity of the present polymer solution as a function of the shear rate.}
     \label{beahaviorLaw}
 \end{figure}
@@ -229,7 +232,7 @@ Comparison of theoretical growth rate from Eq. \ref{eq:growthRateAnalytical} wit
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=8cm]{dispersion.eps}
+    \includegraphics[width=15cm]{dispersion.eps}
     \caption{Growth rate $\gamma \tau_c$ as a function of of the dimensionless wave number $x$}
     \label{fig:growthrate}
 \end{figure}
@@ -255,7 +258,7 @@ Figure \ref{fig:glycerolCIJExp}(a-i) shows experimental jets pictured at the bre
 
 \begin{figure*}[t]
     \centering
-    \includegraphics[width=10cm]{Glycerol/gouttes_exp.png}
+    \includegraphics[width=15cm]{Glycerol/gouttes_exp.png}
     \caption{Experimental jets for different stimulation amplitude (in Volts) located a the breakup length.}
     \label{fig:glycerolCIJExp}
 \end{figure*}
@@ -293,7 +296,7 @@ $P_{stim}$ is directly related to the tension applied to the piezoelectric actua
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=8.5cm]{LbGlycerol.eps}
+    \includegraphics[width=15cm]{LbGlycerol.eps}
     \caption{Numerical and Experimental breakup lengths for glycerol solution.}
     \label{fig:LbGlycerol}
 \end{figure}
@@ -346,7 +349,7 @@ The relaxation time has an influence on the average jet velocity $v$ : the more 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=8.5cm]{dP.eps}
+    \includegraphics[width=15cm]{dP.eps}
     \caption{$P_{tank}$ as function of $\tau_e$ ensuring a constant dimensionless wave number $x = 0.6$ for unperturbed viscoelastic jets.}
     \label{fig:dP}
 \end{figure}
@@ -355,7 +358,7 @@ It is worth pointing out that over the studied range of relaxation times, the je
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=8.5cm]{rProfilesInk.eps}
+    \includegraphics[width=15cm]{rProfilesInk.eps}
     \caption{Computational axial velocity profiles at the nozzle exit for the Newtonian and Oldroyd-B ($\tau_e = 0.5\mu s$ and $\tau_e = 1\mu s$) fluid jets.}
     \label{fig:vProfiles}
 \end{figure}
