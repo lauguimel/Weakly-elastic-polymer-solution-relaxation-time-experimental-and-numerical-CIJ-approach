@@ -15,7 +15,7 @@ def func(x, a, b, c):
 
 fig = plt.figure()
 
-r1,r2,r3,r4,r5,r6,r7 = np.loadtxt('./Encre/LB_9651_GS_k', delimiter=';',skiprows=2, unpack=True)
+r1,r2,r3,r4,r5,r6,r7 = np.loadtxt('./Encre/LB_9651_GS_k.csv', delimiter=',',skiprows=2, unpack=True)
 
 # # Spline
 # tck,u     = interpolate.splprep( [r6,r4] ,s = 0 )
@@ -28,12 +28,13 @@ optimizedParameters, pcov = opt.curve_fit(func, r6, r4)
 
 # plt.plot( xnew ,ynew, '-k')
 
-plt.plot(r6, func(r6, *optimizedParameters), '-k')
-plt.plot(r6, r4, 'ob', label='$\mathcal{L}_{exp}^b$')
+# plt.semilogx(r6, func(r6, *optimizedParameters), '-k')
+plt.semilogx(np.linspace(15,15,50),np.linspace(2,10,50), '--k')
+plt.semilogx(r6, r4, 'ob', label='$\mathcal{L}_{exp}^b$')
 
 plt.legend()
 
 plt.xlabel('Disturbance amplitude ($V$)')
 plt.ylabel('Breakup length ($mm$)')
-plt.savefig("LbInk.eps", dpi=300)
+plt.savefig("LbInk_logLin.eps", dpi=300)
 plt.show()

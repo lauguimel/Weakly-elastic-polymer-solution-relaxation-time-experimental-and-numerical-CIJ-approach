@@ -1,0 +1,237 @@
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=15cm]{device.png}
+    \caption{}
+    \label{device}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=15cm]{Encre/expAll.png}
+    \caption{Breakup shapes of the polymer solution for stimulation amplitudes ranging from 2V (left) to 62V (right).}
+    \label{fig:expAll}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=15cm]{LbInk_logLin.eps}
+    \caption{Experimental breakup lengths $\mathcal{L}^b_{exp}$ for the weak elastic ink studied in the present work. The 15V stimulation amplitude is depicted by the dashed line.}
+    \label{fig:LbInk}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=15cm]{./visco.eps}
+    \caption{Dynamic viscosity of the present polymer solution as a function of the shear rate.}
+    \label{beahaviorLaw}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure*}[t]
+    \centering
+    \includegraphics[width=\textwidth]{pinch.png}
+    \caption{Evolution of the capillary instability (liquid in red and gaz in blue)}
+    \label{fig:capillaryGrowth}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=15cm]{dispersion.eps}
+    \caption{Growth rate $\gamma \tau_c$ as a function of of the dimensionless wave number $x$}
+    \label{fig:growthrate}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure*}[t]
+    \centering
+    \includegraphics[width=15cm]{Glycerol/gouttes_exp.png}
+    \caption{Experimental jets for different stimulation amplitude (in Volts) located a the breakup length.}
+    \label{fig:glycerolCIJExp}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure}[H]
+    \centering
+    \begin{tikzpicture}
+        \node[anchor=south west,inner sep=0] (0,0) {\includegraphics[width=3cm,angle=90]{maillage.png}};
+
+        \draw[dashed] (0,3) -- (0,3.3);
+        \draw[dashed] (4.8,3) -- (4.8,3.3);
+        \draw[dashed] (5.75,2.05) -- (5.75,3.3);
+        \draw[dashed] (7.9,2.05) -- (7.9,3.3);
+
+        \draw (2.5,3.5) node {Fluid Tank};
+        \draw (5.3,3.5) node {Nozzle};
+        \draw (6.9,3.5) node {Air};
+
+        \end{tikzpicture}
+    \caption{Converged mesh of the tank, nozzle and nozzle outlet of the axisymmetric numerical model.}
+    \label{fig:meshGlycerol}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=15cm]{LbGlycerol.eps}
+    \caption{Numerical and Experimental breakup lengths for glycerol solution.}
+    \label{fig:LbGlycerol}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[h]
+    \centering
+    \begin{subfigure}{2.7cm}
+        \centering
+        \includegraphics[width=2.5cm]{Glycerol/num_exp_053mbar_1.png}
+        % \captionsetup{font={scriptsize,it}}
+        \caption{1.6$V$ - 53$mbar$}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{2.7cm}
+        \centering
+        \includegraphics[width=2.5cm]{Glycerol/num_exp_264mbar.png}
+        \caption{12.2$V$ - 264$mbar$}
+        % \label{fig:three sin x}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{2.7cm}
+        \centering
+        \includegraphics[width=2.5cm]{Glycerol/num_exp_580mbar_1.png}
+        \caption{33$V$ - 580$mbar$}
+        % \label{fig:five over x}
+    \end{subfigure}
+       \caption{Comparison between experimental (black and white) and numerical (colour) droplet shapes for different amplitudes of stimulation.}
+       \label{fig:glycerolDrop}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[h]
+    \centering
+\includegraphics[width=15cm]{microscope.png}
+\caption{Image of the present nozzle obtained by SEM.}
+\label{fig:micro}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=15cm]{dP.eps}
+    \caption{$P_{tank}$ as function of $\tau_e$ ensuring a constant dimensionless wave number $x = 0.6$ for unperturbed viscoelastic jets.}
+    \label{fig:dP}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=15cm]{rProfilesInk.eps}
+    \caption{Computational axial velocity profiles at the nozzle exit for the Newtonian and Oldroyd-B ($\tau_e = 0.5\mu s$ and $\tau_e = 1\mu s$) fluid jets.}
+    \label{fig:vProfiles}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[h]
+    % \centering
+    \captionsetup{font={footnotesize }}
+
+    \begin{subfigure}[t]{1.2cm}
+        \centering
+        \includegraphics[angle=-90,origin=c,width=0.9cm]{Encre/exp_A3.png}
+        \captionsetup{font={footnotesize }}
+        \caption{34.8$V$}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[t]{1.2cm}
+        \centering
+        \includegraphics[angle=-90,origin=c,width=0.9cm]{Encre/0_A3.png}
+        \captionsetup{font={footnotesize }}
+
+        \caption{Newtonian}
+        % \label{fig:three sin x}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[t]{1.2cm}
+        \centering
+        \includegraphics[angle=-90,origin=c,width=0.9cm]{Encre/05_A3.png}
+        \captionsetup{font={footnotesize }}
+        \caption{$0.5\mu s$}
+        % \label{fig:five over x}
+    \end{subfigure}\hfill
+    \begin{subfigure}[t]{1.2cm}
+        \centering
+        \includegraphics[angle=-90,origin=c,width=0.9cm]{Encre/075_A3.png}
+        \captionsetup{font={footnotesize }}
+        \caption{$0.75\mu s$}
+        % \label{fig:five over x}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[t]{1.2cm}
+        \centering
+        \includegraphics[angle=-90,origin=c,width=0.9cm]{Encre/085_A3.png}
+        \captionsetup{font={footnotesize }}
+        \caption{$0.85\mu s$}
+        % \label{fig:five over x}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[t]{1.2cm}
+        \centering
+        \includegraphics[angle=-90,origin=c,width=0.9cm]{Encre/1_A3.png}
+        \captionsetup{font={footnotesize }}
+        \caption{$1\mu s$}
+        % \label{fig:five over x}
+    \end{subfigure}
+       \caption{Breakup shapes for $P_{stim}=0.3\cdot P_{tank}$ for both experimental (black) and numerical (red) fluids.}
+       \label{fig:A3}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[]
+    % \centering
+    \captionsetup{font={footnotesize }}
+
+    \begin{subfigure}[t]{1.6cm}
+        \centering
+        \includegraphics[angle=-90,origin=c,width=0.9cm]{Encre/exp_A5.png}
+        \captionsetup{font={footnotesize }}
+        \caption{54.5$V$}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[t]{1.7cm}
+        \centering
+        \includegraphics[angle=-90,origin=c,width=0.9cm]{Encre/0_A5.png}
+        \captionsetup{font={footnotesize }}
+
+        \caption{Newtonian}
+        % \label{fig:three sin x}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[t]{1.6cm}
+        \centering
+        \includegraphics[angle=-90,origin=c,width=0.9cm]{Encre/05_A5.png}
+        \captionsetup{font={footnotesize }}
+        \caption{$0.5\mu s$}
+        % \label{fig:five over x}
+    \end{subfigure}\hfill
+    \begin{subfigure}[t]{1.6cm}
+        \centering
+        \includegraphics[angle=-90,origin=c,width=0.9cm]{Encre/075_A5.png}
+        \captionsetup{font={footnotesize }}
+        \caption{$0.75\mu s$}
+        % \label{fig:five over x}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[t]{1.6cm}
+        \centering
+        \includegraphics[angle=-90,origin=c,width=0.9cm]{Encre/085_A5.png}
+        \captionsetup{font={footnotesize }}
+        \caption{$0.85\mu s$}
+        % \label{fig:five over x}
+    \end{subfigure}
+    \caption{Breakup shapes for $P_{stim}=0.5\cdot P_{tank}$ for both experimental (black) and numerical (red) fluids.}
+    \label{fig:A5}
+\end{figure}
+\efloatseparator
+ 
