@@ -1,14 +1,14 @@
 \begin{figure}[h]
     \centering
-    \includegraphics[width=15cm]{device.png}
-    \caption{}
+    \includegraphics[width=15cm]{Figures/Fig1.png}
+    \caption{Experimental setup for drop generation and visualization.}
     \label{device}
 \end{figure}
 \efloatseparator
  
 \begin{figure}[h]
     \centering
-    \includegraphics[width=15cm]{Encre/expAll.png}
+    \includegraphics[width=15cm]{Figures/Fig2.png}
     \caption{Breakup shapes of the polymer solution for stimulation amplitudes ranging from 2V (left) to 62V (right).}
     \label{fig:expAll}
 \end{figure}
@@ -16,7 +16,7 @@
  
 \begin{figure}[h]
     \centering
-    \includegraphics[width=15cm]{LbInk_logLin.eps}
+    \includegraphics[width=15cm]{Figures/Fig3.eps}
     \caption{Experimental breakup lengths $\mathcal{L}^b_{exp}$ for the weak elastic ink studied in the present work. The 15V stimulation amplitude is depicted by the dashed line.}
     \label{fig:LbInk}
 \end{figure}
@@ -24,7 +24,7 @@
  
 \begin{figure}[H]
     \centering
-    \includegraphics[width=15cm]{./visco.eps}
+    \includegraphics[width=15cm]{Figures/Fig4.eps}
     \caption{Dynamic viscosity of the present polymer solution as a function of the shear rate.}
     \label{beahaviorLaw}
 \end{figure}
@@ -32,7 +32,7 @@
  
 \begin{figure*}[t]
     \centering
-    \includegraphics[width=\textwidth]{pinch.png}
+    \includegraphics[width=\textwidth]{Figures/Fig5.png}
     \caption{Evolution of the capillary instability (liquid in red and gaz in blue)}
     \label{fig:capillaryGrowth}
 \end{figure*}
@@ -40,7 +40,7 @@
  
 \begin{figure}[h]
     \centering
-    \includegraphics[width=15cm]{dispersion.eps}
+    \includegraphics[width=15cm]{Figures/Fig6.eps}
     \caption{Growth rate $\gamma \tau_c$ as a function of of the dimensionless wave number $x$}
     \label{fig:growthrate}
 \end{figure}
@@ -48,7 +48,7 @@
  
 \begin{figure*}[t]
     \centering
-    \includegraphics[width=15cm]{Glycerol/gouttes_exp.png}
+    \includegraphics[width=15cm]{Figures/Fig7.png}
     \caption{Experimental jets for different stimulation amplitude (in Volts) located a the breakup length.}
     \label{fig:glycerolCIJExp}
 \end{figure*}
@@ -57,7 +57,7 @@
 \begin{figure}[H]
     \centering
     \begin{tikzpicture}
-        \node[anchor=south west,inner sep=0] (0,0) {\includegraphics[width=3cm,angle=90]{maillage.png}};
+        \node[anchor=south west,inner sep=0] (0,0) {\includegraphics[width=3cm,angle=90]{Figures/Fig8.png}};
 
         \draw[dashed] (0,3) -- (0,3.3);
         \draw[dashed] (4.8,3) -- (4.8,3.3);
@@ -76,7 +76,7 @@
  
 \begin{figure}[h]
     \centering
-    \includegraphics[width=15cm]{LbGlycerol.eps}
+    \includegraphics[width=15cm]{Figures/Fig9.eps}
     \caption{Numerical and Experimental breakup lengths for glycerol solution.}
     \label{fig:LbGlycerol}
 \end{figure}
@@ -86,21 +86,21 @@
     \centering
     \begin{subfigure}{2.7cm}
         \centering
-        \includegraphics[width=2.5cm]{Glycerol/num_exp_053mbar_1.png}
+        \includegraphics[width=2.5cm]{Figures/Fig10a.png}
         % \captionsetup{font={scriptsize,it}}
         \caption{1.6$V$ - 53$mbar$}
     \end{subfigure}
     \hfill
     \begin{subfigure}{2.7cm}
         \centering
-        \includegraphics[width=2.5cm]{Glycerol/num_exp_264mbar.png}
+        \includegraphics[width=2.5cm]{Figures/Fig10b.png}
         \caption{12.2$V$ - 264$mbar$}
         % \label{fig:three sin x}
     \end{subfigure}
     \hfill
     \begin{subfigure}{2.7cm}
         \centering
-        \includegraphics[width=2.5cm]{Glycerol/num_exp_580mbar_1.png}
+        \includegraphics[width=2.5cm]{Figures/Fig10c.png}
         \caption{33$V$ - 580$mbar$}
         % \label{fig:five over x}
     \end{subfigure}
@@ -111,7 +111,7 @@
  
 \begin{figure}[h]
     \centering
-\includegraphics[width=15cm]{microscope.png}
+\includegraphics[width=15cm]{Figures/Fig11.png}
 \caption{Image of the present nozzle obtained by SEM.}
 \label{fig:micro}
 \end{figure}
@@ -119,7 +119,7 @@
  
 \begin{figure}[H]
     \centering
-    \includegraphics[width=15cm]{dP.eps}
+    \includegraphics[width=15cm]{Figures/Fig12.eps}
     \caption{$P_{tank}$ as function of $\tau_e$ ensuring a constant dimensionless wave number $x = 0.6$ for unperturbed viscoelastic jets.}
     \label{fig:dP}
 \end{figure}
@@ -127,7 +127,7 @@
  
 \begin{figure}[H]
     \centering
-    \includegraphics[width=15cm]{rProfilesInk.eps}
+    \includegraphics[width=15cm]{Figures/Fig13.eps}
     \caption{Computational axial velocity profiles at the nozzle exit for the Newtonian and Oldroyd-B ($\tau_e = 0.5\mu s$ and $\tau_e = 1\mu s$) fluid jets.}
     \label{fig:vProfiles}
 \end{figure}
@@ -139,14 +139,14 @@
 
     \begin{subfigure}[t]{1.2cm}
         \centering
-        \includegraphics[angle=-90,origin=c,width=0.9cm]{Encre/exp_A3.png}
+        \includegraphics[angle=-90,origin=c,width=0.9cm]{Figures/Fig14a.png}
         \captionsetup{font={footnotesize }}
         \caption{34.8$V$}
     \end{subfigure}
     \hfill
     \begin{subfigure}[t]{1.2cm}
         \centering
-        \includegraphics[angle=-90,origin=c,width=0.9cm]{Encre/0_A3.png}
+        \includegraphics[angle=-90,origin=c,width=0.9cm]{Figures/Fig14b.png}
         \captionsetup{font={footnotesize }}
 
         \caption{Newtonian}
@@ -155,14 +155,14 @@
     \hfill
     \begin{subfigure}[t]{1.2cm}
         \centering
-        \includegraphics[angle=-90,origin=c,width=0.9cm]{Encre/05_A3.png}
+        \includegraphics[angle=-90,origin=c,width=0.9cm]{Figures/Fig14c.png}
         \captionsetup{font={footnotesize }}
         \caption{$0.5\mu s$}
         % \label{fig:five over x}
     \end{subfigure}\hfill
     \begin{subfigure}[t]{1.2cm}
         \centering
-        \includegraphics[angle=-90,origin=c,width=0.9cm]{Encre/075_A3.png}
+        \includegraphics[angle=-90,origin=c,width=0.9cm]{Figures/Fig14d.png}
         \captionsetup{font={footnotesize }}
         \caption{$0.75\mu s$}
         % \label{fig:five over x}
@@ -170,7 +170,7 @@
     \hfill
     \begin{subfigure}[t]{1.2cm}
         \centering
-        \includegraphics[angle=-90,origin=c,width=0.9cm]{Encre/085_A3.png}
+        \includegraphics[angle=-90,origin=c,width=0.9cm]{Figures/Fig14e.png}
         \captionsetup{font={footnotesize }}
         \caption{$0.85\mu s$}
         % \label{fig:five over x}
@@ -178,7 +178,7 @@
     \hfill
     \begin{subfigure}[t]{1.2cm}
         \centering
-        \includegraphics[angle=-90,origin=c,width=0.9cm]{Encre/1_A3.png}
+        \includegraphics[angle=-90,origin=c,width=0.9cm]{Figures/Fig14f.png}
         \captionsetup{font={footnotesize }}
         \caption{$1\mu s$}
         % \label{fig:five over x}
@@ -194,14 +194,14 @@
 
     \begin{subfigure}[t]{1.6cm}
         \centering
-        \includegraphics[angle=-90,origin=c,width=0.9cm]{Encre/exp_A5.png}
+        \includegraphics[angle=-90,origin=c,width=0.9cm]{Figures/Fig15a.png}
         \captionsetup{font={footnotesize }}
         \caption{54.5$V$}
     \end{subfigure}
     \hfill
     \begin{subfigure}[t]{1.7cm}
         \centering
-        \includegraphics[angle=-90,origin=c,width=0.9cm]{Encre/0_A5.png}
+        \includegraphics[angle=-90,origin=c,width=0.9cm]{Figures/Fig15b.png}
         \captionsetup{font={footnotesize }}
 
         \caption{Newtonian}
@@ -210,14 +210,14 @@
     \hfill
     \begin{subfigure}[t]{1.6cm}
         \centering
-        \includegraphics[angle=-90,origin=c,width=0.9cm]{Encre/05_A5.png}
+        \includegraphics[angle=-90,origin=c,width=0.9cm]{Figures/Fig15c.png}
         \captionsetup{font={footnotesize }}
         \caption{$0.5\mu s$}
         % \label{fig:five over x}
     \end{subfigure}\hfill
     \begin{subfigure}[t]{1.6cm}
         \centering
-        \includegraphics[angle=-90,origin=c,width=0.9cm]{Encre/075_A5.png}
+        \includegraphics[angle=-90,origin=c,width=0.9cm]{Figures/Fig15d.png}
         \captionsetup{font={footnotesize }}
         \caption{$0.75\mu s$}
         % \label{fig:five over x}
@@ -225,7 +225,7 @@
     \hfill
     \begin{subfigure}[t]{1.6cm}
         \centering
-        \includegraphics[angle=-90,origin=c,width=0.9cm]{Encre/085_A5.png}
+        \includegraphics[angle=-90,origin=c,width=0.9cm]{Figures/Fig15e.png}
         \captionsetup{font={footnotesize }}
         \caption{$0.85\mu s$}
         % \label{fig:five over x}

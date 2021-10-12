@@ -1,0 +1,57 @@
+\begin{table}
+    \begin{center}
+        \begin{tabular}{lr}
+            \hline
+            $\rho_{l} (kg.m^{-3})$ & $1000$\\
+            $\rho_{g} (kg.m^{-3})$ & $1$\\
+            $\nu_{l} (Pa.s)$ & $10^{-3}$\\
+            $\nu_{g} (Pa.s)$ & $10^{-6}$\\
+            $h(m)$ & $28\, 10^{-4}$\\
+            $\lambda (m)$ & $64\, 10^{-4}$\\
+            $R_0(m)$ & $7.07\, 10^{-4}$\\
+            $\delta (m)$ & $1.6\, 10^{-5}$\\
+            $Oh$ & $0.2$\\
+            $\tau_{c}(s)$ & $0.1$  \\
+            $\Delta_x(m)$ & $7\,10^{-5}$ \\
+            \hline
+        \end{tabular}
+    \end{center}
+
+    \caption{\label{tab:parametersPinch}Parameters of capillary instability simulations where the subscripts $l$ and $g$ stand for liquid and gaz, respectively.}
+\end{table}
+\efloatseparator
+ 
+\begin{table}
+    \begin{center}
+        \begin{tabular}{lr}
+            \hline
+            $\rho_{l} (kg.m^{-3})$ & $1128.88$\\
+            $\nu_{l} (mPa.s)$ & $6.4$\\
+            $\sigma (mN.m^{-1})$ & $69.16$\\
+            \hline
+        \end{tabular}
+    \end{center}
+
+    \caption{\label{tab:parametersGlycerol} Physical parameters of glycerol + water solution.}
+\end{table}
+\efloatseparator
+ 
+\begin{table}[H]
+    \begin{center}
+        \begin{tabular}{l|cc}
+            Fluids & $\mathcal{L}^{0.3}_b\,(mm)$ &$\mathcal{L}^{0.5}_b\,(mm)$\\
+            \hline
+            Experimental  & 3.28  &2.29 \\
+            Newtonian & 2.85 & 2.54\\
+            $\tau_e = 0.5\mu s$ & 3.3 & 2.25\\
+            $\tau_e = 0.75\mu s$ & 3.95 & 2.85\\
+            $\tau_e = 0.85\mu s$ & 4.45 & 4.25\\
+            $\tau_e = 1\mu s$ & 5.5 & $> 6.5$\\
+            \hline
+        \end{tabular}
+    \end{center}
+    \label{tab:lbInk}
+    \caption{Breakup lengths $\mathcal{L}^{0.3}_b$ and $\mathcal{L}^{0.5}_b$ of the numerical and experimental fluids.}
+\end{table}
+\efloatseparator
+ 
