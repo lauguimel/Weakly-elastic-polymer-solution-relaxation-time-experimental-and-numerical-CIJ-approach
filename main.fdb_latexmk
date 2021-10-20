@@ -1,16 +1,16 @@
 # Fdb version 3
-["bibtex main"] 1634025306 "main.aux" "main.bbl" "main" 1634025664
+["bibtex main"] 1634747327 "main.aux" "main.bbl" "main" 1634747328
   "./asmems4.bst" 1616404552 25583 1f5756761e817b92e0a24aa53bf459b4 ""
-  "biblio.bib" 1616404552 6710 b97a697371ece2c4284494fe7393cfed ""
-  "main.aux" 1634025664 6427 3c08a7297e4da8e4935d0ca614318bd2 ""
+  "biblio.bib" 1634736475 6963 ef6464f09e785819cdfa838f091d2a13 ""
+  "main.aux" 1634747328 6786 fbaa72d1309d3785642002c228ba5126 ""
   "main.bcf" 0 -1 0 ""
   (generated)
-  "main.blg"
   "main.bbl"
-["pdflatex"] 1634025664 "/home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/main.tex" "/home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/main.pdf" "main" 1634025664
+  "main.blg"
+["pdflatex"] 1634747327 "/home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/main.tex" "/home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/main.pdf" "main" 1634747328
   "/etc/texmf/web2c/texmf.cnf" 1539250616 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/main.aux" 1634025664 6427 3c08a7297e4da8e4935d0ca614318bd2 ""
-  "/home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/main.tex" 1634025663 35170 5d7d6ed716013f2d6ef33c84aa6eba47 ""
+  "/home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/main.aux" 1634747328 6786 fbaa72d1309d3785642002c228ba5126 ""
+  "/home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/main.tex" 1634747326 35709 ac96e74fcff244203d5440428d25af8c ""
   "/home/guillaume/texmf/tex/latex/siunitx/siunitx-abbreviations.cfg" 1511738808 4669 0666eeed90b2307794a8c5f94440e058 ""
   "/home/guillaume/texmf/tex/latex/siunitx/siunitx.sty" 1511738808 278830 8a6edd37cf149567964ca1ef50e6bd06 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -280,16 +280,16 @@
   "Figures/Fig8.eps" 1634025271 19026948 db78c1b2951f0c19a40c0216d2d5b171 ""
   "Figures/Fig9.eps" 1616404552 213620 b0286665af3ce086a59a72e404572928 ""
   "asme2ej.cls" 1616404552 47768 2d46251de9218636681c92438a2f2917 ""
-  "main.aux" 1634025664 6427 3c08a7297e4da8e4935d0ca614318bd2 ""
-  "main.bbl" 1634025306 4515 215958243bedd0eb3521df59b15b5ca2 "bibtex main"
-  "main.tex" 1634025663 35170 5d7d6ed716013f2d6ef33c84aa6eba47 ""
+  "main.aux" 1634747328 6786 fbaa72d1309d3785642002c228ba5126 ""
+  "main.bbl" 1634747327 4706 94cecb06b79a9fe5d6c30220a7ac3fff "bibtex main"
+  "main.tex" 1634747326 35709 ac96e74fcff244203d5440428d25af8c ""
   (generated)
-  "main.ttt"
-  "main.log"
-  "main.fff"
-  "main.pdf"
   "main.lot"
   "/home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/main.log"
+  "main.fff"
+  "main.log"
   "main.lof"
   "main.aux"
   "/home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/main.pdf"
+  "main.pdf"
+  "main.ttt"

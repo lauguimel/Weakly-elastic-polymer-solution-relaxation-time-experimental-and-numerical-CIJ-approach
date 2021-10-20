@@ -100,7 +100,7 @@
 \maketitle 
 
 \begin{abstract}
-    For very low relaxation time (i.e. lesser than a microsecond) viscoelastic fluid experimental determination is difficult, if not impossible. In the present work the relaxation time measurement of a weakly elastic polymer solution, too low to be measured using classical rheometry techniques, is assessed using a mixed experimental-numerical strategy. First the fluid is rheologically assessed, by measuring its shear viscosity, surface tension and density. Then the relaxation time is determined by comparing the jetting of polymer solution from a Continuous Ink-Jet (CIJ) device experimentally and numerically. The numerical approach is first validated using test case and a viscoelastic Oldroyd-B model is then used to model the experimental solution. The relaxation time is then a parameter allowing us to fit numerical simulation onto experimental results. This mixed strategy is particularly convenient for weakly elastic solution for which physical parameters can not be measured using experimental rheometry setup.
+    For very low relaxation time (i.e. lesser than a microsecond), viscoelastic fluid experimental determination is difficult, if not impossible. In the present work the relaxation time measurement of a weakly elastic polymer solution, too low to be measured using classical rheometry techniques, is assessed using a mixed experimental-numerical strategy. First the fluid is rheologically assessed, by measuring its shear viscosity, surface tension and density. Then the relaxation time is determined by comparing the jetting of polymer solution from a Continuous Ink-Jet (CIJ) device experimentally and numerically. The numerical approach is first validated using test cases and a viscoelastic Oldroyd-B model is used to model the experimental solution. The relaxation time is then a parameter allowing us to fit numerical simulation onto experimental results. This mixed strategy is particularly convenient for weakly elastic solution for which physical parameters can not be measured using an experimental rheometry setup.
 \end{abstract}
 
 
@@ -108,13 +108,12 @@
 
 %% main text
 \section{Introduction}
-Capillary breakup phenomena have a wide range of applications from ink-jet printing to DNA sampling. In micro jetting devices, polymer solutions often experience non Newtonian behavior which greatly influence breakup dynamics. Drops generation from non Newtonian fluid jets breakup is a well known topic which has already been addressed both numerically and experimentally \cite{morrison2011inkjet,rodriguez2015experimental,mcilroy2013modelling}. Elastic and viscous effects are known to have a great influence on the breakup dynamics. More precisely, they are known to delay the onset of the jet breakup \cite{rayleigh1892xvi, gordon1973instability}. In the present work, the relaxation time of a weakly elastic ink used in industrial continuous ink-jet printing (CIJ) devices is determined. This ink is a low viscosity dilute polymer with high polydispersity. A first estimation of the elastic relaxation time is calculated using Zimm theory \cite{zimm1956dynamics}, and is found to be out of the measurement range of both extensional rheometry (ROJER \cite{keshavarz2015studying}) or microfluidic devices \cite{galindo2013microdevices}. As a result, an original approach is introduced to determine the relaxation time, relying on the comparison of both capillary breakup length and shapes between numerical simulations and experiments.
+Capillary breakup phenomena have a wide range of applications from ink-jet printing to DNA sampling. In micro jetting devices, polymer solutions often experience non Newtonian behavior which greatly influence breakup dynamics. Drops generation using non-Newtonian jetted fluids is a well known topic which has already been addressed both numerically and experimentally \cite{morrison2011inkjet,rodriguez2015experimental,mcilroy2013modelling}. Elastic and viscous effects are known to have a great influence on the breakup dynamics. More precisely, viscosity is known to delay the onset of the jet breakup \cite{rayleigh1892xvi, gordon1973instability} whereas the elastic effects shortens the breakup \cite{morrison2010viscoelasticity}. In the present work, the relaxation time of a weakly elastic ink used in industrial continuous ink-jet printing (CIJ) devices is determined. This ink is a low viscosity dilute polymer with high polydispersity. A first estimation of the elastic relaxation time is calculated using Zimm theory \cite{zimm1956dynamics}, and is found to be out of the measurement range of both extensional rheometry, the so-called ROJER \cite{keshavarz2015studying}, or microfluidic devices \cite{galindo2013microdevices}. As a result, an original approach is introduced to determine the relaxation time, relying on the comparison of both capillary breakup length and shapes between numerical simulations and experiments.
 
 \section{Experimental setup}
-The experimental device is similar to the one used for the ROJER extensional rheometry measurements \cite{rodriguez2015experimental} (see figure 1) and is commonly used in Continuous Ink-Jet process. 
+The experimental device is similar to the one used for the ROJER extensional rheometry measurements \cite{rodriguez2015experimental} (see Figure 1) and is commonly used in Continuous Ink-Jet process. 
 
-The flow is generated by a pump and the jet is created using a micro-nozzle. Then, it is strobed at a given frequency and synchronized with the drive frequency ($10 kHz < f_d < 100 kHz$) in order to display a static image ($1024\times778$ pixels with $1 px \approx 1 \mu m$ ). 
-The visualization software is ImageXpert.
+The flow is generated by a pump and the jet is created using a micro-nozzle. Then, it is strobed at a given frequency and synchronized with the drive frequency ($10 kHz < f_d < 100 kHz$) in order to display a static image ($1024\times778$ pixels with $1 px \approx 1 \mu m$ ) using the visualization software ImageXpert.
 
 \begin{figure}[h]
     \centering
@@ -123,26 +122,26 @@ The visualization software is ImageXpert.
     \label{device}
 \end{figure}
 
-In the present work, the fluid jets have been generated experimentally with the same piezoelectric device at stimulation amplitudes ranging from 2V to 62V and with a constant dimensionless wave number $x = 0.6$, where $x$ writes:
+In the present work, fluid jets have been generated experimentally with the same piezoelectric device at stimulation amplitudes ranging from 2V to 62V with a constant dimensionless wave number $x = 0.6$, where $x$ writes:
 \begin{equation}\label{eq:waveNbr}
-    x=2 \pi R_0 \frac{v}{f}
+    x=2 \pi R_0 \frac{f}{v}
 \end{equation}
 with $R_0$ the radius of the unperturbed jet, $v$ the jet velocity and $f$ the stimulation frequency. 
 
 Reynolds and Ohnesorge numbers of the jet, are
 \begin{equation}
-    Re= \rho v R_0 / \eta_0 = 110
+    Re= \frac{\rho v R_0 }{\eta_0}  \approx 110
 \end{equation} and 
    
 \begin{equation}
-    Oh=\eta_0/\sqrt{\rho R_0 \sigma} = 0.2
+    Oh= \frac{\eta_0}{\sqrt{\rho R_0 \sigma}} \approx 0.2
 \end{equation}
-respectively. They are calculated for undisturbed jets and are constant for every disturbance amplitudes.
+respectively. They were calculated for undisturbed jets and kept constant for every disturbance amplitudes.
 
-For high stimulation amplitude, we observe Fig.\ref{fig:expAll} threads linking the first droplets to the unbroken jet which is typical of breakup of weakly elastic polymer strain hardening solutions \cite{christanti2002effect}.
 
-Figure \ref{fig:expAll} depicts the jet morphologies after jetting the weakly elastic ink. The jets have been pictured at the breakup distance from the nozzle for stimulation amplitudes ranging from $2$ to $62V$. 
-For small stimulation amplitude (left on the figure), drop shape remains almost the same in the linear regime of stimulation, i.e. where stimulation is lower than $15V$. In that regime, we also observe a forward-merging satellite. For higher stimulation amplitude, no satellite can be observed anymore and a thread links first droplets to the unbroken jet. Typically, this thread is part of a breakup of weakly elastic polymer strain hardening solutions \cite{christanti2002effect}.
+
+Figure \ref{fig:expAll} depicts the jet morphologies after jetting the weakly elastic ink. The jets have been pictured at the breakup distance from the nozzle for stimulation amplitudes ranging from $2$ (left) to $62V$ (right) . 
+For small stimulation amplitude (left on the figure), drop shape remains almost the same in the linear regime of stimulation, i.e. where stimulation is lower than $15V$. In that regime, we also observe a forward-merging satellite. For high stimulation amplitudes (see right side of Fig.\ref{fig:expAll}), we observe threads linking the first droplets to the unbroken jet. This observation is typical of breakup of weakly elastic polymer strain hardening solutions \cite{christanti2002effect}.
 
 \begin{figure}[h]
     \centering
@@ -150,31 +149,30 @@ For small stimulation amplitude (left on the figure), drop shape remains almost 
     \caption{Breakup shapes of the polymer solution for stimulation amplitudes ranging from 2V (left) to 62V (right).} 
     \label{fig:expAll}
 \end{figure}
-Figure \ref{fig:LbInk} shows the breakup length as a function of the disturbance amplitude, i.e. as a function of the tension applied by the piezoelectric actuator. The so-called breakup length, also called "intact length" and noted $\mathcal{L}^b_{exp}$ hereafter, has been widely studied both in linear and non-linear regime, (see \cite{eggers2008physics} and therein references). It is directly linked to the nozzle outlet velocity disturbance \cite{pimbley1977satellite,rosello2018influence}. The transition between linear and non linear regimes is depicted by the change in breakup length slope and these regimes are predicted by the so-called linear and non-linear theories, respectively. A quasi-linear regime is thus observed for low  amplitude stimulation (lower than $15V$) and is in agreement with previous observations on drop shapes.
-As predicted by the theory, the breakup length decreases with the amplitude and seems to reach a minimum length for $62V$ and although the breakup lengths present an exponential decay, the regime below $15V$ will then be referred as linear regime hereafter.
+Figure \ref{fig:LbInk} shows the breakup length as a function of the disturbance amplitude, i.e. as a function of the tension applied by the piezoelectric actuator. The so-called breakup length, also called "intact length" and noted $\mathcal{L}^b_{exp}$ hereafter, has been widely studied both in linear and non-linear regime, (see \cite{eggers2008physics} and therein references) and is directly linked to the nozzle outlet velocity disturbance \cite{pimbley1977satellite,rosello2018influence}. The transition between linear and non linear regimes is depicted by the change in breakup length slope and these regimes are predicted by the so-called linear and non-linear theories, respectively. A quasi-linear regime is thus observed for low  amplitude stimulation (lower than $15V$) and is in agreement with previous observations on drop shapes.
+As predicted by the theory, the breakup length decreases with the amplitude and seems to reach a minimum length for $62V$. Although the breakup lengths present an exponential decay at low disturbance amplitude, the regime below $15V$ will be hereafter referred as linear regime.
 
 \begin{figure}[h]
     \centering
     \includegraphics[width=15cm]{Figures/Fig3.eps}
-    \caption{Experimental breakup lengths $\mathcal{L}^b_{exp}$ for the weak elastic ink studied in the present work. The 15V stimulation amplitude is depicted by the dashed line.}
+    \caption{Experimental breakup lengths $\mathcal{L}^b_{exp}$ for the weak elastic ink studied in the present work. The 15V stimulation amplitude is depicted by the dashed line. Below $15V$, breakup lengths follow an exponential decay.}
     \label{fig:LbInk}
 \end{figure}
 
 \subsection{Rheological characterization}\label{sec:rheo}
 
-Density $\rho = 873 kg.m^{-3}$ and surface tension $\sigma = 22.8 mN.m^{-1}$ of the fluid have been carefully measured using an DMA4500M
-device from Anton Paar and a MPT2 from Lauda companies, respectively. 
+The fluid have been carefully measured using an DMA4500M device from Anton Paar and a MPT2 from Lauda companies, giving a density $\rho = 873 kg.m^{-3}$ and a surface tension $\sigma = 22.8 mN.m^{-1}$, respectively. 
 
-The shear viscosity was measured using both ARG-2 from TA-Instruments, for low shear rates ($\dot{\gamma} < 1000 s^{-1}$ ), and a m-VROC from RheoSense, for high shear rates ($1000 s^{-1}<\dot{\gamma} < 10^6 s^{-1}$). As can be seen on figure \ref{beahaviorLaw}, viscosity shows a slight shear-thinning behavior around $10^6s^{-1}$, but to low to be considered if we consider measured incertitudes. For this raison, the fluid viscosity is assumed to be constant over the all full range of shear rate investigated here.
+The shear viscosity was measured using both ARG-2 from TA-Instruments, for low shear rates ($\dot{\gamma} < 1000 s^{-1}$ ), and a m-VROC from RheoSense, for high shear rates ($1000 s^{-1}<\dot{\gamma} < 10^6 s^{-1}$). As pictured on figure \ref{beahaviorLaw}, viscosity shows a slight shear-thinning behavior around $10^6s^{-1}$, but to low to be considered if account fot he measurement uncertainties. For this reason, the fluid viscosity is assumed to be constant over the all full range of shear rate investigated here.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=15cm]{Figures/Fig4.eps}
-    \caption{Dynamic viscosity of the present polymer solution as a function of the shear rate.}
+    \caption{Dynamic viscosity of the studied polymer solution as a function of the shear rate. Red circles were measured using an ARG2 with concentric cylinders and the blue circles with a m-VROC viscometer.}
     \label{beahaviorLaw}
 \end{figure}
 
-As stated in the previous section, the present ink is a weakly elastic polymer solution. Zimm theory \cite{zimm1956dynamics} can thus be used to describe polymer relaxation dynamics considering hydrodynamic interactions between chains and solvent. Zimm's theory is based on an elastic dumbbell model: it takes into account the hydrodynamic interactions between solvent and polymers, but not the frictional interactions between chains.
+As stated in the previous section, the present ink is a weakly elastic polymer solution. Zimm theory \cite{zimm1956dynamics} can be used to describe polymer relaxation dynamics considering hydrodynamic interactions between chains and solvent. Zimm's theory is based on an elastic dumbbell model: it takes into account the hydrodynamic interactions between solvent and polymers, but not the frictional interactions between chains.
 This theory particularly well adapted for dilute polymer solutions enables the calculation of a relaxation time $\tau_Z$ such as :
 \begin{equation}
     \tau_Z = \frac{\eta_s [\eta] M}{RT} = 0.4 \mu s
@@ -182,18 +180,19 @@ This theory particularly well adapted for dilute polymer solutions enables the c
 \end{equation}
 where $\eta_s$ is the solvent viscosity in $Pa.s$, $[\eta]$ the intrinsic viscosity in $m^3.kg^{-1}$ , $M_w$ the polymer molecular mass $kg.mol^{-1}$, $R$ the universal gas constant and $T$ the temperature in $K$.
 
-$\tau_Z$ is an estimated, analytical relaxation time based onto main assumptions which are the monodispersity of polymer molecular weight distribution and solely hydrodynamic interactions between polymer chains and solvent. As in the present ink is unlikely to meet both criteria, and particularly the monodisperse assumption, the estimated relaxation time can only be considered as an order of magnitude of the real relaxation time.
+$\tau_Z$ is an estimated, analytical relaxation time based on two hypotheses which are the monodispersity of polymer molecular weight distribution and the only hydrodynamic interactions between polymer chains and solvent. As the present ink is unlikely to satisfy both criteria, and particularly the monodisperse assumption, the estimated relaxation time can only be considered as an order of magnitude of the real relaxation time.
 
 
 Let us now consider the capillary time $\tau_c$ , given by :
 \begin{equation}
-    \tau_C= \sqrt{\rho R_0^3 / \sigma}
+    \tau_C= \sqrt{\frac{\rho R_0^3 }{ \sigma}} \approx 30\mu s
 \end{equation}
 with $R_0$ the unperturbed jet radius. 
 
-As the polymer relaxation time predicted by Zimm's theory is very small compared with the capillary time scale, the elasticity should have a negligible influence on the breakup dynamics for small to moderate stimulation amplitude. Moreover, this low relaxation $\tau_Z<<\tau_C$ time prevent us from using the jetting device as a ROJER \cite{keshavarz2015studying} in order to measure the relaxation time. 
+As the polymer relaxation time predicted by Zimm's theory is very small compared with the capillary time, the elasticity should have a negligible influence on the breakup dynamics for small to moderate stimulation amplitude. Moreover, the low relaxation $\tau_Z<<\tau_C$ time prevents us from using the jetting device as a ROJER \cite{keshavarz2015studying} in order to measure the relaxation time. 
 
-To the knowledge of the authors, no experimental device can capture such a short relaxation time and we follow another route in section \ref{numericalDetermination} by comparing numerical simulation to experimental results in order to determine it. Firstly, numerical model were carefully assessed and calibrated in the next section using both a simple test case and simulations of a Newtonian fluid jet.
+To the knowledge of the authors, no experimental device can capture such a short relaxation time. In order to measure a relaxation time of less than 1 microsecond, we follow another route in section \ref{numericalDetermination}, by comparing numerical simulation to experimental results. A prerequisite to obtain those low relaxation times is a careful assessment and calibration of the numerical model using simple test cases and simulation of Newtonian fluid jets as explained in the next section.
+% Firstly, numerical model were carefully assessed and calibrated in the next section using both a simple test case and simulations of a Newtonian fluid jet.
 
 \section{Validation of the numerical model}
 Computation were performed using {OpenFoam\textregistered} and more specifically with its multiphase solver interFoam \cite{deshpande2012evaluating}. In order to evaluate the ability of the solver to numerically model the jetting of a non-Newtonian fluid, it was first assessed on the well-known capillary instability growth of a Newtonian fluid. Moreover, jetting of Newtonian fluid were also considered.
@@ -209,8 +208,8 @@ The analytical dispersion equation from \cite{chandrasekhar2013hydrodynamic} wri
 with $\gamma$ the growth rate, $\displaystyle \tau_c $ the capillary time, $x$ the dimensionless wave number and $Oh$ the Ohnesorge number.
 
 
-Simulation of the capillary instability growth consists in an axisymmetric flow within a rectangular domain of width $\lambda$ and height $h$, and composed of a liquid of radius $R_0$ and a gaz. At $t = 0s$ the liquid is at rest and a small perturbation of wavelength $\lambda$ and amplitude $\delta$ is applied to its surface. 
-Domain is meshed with square elements of side $\Delta_x$ and simulation is found to converge with $\Delta_x< 7\,10^{-5}m$. Parameters of the simulation are summed up in Table \ref{tab:parametersPinch} and Fig \ref{fig:capillaryGrowth} which shows numerical results at different times $t \in [0s,2s]$.
+Simulation of the capillary instability growth consists in an axisymmetric flow within a rectangular domain of width $\lambda$ and height $h$, and composed of a liquid of radius $R_0$ and a gaz. At $t = 0s$, the liquid is at rest and a small perturbation of wavelength $\lambda$ and amplitude $\delta$ is applied to its surface. 
+Domain is meshed with square elements of side $\Delta_x$ and simulation is found to converge with $\Delta_x< 7.\,10^{-5}m$. Parameters of the simulation are summed up in Table \ref{tab:parametersPinch} and Fig.\ref{fig:capillaryGrowth} shows numerical results at different times $t \in [0s,2s]$.
 
 \begin{table}
     \begin{center}
@@ -231,22 +230,22 @@ Domain is meshed with square elements of side $\Delta_x$ and simulation is found
         \end{tabular}
     \end{center}
     
-    \caption{\label{tab:parametersPinch}Parameters of capillary instability simulations where the subscripts $l$ and $g$ stand for liquid and gaz, respectively.}
+    \caption{\label{tab:parametersPinch}Parameters of capillary instability simulations. Subscripts $l$ and $g$ stand for liquid and gaz, respectively.}
 \end{table}
 
 \begin{figure*}[t]
     \centering
     \includegraphics[width=\textwidth]{Figures/Fig5.eps}
-    \caption{Evolution of the capillary instability (liquid in red and gaz in blue)} 
+    \caption{Evolution of the capillary instability; the liquid is red and the gaz is blue.} 
     \label{fig:capillaryGrowth}
 \end{figure*}
 
-Comparison of theoretical growth rate from Eq. \ref{eq:growthRateAnalytical} with numerical results Fig. \ref{fig:growthrate} shows an excellent agreement between analytical solution based onto linearized approach and the interFoam solver which compute solutions of the complete Navier-Stokes equation.
+Comparison of theoretical growth rate from Eq. \ref{eq:growthRateAnalytical} with numerical results Fig. \ref{fig:growthrate} shows an excellent agreement between analytical solution based onto linearized approach and the interFoam solver which compute solutions of the complete Navier-Stokes equations.
 
 \begin{figure}[h]
     \centering
     \includegraphics[width=15cm]{Figures/Fig6.eps}
-    \caption{Growth rate $\gamma \tau_c$ as a function of of the dimensionless wave number $x$}
+    \caption{Growth rate $\gamma \tau_c$ as a function of of the dimensionless wave number $x$. The line represents the linear theory from Eq.\label{eq:growthRateAnalytical} and blue circles are from interFoam simulations.}
     \label{fig:growthrate}
 \end{figure}
 
@@ -267,7 +266,7 @@ In order to fine tune the numerical model for CIJ cases, jetting of a Newtonian 
     \caption{\label{tab:parametersGlycerol} Physical parameters of glycerol + water solution.}
 \end{table}
 
-Figure \ref{fig:glycerolCIJExp}(a-i) shows experimental jets pictured at the breakup distance from the nozzle for stimulation amplitudes ranging from $1$ to $55V$.
+Figure \ref{fig:glycerolCIJExp} shows experimental jets pictured at the breakup distance from the nozzle for stimulation amplitudes ranging from $1$ to $55V$.
 
 \begin{figure*}[t]
     \centering
@@ -276,13 +275,13 @@ Figure \ref{fig:glycerolCIJExp}(a-i) shows experimental jets pictured at the bre
     \label{fig:glycerolCIJExp}
 \end{figure*}
 
-The numerical model of the CIJ device takes advantage of the axisymmetry of the problem so, the upper part of the numerical domain, is thus 2-dimensional. It includes fluid tank and nozzle as depicted in Fig. \ref{fig:meshGlycerol}. 
+The numerical model of the CIJ device takes advantage of the axisymmetry of the problem so only a 2-dimensional slice of the domain is modeled. The numerical model includes fluid tank, nozzle and air region as depicted in Fig. \ref{fig:meshGlycerol}. 
 
 At $t=0s$, both tank and nozzle are filled with fluid and the rest of the domain is filled with air. In order to jet the fluid, a pressure Dirichlet boundary condition is applied on the inlet of the domain (left side of the tank) such as:
 \begin{equation} \label{eq:plim}
     P=P_{tank}+P_{stim}\cos(2\pi f t)
 \end{equation}
-where $P_{tank}$ and $P_{stim}$ are related, respectively, to the absolute steady pressure in the fluid tank, driving the jetting velocity of the fluid, and the maximum stimulation pressure applied by the piezoelectric actuator. At the outlet, an outflow condition is applied.
+where $P_{tank}$ and $P_{stim}$ are related, respectively, to the absolute steady pressure in the fluid tank, driving the jetting velocity of the fluid, and the maximum stimulation pressure applied by the piezoelectric actuator. At the outlet, an outflow boundary condition is applied.
 \begin{figure}[H]
     \centering    
     \begin{tikzpicture}
@@ -298,11 +297,11 @@ where $P_{tank}$ and $P_{stim}$ are related, respectively, to the absolute stead
         \draw (6.9,3.5) node {Air};
         
         \end{tikzpicture}
-    \caption{Converged mesh of the tank, nozzle and nozzle outlet of the axisymmetric numerical model.} 
+    \caption{Converged mesh of the tank, nozzle and air region of the axisymmetric numerical model.} 
     \label{fig:meshGlycerol}
 \end{figure}
 
-To accurately determine $P_{tank}$, $P_{stim}$ is set to zero, i.e. jetting an unperturbed jet of glycerol, and both the mass flow and the dimensionless wave number $x$ are experimentally measured and compared to numerical results by try and error process. In the present case the $P_{tank}$ has been found to be $P_{tank}=4140 \, mbar$. 
+To accurately determine $P_{tank}$, $P_{stim}$ is set to zero, which results in jetting an unperturbed jet of glycerol. Both the mass flow and the dimensionless wave number $x$ are experimentally measured and compared to numerical results by try and error process. In the present case the $P_{tank}$ has been found to be $P_{tank}=4,14 \, bar$. 
 
 
 $P_{stim}$ is directly related to the tension applied to the piezoelectric actuator and there is no direct relation between the amplitude of stimulation in Volt and the one in Pascal. In order to determine the pressure exerted on the fluid by the piezoelectric device, i.e. $P_{stim}$, as a function of the tension applied $T_{stim}$, we must compare experimental and numerical breakup jets. One way to do this link is to compare droplet shapes, but in this present case, and due to the hight tension surface exhibited by the glycerol solution, the droplets created looks very similar (see Fig. \ref{fig:glycerolCIJExp}). And hence, one can not be used as a criterion to discriminate jets. We then use the breakup lengths of the jets, respectively, $\mathcal{L}_{exp}^b$ and $\mathcal{L}_{num}^b$, to assess the relation between $P_{stim}$ and $T_{stim}$. 

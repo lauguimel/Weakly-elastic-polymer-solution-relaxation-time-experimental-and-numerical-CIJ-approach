@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.1.7)  12 OCT 2021 10:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.1.7)  20 OCT 2021 18:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -989,7 +989,11 @@ Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 LaTeX Warning: Unused global option(s):
     [onecolumn].
 
-(/home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/main.aux)
+(/home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/main.aux
+
+LaTeX Warning: Label `eq:growthRateAnalytical' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 99.
@@ -1119,7 +1123,7 @@ Package epstopdf Info: Source file: <Figures/Fig1.eps>
 (epstopdf)                    date: 2021-10-12 09:55:39
 (epstopdf)                    size: 116708 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/Fig1-eps-converted-to.pdf Figures/Fig1.eps>
-(epstopdf)             \includegraphics on input line 121.
+(epstopdf)             \includegraphics on input line 120.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1127,11 +1131,8 @@ pdfTeX warning: pdflatex (file /home/guillaume/Cloud/Recherche/Redaction/PublisG
 <Figures/Fig1-eps-converted-to.pdf, id=16, 1103.12125pt x 575.14874pt>
 File: Figures/Fig1-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/Fig1-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/Fig1-eps-converted-to.pdf  used on input line 121.
+Package pdftex.def Info: Figures/Fig1-eps-converted-to.pdf  used on input line 120.
 (pdftex.def)             Requested size: 426.79134pt x 222.52556pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 [2]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1143,15 +1144,15 @@ Package epstopdf Info: Source file: <Figures/Fig2.eps>
 (epstopdf)                    date: 2021-10-12 09:55:41
 (epstopdf)                    size: 92437 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/Fig2-eps-converted-to.pdf Figures/Fig2.eps>
-(epstopdf)             \includegraphics on input line 149.
+(epstopdf)             \includegraphics on input line 148.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file /home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/Figures/Fig2-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Figures/Fig2-eps-converted-to.pdf, id=31, 1694.33pt x 730.73pt>
+<Figures/Fig2-eps-converted-to.pdf, id=30, 1694.33pt x 730.73pt>
 File: Figures/Fig2-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/Fig2-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/Fig2-eps-converted-to.pdf  used on input line 149.
+Package pdftex.def Info: Figures/Fig2-eps-converted-to.pdf  used on input line 148.
 (pdftex.def)             Requested size: 426.79134pt x 184.06465pt.
 [4 </home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/Figures/Fig2-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Figures/Fig3.eps>
@@ -1161,16 +1162,17 @@ Package epstopdf Info: Source file: <Figures/Fig3.eps>
 (epstopdf)                    date: 2021-10-12 09:55:03
 (epstopdf)                    size: 14984 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/Fig3-eps-converted-to.pdf Figures/Fig3.eps>
-(epstopdf)             \includegraphics on input line 158.
+(epstopdf)             \includegraphics on input line 157.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file /home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/Figures/Fig3-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Figures/Fig3-eps-converted-to.pdf, id=38, 462.72874pt x 347.2975pt>
+<Figures/Fig3-eps-converted-to.pdf, id=37, 462.72874pt x 347.2975pt>
 File: Figures/Fig3-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/Fig3-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/Fig3-eps-converted-to.pdf  used on input line 158.
+Package pdftex.def Info: Figures/Fig3-eps-converted-to.pdf  used on input line 157.
 (pdftex.def)             Requested size: 426.79134pt x 320.32837pt.
+[5 </home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/Figures/Fig3-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Figures/Fig4.eps>
 (epstopdf)                    date: 2021-03-22 10:15:52
 (epstopdf)                    size: 244323 bytes
@@ -1178,23 +1180,23 @@ Package epstopdf Info: Source file: <Figures/Fig4.eps>
 (epstopdf)                    date: 2021-10-12 09:55:03
 (epstopdf)                    size: 18678 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/Fig4-eps-converted-to.pdf Figures/Fig4.eps>
-(epstopdf)             \includegraphics on input line 172.
+(epstopdf)             \includegraphics on input line 170.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file /home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/Figures/Fig4-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Figures/Fig4-eps-converted-to.pdf, id=39, 462.72874pt x 347.2975pt>
+<Figures/Fig4-eps-converted-to.pdf, id=63, 462.72874pt x 347.2975pt>
 File: Figures/Fig4-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/Fig4-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/Fig4-eps-converted-to.pdf  used on input line 172.
+Package pdftex.def Info: Figures/Fig4-eps-converted-to.pdf  used on input line 170.
 (pdftex.def)             Requested size: 426.79134pt x 320.32837pt.
 
-Underfull \vbox (badness 4634) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5 </home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/Figures/Fig3-eps-converted-to.pdf>]
-Underfull \vbox (badness 3525) has occurred while \output is active []
+ [6 </home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/Figures/Fig4-eps-converted-to.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [6 </home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/Figures/Fig4-eps-converted-to.pdf>] [7]
+ [7]
 Package epstopdf Info: Source file: <Figures/Fig5.eps>
 (epstopdf)                    date: 2021-10-12 09:54:31
 (epstopdf)                    size: 11091678 bytes
@@ -1202,7 +1204,7 @@ Package epstopdf Info: Source file: <Figures/Fig5.eps>
 (epstopdf)                    date: 2021-10-12 09:55:47
 (epstopdf)                    size: 81082 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/Fig5-eps-converted-to.pdf Figures/Fig5.eps>
-(epstopdf)             \includegraphics on input line 239.
+(epstopdf)             \includegraphics on input line 238.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1210,7 +1212,7 @@ pdfTeX warning: pdflatex (file /home/guillaume/Cloud/Recherche/Redaction/PublisG
 <Figures/Fig5-eps-converted-to.pdf, id=84, 2277.50874pt x 807.015pt>
 File: Figures/Fig5-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/Fig5-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/Fig5-eps-converted-to.pdf  used on input line 239.
+Package pdftex.def Info: Figures/Fig5-eps-converted-to.pdf  used on input line 238.
 (pdftex.def)             Requested size: 495.04993pt x 175.41351pt.
 Package epstopdf Info: Source file: <Figures/Fig6.eps>
 (epstopdf)                    date: 2021-03-22 10:15:52
@@ -1219,7 +1221,7 @@ Package epstopdf Info: Source file: <Figures/Fig6.eps>
 (epstopdf)                    date: 2021-10-12 09:55:04
 (epstopdf)                    size: 10127 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/Fig6-eps-converted-to.pdf Figures/Fig6.eps>
-(epstopdf)             \includegraphics on input line 248.
+(epstopdf)             \includegraphics on input line 247.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1227,15 +1229,15 @@ pdfTeX warning: pdflatex (file /home/guillaume/Cloud/Recherche/Redaction/PublisG
 <Figures/Fig6-eps-converted-to.pdf, id=85, 462.72874pt x 347.2975pt>
 File: Figures/Fig6-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/Fig6-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/Fig6-eps-converted-to.pdf  used on input line 248.
+Package pdftex.def Info: Figures/Fig6-eps-converted-to.pdf  used on input line 247.
 (pdftex.def)             Requested size: 426.79134pt x 320.32837pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \vbox (badness 5985) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [8] [9 </home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/Figures/Fig5-eps-converted-to.pdf> </home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/Figures/Fig6-eps-converted-to.pdf>]
+ [8]
 Package epstopdf Info: Source file: <Figures/Fig7.eps>
 (epstopdf)                    date: 2021-10-12 09:54:31
 (epstopdf)                    size: 1885477 bytes
@@ -1243,16 +1245,20 @@ Package epstopdf Info: Source file: <Figures/Fig7.eps>
 (epstopdf)                    date: 2021-10-12 09:55:48
 (epstopdf)                    size: 62137 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/Fig7-eps-converted-to.pdf Figures/Fig7.eps>
-(epstopdf)             \includegraphics on input line 274.
+(epstopdf)             \includegraphics on input line 273.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file /home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/Figures/Fig7-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Figures/Fig7-eps-converted-to.pdf, id=103, 1399.2275pt x 667.49374pt>
+<Figures/Fig7-eps-converted-to.pdf, id=89, 1399.2275pt x 667.49374pt>
 File: Figures/Fig7-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/Fig7-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/Fig7-eps-converted-to.pdf  used on input line 274.
+Package pdftex.def Info: Figures/Fig7-eps-converted-to.pdf  used on input line 273.
 (pdftex.def)             Requested size: 426.79134pt x 203.5904pt.
+[9 </home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/Figures/Fig5-eps-converted-to.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10 </home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/Figures/Fig6-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Figures/Fig8.eps>
 (epstopdf)                    date: 2021-10-12 09:54:31
 (epstopdf)                    size: 19026948 bytes
@@ -1260,17 +1266,17 @@ Package epstopdf Info: Source file: <Figures/Fig8.eps>
 (epstopdf)                    date: 2021-10-12 09:55:58
 (epstopdf)                    size: 154945 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/Fig8-eps-converted-to.pdf Figures/Fig8.eps>
-(epstopdf)             \includegraphics on input line 289.
+(epstopdf)             \includegraphics on input line 288.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file /home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/Figures/Fig8-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Figures/Fig8-eps-converted-to.pdf, id=104, 1095.09125pt x 2879.75874pt>
+<Figures/Fig8-eps-converted-to.pdf, id=107, 1095.09125pt x 2879.75874pt>
 File: Figures/Fig8-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/Fig8-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/Fig8-eps-converted-to.pdf  used on input line 289.
+Package pdftex.def Info: Figures/Fig8-eps-converted-to.pdf  used on input line 288.
 (pdftex.def)             Requested size: 85.35826pt x 224.4533pt.
-[10 </home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/Figures/Fig7-eps-converted-to.pdf>]
+[11 </home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/Figures/Fig7-eps-converted-to.pdf> </home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/Figures/Fig8-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Figures/Fig9.eps>
 (epstopdf)                    date: 2021-03-22 10:15:52
 (epstopdf)                    size: 213620 bytes
@@ -1278,19 +1284,20 @@ Package epstopdf Info: Source file: <Figures/Fig9.eps>
 (epstopdf)                    date: 2021-10-12 09:55:04
 (epstopdf)                    size: 14478 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/Fig9-eps-converted-to.pdf Figures/Fig9.eps>
-(epstopdf)             \includegraphics on input line 312.
+(epstopdf)             \includegraphics on input line 311.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file /home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/Figures/Fig9-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Figures/Fig9-eps-converted-to.pdf, id=111, 462.72874pt x 347.2975pt>
+<Figures/Fig9-eps-converted-to.pdf, id=117, 462.72874pt x 347.2975pt>
 File: Figures/Fig9-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/Fig9-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/Fig9-eps-converted-to.pdf  used on input line 312.
+Package pdftex.def Info: Figures/Fig9-eps-converted-to.pdf  used on input line 311.
 (pdftex.def)             Requested size: 426.79134pt x 320.32837pt.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [12 </home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/Figures/Fig9-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Figures/Fig10a.eps>
 (epstopdf)                    date: 2021-10-12 09:54:31
 (epstopdf)                    size: 547904 bytes
@@ -1298,28 +1305,28 @@ Package epstopdf Info: Source file: <Figures/Fig10a.eps>
 (epstopdf)                    date: 2021-10-12 09:55:58
 (epstopdf)                    size: 31606 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/Fig10a-eps-converted-to.pdf Figures/Fig10a.eps>
-(epstopdf)             \includegraphics on input line 327.
+(epstopdf)             \includegraphics on input line 326.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file /home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/Figures/Fig10a-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Figures/Fig10a-eps-converted-to.pdf, id=112, 215.80624pt x 416.55624pt>
+<Figures/Fig10a-eps-converted-to.pdf, id=131, 215.80624pt x 416.55624pt>
 File: Figures/Fig10a-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/Fig10a-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/Fig10a-eps-converted-to.pdf  used on input line 327.
+Package pdftex.def Info: Figures/Fig10a-eps-converted-to.pdf  used on input line 326.
 (pdftex.def)             Requested size: 71.13188pt x 137.29872pt.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 10.40245pt on input line 329.
+(Font)              scaled to size 10.40245pt on input line 328.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 5.69998pt on input line 329.
+(Font)              scaled to size 5.69998pt on input line 328.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 329.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 328.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 329.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 328.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 329.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 328.
 
-Underfull \hbox (badness 10000) in paragraph at lines 329--329
+Underfull \hbox (badness 10000) in paragraph at lines 328--328
 []\OT1/txr/m/n/10.95 (a) |1.6$\OML/txmi/m/it/10.95 V$ \OT1/txr/m/n/10.95 -
  []
 
@@ -1330,18 +1337,18 @@ Package epstopdf Info: Source file: <Figures/Fig10b.eps>
 (epstopdf)                    date: 2021-10-12 09:55:59
 (epstopdf)                    size: 23408 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/Fig10b-eps-converted-to.pdf Figures/Fig10b.eps>
-(epstopdf)             \includegraphics on input line 334.
+(epstopdf)             \includegraphics on input line 333.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file /home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/Figures/Fig10b-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Figures/Fig10b-eps-converted-to.pdf, id=113, 231.86626pt x 456.70625pt>
+<Figures/Fig10b-eps-converted-to.pdf, id=132, 231.86626pt x 456.70625pt>
 File: Figures/Fig10b-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/Fig10b-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/Fig10b-eps-converted-to.pdf  used on input line 334.
+Package pdftex.def Info: Figures/Fig10b-eps-converted-to.pdf  used on input line 333.
 (pdftex.def)             Requested size: 71.13188pt x 140.10706pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 335--335
+Underfull \hbox (badness 10000) in paragraph at lines 334--334
 []\OT1/txr/m/n/10.95 (b) |12.2$\OML/txmi/m/it/10.95 V$ \OT1/txr/m/n/10.95 -
  []
 
@@ -1352,31 +1359,22 @@ Package epstopdf Info: Source file: <Figures/Fig10c.eps>
 (epstopdf)                    date: 2021-10-12 09:55:59
 (epstopdf)                    size: 36316 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/Fig10c-eps-converted-to.pdf Figures/Fig10c.eps>
-(epstopdf)             \includegraphics on input line 341.
+(epstopdf)             \includegraphics on input line 340.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file /home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/Figures/Fig10c-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Figures/Fig10c-eps-converted-to.pdf, id=114, 210.7875pt x 416.55624pt>
+<Figures/Fig10c-eps-converted-to.pdf, id=133, 210.7875pt x 416.55624pt>
 File: Figures/Fig10c-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/Fig10c-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/Fig10c-eps-converted-to.pdf  used on input line 341.
+Package pdftex.def Info: Figures/Fig10c-eps-converted-to.pdf  used on input line 340.
 (pdftex.def)             Requested size: 71.13188pt x 140.57213pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 342--342
+Underfull \hbox (badness 10000) in paragraph at lines 341--341
 []\OT1/txr/m/n/10.95 (c) |33$\OML/txmi/m/it/10.95 V$ \OT1/txr/m/n/10.95 -
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[11 </home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/Figures/Fig8-eps-converted-to.pdf>]
-Underfull \vbox (badness 1348) has occurred while \output is active []
-
- [12 </home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/Figures/Fig9-eps-converted-to.pdf> </home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/Figures/Fig10a-eps-converted-to.pdf> </home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/Figures/Fig10b-eps-converted-to.pdf> </home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/Figures/Fig10c-eps-converted-to.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [13]
+[13 </home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/Figures/Fig10a-eps-converted-to.pdf> </home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/Figures/Fig10b-eps-converted-to.pdf> </home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/Figures/Fig10c-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Figures/Fig11.eps>
 (epstopdf)                    date: 2021-10-12 09:54:31
 (epstopdf)                    size: 2329584 bytes
@@ -1384,7 +1382,7 @@ Package epstopdf Info: Source file: <Figures/Fig11.eps>
 (epstopdf)                    date: 2021-10-12 09:56:01
 (epstopdf)                    size: 129974 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/Fig11-eps-converted-to.pdf Figures/Fig11.eps>
-(epstopdf)             \includegraphics on input line 384.
+(epstopdf)             \includegraphics on input line 383.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1392,8 +1390,15 @@ pdfTeX warning: pdflatex (file /home/guillaume/Cloud/Recherche/Redaction/PublisG
 <Figures/Fig11-eps-converted-to.pdf, id=147, 759.83875pt x 285.065pt>
 File: Figures/Fig11-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/Fig11-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/Fig11-eps-converted-to.pdf  used on input line 384.
+Package pdftex.def Info: Figures/Fig11-eps-converted-to.pdf  used on input line 383.
 (pdftex.def)             Requested size: 426.79134pt x 160.11812pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 1360) has occurred while \output is active []
+
+ [14]
 Package epstopdf Info: Source file: <Figures/Fig12.eps>
 (epstopdf)                    date: 2021-03-22 10:15:52
 (epstopdf)                    size: 194544 bytes
@@ -1401,20 +1406,20 @@ Package epstopdf Info: Source file: <Figures/Fig12.eps>
 (epstopdf)                    date: 2021-10-12 09:55:05
 (epstopdf)                    size: 10302 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/Fig12-eps-converted-to.pdf Figures/Fig12.eps>
-(epstopdf)             \includegraphics on input line 395.
+(epstopdf)             \includegraphics on input line 394.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file /home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/Figures/Fig12-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Figures/Fig12-eps-converted-to.pdf, id=148, 462.72874pt x 347.2975pt>
+<Figures/Fig12-eps-converted-to.pdf, id=151, 462.72874pt x 347.2975pt>
 File: Figures/Fig12-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/Fig12-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/Fig12-eps-converted-to.pdf  used on input line 395.
+Package pdftex.def Info: Figures/Fig12-eps-converted-to.pdf  used on input line 394.
 (pdftex.def)             Requested size: 426.79134pt x 320.32837pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [14 </home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/Figures/Fig11-eps-converted-to.pdf>]
+ [15 </home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/Figures/Fig11-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Figures/Fig13.eps>
 (epstopdf)                    date: 2021-03-22 10:15:52
 (epstopdf)                    size: 205937 bytes
@@ -1422,20 +1427,20 @@ Package epstopdf Info: Source file: <Figures/Fig13.eps>
 (epstopdf)                    date: 2021-10-12 09:55:06
 (epstopdf)                    size: 15213 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/Fig13-eps-converted-to.pdf Figures/Fig13.eps>
-(epstopdf)             \includegraphics on input line 404.
+(epstopdf)             \includegraphics on input line 403.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file /home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/Figures/Fig13-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Figures/Fig13-eps-converted-to.pdf, id=155, 462.72874pt x 347.2975pt>
+<Figures/Fig13-eps-converted-to.pdf, id=158, 462.72874pt x 347.2975pt>
 File: Figures/Fig13-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/Fig13-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/Fig13-eps-converted-to.pdf  used on input line 404.
+Package pdftex.def Info: Figures/Fig13-eps-converted-to.pdf  used on input line 403.
 (pdftex.def)             Requested size: 426.79134pt x 320.32837pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [15 </home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/Figures/Fig12-eps-converted-to.pdf>]
+ [16 </home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/Figures/Fig12-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Figures/Fig14a.eps>
 (epstopdf)                    date: 2021-10-12 09:54:31
 (epstopdf)                    size: 284937 bytes
@@ -1443,26 +1448,26 @@ Package epstopdf Info: Source file: <Figures/Fig14a.eps>
 (epstopdf)                    date: 2021-10-12 09:56:01
 (epstopdf)                    size: 21383 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/Fig14a-eps-converted-to.pdf Figures/Fig14a.eps>
-(epstopdf)             \includegraphics on input line 420.
+(epstopdf)             \includegraphics on input line 419.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file /home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/Figures/Fig14a-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Figures/Fig14a-eps-converted-to.pdf, id=165, 966.61125pt x 143.53625pt>
+<Figures/Fig14a-eps-converted-to.pdf, id=168, 966.61125pt x 143.53625pt>
 File: Figures/Fig14a-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/Fig14a-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/Fig14a-eps-converted-to.pdf  used on input line 420.
+Package pdftex.def Info: Figures/Fig14a-eps-converted-to.pdf  used on input line 419.
 (pdftex.def)             Requested size: 966.6089pt x 143.53589pt.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 9.49997pt on input line 422.
+(Font)              scaled to size 9.49997pt on input line 421.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 7.02997pt on input line 422.
+(Font)              scaled to size 7.02997pt on input line 421.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 422.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 421.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 422.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 421.
 
-Underfull \hbox (badness 10000) in paragraph at lines 422--422
+Underfull \hbox (badness 10000) in paragraph at lines 421--421
 []\OT1/txr/m/n/10 (a)
  []
 
@@ -1473,23 +1478,23 @@ Package epstopdf Info: Source file: <Figures/Fig14b.eps>
 (epstopdf)                    date: 2021-10-12 09:56:02
 (epstopdf)                    size: 15059 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/Fig14b-eps-converted-to.pdf Figures/Fig14b.eps>
-(epstopdf)             \includegraphics on input line 427.
+(epstopdf)             \includegraphics on input line 426.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file /home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/Figures/Fig14b-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Figures/Fig14b-eps-converted-to.pdf, id=166, 966.61125pt x 143.53625pt>
+<Figures/Fig14b-eps-converted-to.pdf, id=169, 966.61125pt x 143.53625pt>
 File: Figures/Fig14b-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/Fig14b-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/Fig14b-eps-converted-to.pdf  used on input line 427.
+Package pdftex.def Info: Figures/Fig14b-eps-converted-to.pdf  used on input line 426.
 (pdftex.def)             Requested size: 966.6089pt x 143.53589pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 430--430
+Underfull \hbox (badness 10000) in paragraph at lines 429--429
 []\OT1/txr/m/n/10 (b)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 430--430
+Underfull \hbox (badness 10000) in paragraph at lines 429--429
 |\OT1/txr/m/n/10 New-to-
  []
 
@@ -1500,18 +1505,18 @@ Package epstopdf Info: Source file: <Figures/Fig14c.eps>
 (epstopdf)                    date: 2021-10-12 09:56:02
 (epstopdf)                    size: 16216 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/Fig14c-eps-converted-to.pdf Figures/Fig14c.eps>
-(epstopdf)             \includegraphics on input line 436.
+(epstopdf)             \includegraphics on input line 435.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file /home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/Figures/Fig14c-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Figures/Fig14c-eps-converted-to.pdf, id=167, 966.61125pt x 143.53625pt>
+<Figures/Fig14c-eps-converted-to.pdf, id=170, 966.61125pt x 143.53625pt>
 File: Figures/Fig14c-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/Fig14c-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/Fig14c-eps-converted-to.pdf  used on input line 436.
+Package pdftex.def Info: Figures/Fig14c-eps-converted-to.pdf  used on input line 435.
 (pdftex.def)             Requested size: 966.6089pt x 143.53589pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 438--438
+Underfull \hbox (badness 10000) in paragraph at lines 437--437
 []\OT1/txr/m/n/10 (c)
  []
 
@@ -1522,18 +1527,18 @@ Package epstopdf Info: Source file: <Figures/Fig14d.eps>
 (epstopdf)                    date: 2021-10-12 09:56:03
 (epstopdf)                    size: 24557 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/Fig14d-eps-converted-to.pdf Figures/Fig14d.eps>
-(epstopdf)             \includegraphics on input line 443.
+(epstopdf)             \includegraphics on input line 442.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file /home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/Figures/Fig14d-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Figures/Fig14d-eps-converted-to.pdf, id=168, 966.61125pt x 143.53625pt>
+<Figures/Fig14d-eps-converted-to.pdf, id=171, 966.61125pt x 143.53625pt>
 File: Figures/Fig14d-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/Fig14d-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/Fig14d-eps-converted-to.pdf  used on input line 443.
+Package pdftex.def Info: Figures/Fig14d-eps-converted-to.pdf  used on input line 442.
 (pdftex.def)             Requested size: 966.6089pt x 143.53589pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 445--445
+Underfull \hbox (badness 10000) in paragraph at lines 444--444
 []\OT1/txr/m/n/10 (d)
  []
 
@@ -1544,18 +1549,18 @@ Package epstopdf Info: Source file: <Figures/Fig14e.eps>
 (epstopdf)                    date: 2021-10-12 09:56:03
 (epstopdf)                    size: 15112 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/Fig14e-eps-converted-to.pdf Figures/Fig14e.eps>
-(epstopdf)             \includegraphics on input line 451.
+(epstopdf)             \includegraphics on input line 450.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file /home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/Figures/Fig14e-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Figures/Fig14e-eps-converted-to.pdf, id=169, 966.61125pt x 143.53625pt>
+<Figures/Fig14e-eps-converted-to.pdf, id=172, 966.61125pt x 143.53625pt>
 File: Figures/Fig14e-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/Fig14e-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/Fig14e-eps-converted-to.pdf  used on input line 451.
+Package pdftex.def Info: Figures/Fig14e-eps-converted-to.pdf  used on input line 450.
 (pdftex.def)             Requested size: 966.6089pt x 143.53589pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 453--453
+Underfull \hbox (badness 10000) in paragraph at lines 452--452
 []\OT1/txr/m/n/10 (e)
  []
 
@@ -1566,23 +1571,23 @@ Package epstopdf Info: Source file: <Figures/Fig14f.eps>
 (epstopdf)                    date: 2021-10-12 09:56:04
 (epstopdf)                    size: 14942 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/Fig14f-eps-converted-to.pdf Figures/Fig14f.eps>
-(epstopdf)             \includegraphics on input line 459.
+(epstopdf)             \includegraphics on input line 458.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file /home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/Figures/Fig14f-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Figures/Fig14f-eps-converted-to.pdf, id=170, 966.61125pt x 143.53625pt>
+<Figures/Fig14f-eps-converted-to.pdf, id=173, 966.61125pt x 143.53625pt>
 File: Figures/Fig14f-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/Fig14f-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/Fig14f-eps-converted-to.pdf  used on input line 459.
+Package pdftex.def Info: Figures/Fig14f-eps-converted-to.pdf  used on input line 458.
 (pdftex.def)             Requested size: 966.6089pt x 143.53589pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[16 </home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/Figures/Fig13-eps-converted-to.pdf>]
+[17 </home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/Figures/Fig13-eps-converted-to.pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 472.
+               Default added (so using `tbp') on input line 471.
 
 Package epstopdf Info: Source file: <Figures/Fig15a.eps>
 (epstopdf)                    date: 2021-10-12 09:54:31
@@ -1591,15 +1596,15 @@ Package epstopdf Info: Source file: <Figures/Fig15a.eps>
 (epstopdf)                    date: 2021-10-12 09:56:04
 (epstopdf)                    size: 13909 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/Fig15a-eps-converted-to.pdf Figures/Fig15a.eps>
-(epstopdf)             \includegraphics on input line 478.
+(epstopdf)             \includegraphics on input line 477.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file /home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/Figures/Fig15a-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Figures/Fig15a-eps-converted-to.pdf, id=189, 952.55875pt x 145.54375pt>
+<Figures/Fig15a-eps-converted-to.pdf, id=192, 952.55875pt x 145.54375pt>
 File: Figures/Fig15a-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/Fig15a-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/Fig15a-eps-converted-to.pdf  used on input line 478.
+Package pdftex.def Info: Figures/Fig15a-eps-converted-to.pdf  used on input line 477.
 (pdftex.def)             Requested size: 952.55643pt x 145.54338pt.
 Package epstopdf Info: Source file: <Figures/Fig15b.eps>
 (epstopdf)                    date: 2021-10-12 09:54:31
@@ -1608,18 +1613,18 @@ Package epstopdf Info: Source file: <Figures/Fig15b.eps>
 (epstopdf)                    date: 2021-10-12 09:56:05
 (epstopdf)                    size: 16106 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/Fig15b-eps-converted-to.pdf Figures/Fig15b.eps>
-(epstopdf)             \includegraphics on input line 485.
+(epstopdf)             \includegraphics on input line 484.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file /home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/Figures/Fig15b-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Figures/Fig15b-eps-converted-to.pdf, id=190, 952.55875pt x 145.54375pt>
+<Figures/Fig15b-eps-converted-to.pdf, id=193, 952.55875pt x 145.54375pt>
 File: Figures/Fig15b-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/Fig15b-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/Fig15b-eps-converted-to.pdf  used on input line 485.
+Package pdftex.def Info: Figures/Fig15b-eps-converted-to.pdf  used on input line 484.
 (pdftex.def)             Requested size: 952.55643pt x 145.54338pt.
 
-Underfull \hbox (badness 2635) in paragraph at lines 488--488
+Underfull \hbox (badness 2635) in paragraph at lines 487--487
 []\OT1/txr/m/n/10 (b) |New-to-
  []
 
@@ -1630,15 +1635,15 @@ Package epstopdf Info: Source file: <Figures/Fig15c.eps>
 (epstopdf)                    date: 2021-10-12 09:56:05
 (epstopdf)                    size: 18227 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/Fig15c-eps-converted-to.pdf Figures/Fig15c.eps>
-(epstopdf)             \includegraphics on input line 494.
+(epstopdf)             \includegraphics on input line 493.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file /home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/Figures/Fig15c-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Figures/Fig15c-eps-converted-to.pdf, id=191, 952.55875pt x 145.54375pt>
+<Figures/Fig15c-eps-converted-to.pdf, id=194, 952.55875pt x 145.54375pt>
 File: Figures/Fig15c-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/Fig15c-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/Fig15c-eps-converted-to.pdf  used on input line 494.
+Package pdftex.def Info: Figures/Fig15c-eps-converted-to.pdf  used on input line 493.
 (pdftex.def)             Requested size: 952.55643pt x 145.54338pt.
 Package epstopdf Info: Source file: <Figures/Fig15d.eps>
 (epstopdf)                    date: 2021-10-12 09:54:31
@@ -1647,15 +1652,15 @@ Package epstopdf Info: Source file: <Figures/Fig15d.eps>
 (epstopdf)                    date: 2021-10-12 09:56:06
 (epstopdf)                    size: 19600 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/Fig15d-eps-converted-to.pdf Figures/Fig15d.eps>
-(epstopdf)             \includegraphics on input line 501.
+(epstopdf)             \includegraphics on input line 500.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file /home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/Figures/Fig15d-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Figures/Fig15d-eps-converted-to.pdf, id=192, 952.55875pt x 145.54375pt>
+<Figures/Fig15d-eps-converted-to.pdf, id=195, 952.55875pt x 145.54375pt>
 File: Figures/Fig15d-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/Fig15d-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/Fig15d-eps-converted-to.pdf  used on input line 501.
+Package pdftex.def Info: Figures/Fig15d-eps-converted-to.pdf  used on input line 500.
 (pdftex.def)             Requested size: 952.55643pt x 145.54338pt.
 Package epstopdf Info: Source file: <Figures/Fig15e.eps>
 (epstopdf)                    date: 2021-10-12 09:54:31
@@ -1664,37 +1669,41 @@ Package epstopdf Info: Source file: <Figures/Fig15e.eps>
 (epstopdf)                    date: 2021-10-12 09:56:07
 (epstopdf)                    size: 17789 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/Fig15e-eps-converted-to.pdf Figures/Fig15e.eps>
-(epstopdf)             \includegraphics on input line 509.
+(epstopdf)             \includegraphics on input line 508.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file /home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/Figures/Fig15e-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Figures/Fig15e-eps-converted-to.pdf, id=193, 952.55875pt x 145.54375pt>
+<Figures/Fig15e-eps-converted-to.pdf, id=196, 952.55875pt x 145.54375pt>
 File: Figures/Fig15e-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/Fig15e-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/Fig15e-eps-converted-to.pdf  used on input line 509.
+Package pdftex.def Info: Figures/Fig15e-eps-converted-to.pdf  used on input line 508.
 (pdftex.def)             Requested size: 952.55643pt x 145.54338pt.
-[17 </home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/Figures/Fig14a-eps-converted-to.pdf> </home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/Figures/Fig14b-eps-converted-to.pdf> </home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/Figures/Fig14c-eps-converted-to.pdf> </home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/Figures/Fig14d-eps-converted-to.pdf> </home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/Figures/Fig14e-eps-converted-to.pdf> </home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/Figures/Fig14f-eps-converted-to.pdf> </home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/Figures/Fig15a-eps-converted-to.pdf> </home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/Figures/Fig15b-eps-converted-to.pdf> </home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/Figures/Fig15c-eps-converted-to.pdf> </home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/Figures/Fig15d-eps-converted-to.pdf> </home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/Figures/Fig15e-eps-converted-to.pdf>] [18]
+[18 </home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/Figures/Fig14a-eps-converted-to.pdf> </home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/Figures/Fig14b-eps-converted-to.pdf> </home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/Figures/Fig14c-eps-converted-to.pdf> </home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/Figures/Fig14d-eps-converted-to.pdf> </home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/Figures/Fig14e-eps-converted-to.pdf> </home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/Figures/Fig14f-eps-converted-to.pdf> </home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/Figures/Fig15a-eps-converted-to.pdf> </home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/Figures/Fig15b-eps-converted-to.pdf> </home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/Figures/Fig15c-eps-converted-to.pdf> </home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/Figures/Fig15d-eps-converted-to.pdf> </home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/Figures/Fig15e-eps-converted-to.pdf>] [19]
 Missing character: There is no Ã in font txr!
 Missing character: There is no © in font txr!
 Missing character: There is no Ã in font txr!
 Missing character: There is no © in font txr!
 Missing character: There is no Ã in font txr!
 Missing character: There is no © in font txr!
- (/home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/main.bbl [19]) [20] (/home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/main.aux) ) 
+ (/home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/main.bbl [20]) [21] (/home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/main.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 35428 strings out of 494880
- 858853 string characters out of 6179602
- 922440 words of memory out of 5000000
- 38189 multiletter control sequences out of 15000+600000
+ 35429 strings out of 494880
+ 858882 string characters out of 6179602
+ 922485 words of memory out of 5000000
+ 38190 multiletter control sequences out of 15000+600000
  599351 words of font info for 174 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  62i,12n,96p,10519b,698s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtcxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/main.pdf (20 pages, 1095327 bytes).
+Output written on /home/guillaume/Cloud/Recherche/Redaction/PublisGitHub/Weakly-elastic-polymer-solution-relaxation-time-experimental-and-numerical-CIJ-approach/main.pdf (21 pages, 1096872 bytes).
 PDF statistics:
- 288 PDF objects out of 1000 (max. 8388607)
- 200 compressed objects within 2 object streams
+ 292 PDF objects out of 1000 (max. 8388607)
+ 202 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  143 words of extra memory for PDF output out of 10000 (max. 10000000)
 
