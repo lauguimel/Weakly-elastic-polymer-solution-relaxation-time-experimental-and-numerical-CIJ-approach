@@ -100,7 +100,7 @@
 \maketitle 
 
 \begin{abstract}
-    For very low relaxation time (i.e. lesser than a microsecond), viscoelastic fluid experimental determination is difficult, if not impossible. In the present work the relaxation time measurement of a weakly elastic polymer solution, too low to be measured using classical rheometry techniques, is assessed using a mixed experimental-numerical strategy. First the fluid is rheologically assessed, by measuring its shear viscosity, surface tension and density. Then the relaxation time is determined by comparing the jetting of polymer solution from a Continuous Ink-Jet (CIJ) device experimentally and numerically. The numerical approach is first validated using test cases and a viscoelastic Oldroyd-B model is used to model the experimental solution. The relaxation time is then a parameter allowing us to fit numerical simulation onto experimental results. This mixed strategy is particularly convenient for weakly elastic solution for which physical parameters can not be measured using an experimental rheometry setup.
+    For very low relaxation time (i.e. lesser than a microsecond), viscoelastic fluid experimental determination is difficult, if not impossible. In the present work the relaxation time measurement of a weakly elastic polymer solution, too low to be measured using classical rheometry techniques, is assessed using a mixed experimental-numerical strategy. First the fluid is rheologically assessed, by measuring its shear viscosity, surface tension and density. Then the relaxation time is determined by comparing the jetting of polymer solution from a Continuous Ink-Jet (CIJ) device, experimentally and numerically. The numerical approach is first validated using test cases, and a viscoelastic Oldroyd-B model is used to model the experimental solution. The relaxation time is then a parameter allowing us to fit numerical simulation onto experimental results. This mixed strategy is particularly convenient for weakly elastic solution for which physical parameters can not be measured using an experimental rheometry setup.
 \end{abstract}
 
 
@@ -108,7 +108,7 @@
 
 %% main text
 \section{Introduction}
-Capillary breakup phenomena have a wide range of applications from ink-jet printing to DNA sampling. In micro jetting devices, polymer solutions often experience non Newtonian behavior which greatly influence breakup dynamics. Drops generation using non-Newtonian jetted fluids is a well known topic which has already been addressed both numerically and experimentally \cite{morrison2011inkjet,rodriguez2015experimental,mcilroy2013modelling}. Elastic and viscous effects are known to have a great influence on the breakup dynamics. More precisely, viscosity is known to delay the onset of the jet breakup \cite{rayleigh1892xvi, gordon1973instability} whereas the elastic effects shortens the breakup \cite{morrison2010viscoelasticity}. In the present work, the relaxation time of a weakly elastic ink used in industrial continuous ink-jet printing (CIJ) devices is determined. This ink is a low viscosity dilute polymer with high polydispersity. A first estimation of the elastic relaxation time is calculated using Zimm theory \cite{zimm1956dynamics}, and is found to be out of the measurement range of both extensional rheometry, the so-called ROJER \cite{keshavarz2015studying}, or microfluidic devices \cite{galindo2013microdevices}. As a result, an original approach is introduced to determine the relaxation time, relying on the comparison of both capillary breakup length and shapes between numerical simulations and experiments.
+Capillary breakup phenomena have a wide range of applications from ink-jet printing to DNA sampling. In micro jetting devices, polymer solutions often experience non Newtonian behavior which greatly influence breakup dynamics. Drops generation using non-Newtonian jetted fluids is a well known topic which has already been addressed both numerically and experimentally \cite{morrison2011inkjet,rodriguez2015experimental,mcilroy2013modelling}. Elastic and viscous effects are known to have a great influence on the breakup dynamics. More precisely, viscosity is known to delay the onset of the jet breakup \cite{rayleigh1892xvi, gordon1973instability} whereas the elastic effects shortens the breakup \cite{morrison2010viscoelasticity}. In the present work, the relaxation time of a weakly elastic ink used in industrial continuous ink-jet printing (CIJ) devices is determined. This ink is a low viscosity dilute polymer with high polydispersity. A first estimation of the elastic relaxation time is calculated using Zimm theory \cite{zimm1956dynamics}, and is found to be out of the measurement range of both extensional rheometry, the so-called ROJER \cite{keshavarz2015studying}, and microfluidic devices \cite{galindo2013microdevices}. As a result, an original approach is introduced to determine the relaxation time, relying on the comparison of both capillary breakup length and shapes between numerical simulations and experiments.
 
 \section{Experimental setup}
 The experimental device is similar to the one used for the ROJER extensional rheometry measurements \cite{rodriguez2015experimental} (see Figure 1) and is commonly used in Continuous Ink-Jet process. 
@@ -161,7 +161,7 @@ As predicted by the theory, the breakup length decreases with the amplitude and 
 
 \subsection{Rheological characterization}\label{sec:rheo}
 
-The fluid have been carefully measured using an DMA4500M device from Anton Paar and a MPT2 from Lauda companies, giving a density $\rho = 873 kg.m^{-3}$ and a surface tension $\sigma = 22.8 mN.m^{-1}$, respectively. 
+The fluid have been carefully measured using an DMA4500M device from Anton Paar and a MPT2 from Lauda companies, giving a density $\rho = 873.00 kg.m^{-3}$ and a surface tension $\sigma = 22.80 mN.m^{-1}$, respectively. 
 
 The shear viscosity was measured using both ARG-2 from TA-Instruments, for low shear rates ($\dot{\gamma} < 1000 s^{-1}$ ), and a m-VROC from RheoSense, for high shear rates ($1000 s^{-1}<\dot{\gamma} < 10^6 s^{-1}$). As pictured on figure \ref{beahaviorLaw}, viscosity shows a slight shear-thinning behavior around $10^6s^{-1}$, but to low to be considered if account fot he measurement uncertainties. For this reason, the fluid viscosity is assumed to be constant over the all full range of shear rate investigated here.
 
@@ -304,16 +304,17 @@ where $P_{tank}$ and $P_{stim}$ are related, respectively, to the absolute stead
 To accurately determine $P_{tank}$, $P_{stim}$ is set to zero, which results in jetting an unperturbed jet of glycerol. Both the mass flow and the dimensionless wave number $x$ are experimentally measured and compared to numerical results by try and error process. In the present case the $P_{tank}$ has been found to be $P_{tank}=4,14 \, bar$. 
 
 
-$P_{stim}$ is directly related to the tension applied to the piezoelectric actuator and there is no direct relation between the amplitude of stimulation in Volt and the one in Pascal. In order to determine the pressure exerted on the fluid by the piezoelectric device, i.e. $P_{stim}$, as a function of the tension applied $T_{stim}$, we must compare experimental and numerical breakup jets. One way to do this link is to compare droplet shapes, but in this present case, and due to the hight tension surface exhibited by the glycerol solution, the droplets created looks very similar (see Fig. \ref{fig:glycerolCIJExp}). And hence, one can not be used as a criterion to discriminate jets. We then use the breakup lengths of the jets, respectively, $\mathcal{L}_{exp}^b$ and $\mathcal{L}_{num}^b$, to assess the relation between $P_{stim}$ and $T_{stim}$. 
+$P_{stim}$ is directly related to the tension applied to the piezoelectric actuator and there is no direct relation between the amplitude of stimulation in Volt and the one in Pascal. In order to determine the pressure exerted on the fluid by the piezoelectric device, i.e. $P_{stim}$, as a function of the tension applied $T_{stim}$, we must compare experimental and numerical jets morphologies. One way to do it is to compare droplet shapes, but in this present case, and due to the high surface tension exhibited by the glycerol solution, droplets created look very similar (see Fig.\ref{fig:glycerolCIJExp}) leading to the failure of the morphological analysis. A relevant criterion to discriminate jets is to use the breakup lengths of the jets, respectively, $\mathcal{L}_{exp}^b$ and $\mathcal{L}_{num}^b$, in order to determine the relation between $P_{stim}$ and $T_{stim}$. 
 
 \begin{figure}[h]
     \centering
     \includegraphics[width=15cm]{Figures/Fig9.eps}
-    \caption{Numerical and Experimental breakup lengths for glycerol solution.}
+    \caption{Numerical and experimental breakup lengths for glycerol solution as a function of the pressure stimulation $P_{stim}$.}
     \label{fig:LbGlycerol}
 \end{figure}
 
-Figure \ref{fig:LbGlycerol} shows both $\mathcal{L}_{exp}^b$ and $\mathcal{L}_{num}^b$ and an excellent agreement can be found between $P_{stim}$ and $T_{stim}$:
+
+Figure \ref{fig:LbGlycerol} shows $\mathcal{L}_{exp}^b$ and $\mathcal{L}_{num}^b$ and the best fit between $P_{stim}$ and $T_{stim}$ writes:
 \begin{equation}
     P_{stim} = 36.4 \, T_{stim}^{0.792}
 \end{equation}
@@ -344,14 +345,14 @@ Figure \ref{fig:LbGlycerol} shows both $\mathcal{L}_{exp}^b$ and $\mathcal{L}_{n
        \caption{Comparison between experimental (black and white) and numerical (colour) droplet shapes for different amplitudes of stimulation.}
        \label{fig:glycerolDrop}
 \end{figure}
-It is worth pointing out that the numerical breakup length can strongly impacted by the mesh as $\mathcal{L}_{num}^b$ relates to the length where fluid thread thickness tends towards zero. However the high surface tension exhibited by the glycerol solution prevent $\mathcal{L}_{num}^b$ to diverge from $\mathcal{L}_{exp}^b$ and an excellent agreement is found to be between them. 
+It is worth pointing out that the numerical breakup length can be strongly impacted by the mesh as $\mathcal{L}_{num}^b$ relates to the length where fluid thread thickness tends towards zero. However, the high surface tension exhibited by the glycerol solution prevent $\mathcal{L}_{num}^b$ to diverge from $\mathcal{L}_{exp}^b$ and an excellent agreement was found between them. 
 
-Droplet shapes depicted \ref{fig:glycerolDrop}(a-c) shows also an excellent agreement between numerical and experimental results comprising satellites dynamic, which is also captured by the numerical model, from low ($1.6V$) to high amplitude stimulations ($33V$).
+Droplet shapes depicted Fig.\ref{fig:glycerolDrop} shows also an excellent agreement between numerical and experimental results comprising satellites dynamic, which is also captured by the numerical model, from low ($1.6V$) to high amplitude stimulations ($33V$).
 
 
 \section{Numerical determination of the relaxation time} \label{numericalDetermination}
 
-This section focuses on the determination of the relaxation time of the weakly elastic ink presented section \ref{sec:rheo}. The numerical simulation  is performed using the previously fine-tuned interFoam solver (see previous subsection \ref{sec:glycerol}) and the same 2D-axisymmetric geometry. 
+This section focuses on the determination of the relaxation time of the weakly elastic ink studied in section \ref{sec:rheo}. The numerical simulation  is performed using the previously fine-tuned interFoam solver (see previous subsection \ref{sec:glycerol}) and the same 2D-axisymmetric geometry. 
 
 Neither shear thinning nor strain thickening behavior is expected, thus the Oldroyd-B viscoelastic model \cite{oldroyd1950formulation} is assumed to accurately describe viscoelastic behavior of the present weakly elastic ink. The equations governing the viscoelastic, incompressible, laminar flow are the mass conservation (Eq. \ref{eq:divU}) and the momentum balance (Eq. \ref{eq:NS}):
 \begin{equation}\label{eq:divU}
@@ -359,35 +360,37 @@ Neither shear thinning nor strain thickening behavior is expected, thus the Oldr
 \end{equation}
 
 \begin{equation}\label{eq:NS}
-    \rho \left( \frac{\partial \mathbf{u}}{\partial t} \mathbf{u} \cdot \nabla \mathbf{u} \right) = -\nabla p + \nabla \cdot \tau
+    \rho \left( \frac{\partial \mathbf{u}}{\partial t} + \mathbf{u} \cdot \nabla \mathbf{u} \right) = -\nabla p + \nabla \cdot \tau
 \end{equation}
-where $\mathbf{u}$ is the velocity vector, $t$ is the time, $p$ is the pressure and $\tau$ is the total stress tensor. The total stress can be split in a solvent contribution ($\tau_s$) and a polymeric contribution ($\tau_s$), such as $\tau= \tau_s + \tau_p$, and 
+where $\mathbf{u}$ is the velocity vector, $t$ is the time, $p$ is the pressure and $\tau$ is the total stress tensor. The total stress can be split in a solvent contribution ($\tau_s$) and a polymeric contribution ($\tau_s$), such as $\tau= \tau_s + \tau_p$. The solvent stress contribution writes:
 \begin{equation}
     \tau_s= \eta_s\left(\nabla \mathbf{u}+ \nabla \mathbf{u}^T \right)
 \end{equation}
 with $\eta_s$ the solvent viscosity.
 
-Fot the Olroyd-B model, the polymeric stress writes
+The polymeric stress contribution, given by the Olroyd-B model, writes:
 \begin{equation}
     \tau_p +\lambda \overset{\nabla}{\tau}_p = \eta_p\left(\nabla \mathbf{u}+ \nabla \mathbf{u}^T \right)
 \end{equation}
 with $\lambda$ the relaxation time, $\overset{\nabla}{\tau}_p$ the upper-convected derivative of $\tau_p$ and $\eta_p$ the polymeric viscosity.
 
-The solvent and polymer contribution to viscosity, respectively $\eta_s = 1.2$ mPa.s and $\eta_p=3.75$mPa.s. 
+Solvent and polymer contributions to viscosity, are $\eta_s = 1.2$ mPa.s and $\eta_p=3.75$mPa.s, respectively. 
 
  
-Although the nozzle geometry is a property of {Markem-Imaje\textcopyright}  and can not be disclosed, a complete study of its geometry was carried out using a SEM (see Fig. \ref{fig:micro}) to get its exact dimensions.
+The nozzle geometry is a property of {Markem-Imaje\textcopyright} and can not be disclosed. However a complete study of its geometry was carried out in order to get its exact dimensions. Fig. \ref{fig:micro} shows two images obtained using a Keyence VHX-700 microscope without indication of dimension for confidentiality reasons.
 
 \begin{figure}[h]
     \centering
-\includegraphics[width=15cm]{Figures/Fig11.eps}
-\caption{Image of the present nozzle obtained by SEM.}
+\includegraphics[width=12cm]{Figures/Fig11.eps}
+\caption{Image of the present nozzle obtained with a Keyence VHX-700 microscope. No dimension is mentioned for confidentiality reasons.}
 \label{fig:micro}
 \end{figure}
  
-Hereafter, the influence of the relaxation time $\tau_e$ onto the breakup shape is investigated. Giving the value $\tau_Z= 0.4 \mu s$ found in section  \ref{sec:rheo} using Zimm's theory, $\tau_e$ from $0.5 \mu s$ to $1 \mu s$ will be tested. 
 
-The relaxation time has an influence on the average jet velocity $v$ : the more elastic is the fluid, the slower is the jet. Thus, the instability wave number $x$ (see \ref{eq:waveNbr}) increases when $\tau_e$ increases. Consequently $P_{tank}$ depends on $\tau_e$ and has been determined by ensuring a constant dimensionless wave number $x=0.6$ for unperturbed viscoelastic jets (i.e. setting $P_{stim}=0$ in eq. \ref{eq:plim}). Figure \ref{fig:dP} shows the linear relation found between $P_{tank}$ and the fluid relaxation time in order to get $x=0.6$.
+
+Hereafter, the influence of the relaxation time $\tau_e$ from $0.5 \mu s$ to $1 \mu s$ onto the breakup shape will be investigated knowing the Zimm relaxation time value $\tau_Z= 0.4 \mu s$ found in section \ref{sec:rheo}.
+
+The relaxation time $\tau_e$ has an influence on the average jet velocity $v$. Indeed, the more elastic is the fluid, the slower is the jet. Thus, the instability wave number $x$ (see \ref{eq:waveNbr}) increases when $\tau_e$ increases. Consequently $P_{tank}$ depends on $\tau_e$ and has been determined by ensuring a constant dimensionless wave number $x=0.6$ for unperturbed viscoelastic jets (i.e. setting $P_{stim}=0$ in eq. \ref{eq:plim}). Figure \ref{fig:dP} shows the linear relation found between $P_{tank}$ and the fluid relaxation time in order to get $x=0.6$.
 
 \begin{figure}[H]
     \centering
@@ -401,13 +404,13 @@ It is worth pointing out that over the studied range of relaxation times, the je
 \begin{figure}[H]
     \centering
     \includegraphics[width=15cm]{Figures/Fig13.eps}
-    \caption{Computational axial velocity profiles at the nozzle exit for the Newtonian and Oldroyd-B ($\tau_e = 0.5\mu s$ and $\tau_e = 1\mu s$) fluid jets.}
+    \caption{Computational axial velocity profiles at the nozzle exit for the Newtonian and Oldroyd-B fluid jets with $\tau_e = 0.5\mu s$ and $\tau_e = 1\mu s$.}
     \label{fig:vProfiles}
 \end{figure}
 
 From now on, a disturbance is applied to the jet using the pressure boundary condition (see eq. \ref{eq:plim}). In order to compare the numerical results to the experimental ones, one must find the relation between $P_{stim}$ and $V_{stim}$, which denote, respectively, the numerical and experimental disturbance amplitudes. In section \ref{sec:glycerol}, the correlation has been found based on the breakup length. 
 
-However, as previously stated, the breakup length criterion is not fully appropriate for low to moderate surface tension fluids as the mesh has an outstanding influence on it. The results are thus compared using both the breakup length and the breakup shape which, the later being far less influenced by the mesh and thus is a good additional criterion.
+However, as previously stated, the breakup length criterion is not fully appropriate for low to moderate surface tension fluids as the mesh has an outstanding influence on it. The results are thus compared using both the breakup length and the breakup shape, the later being far less influenced by the mesh and thus a good additional criterion.
 
 
 \begin{figure}[h]
@@ -464,9 +467,12 @@ However, as previously stated, the breakup length criterion is not fully appropr
        \label{fig:A3}
 \end{figure}
 
-For each numerical fluid, i.e. Newtonian and Oldroyd-B with $\tau_e \in  \{0.5,0.75,0.85,1\}$, calculations are made for two values of $P_{stim}$, $P_{stim}= 0.3\cdot P_{tank}$ and $P_{stim}= 0.5\cdot P_{tank}$. 
+For each numerical fluid, i.e. Newtonian and Oldroyd-B with $\tau_e \in  \{0.5,0.75,0.85,1\}$, calculations are made for two values of $P_{stim}$: $P_{stim}= 0.3\cdot P_{tank}$ and $P_{stim}= 0.5\cdot P_{tank}$. 
 
-Figure \ref{fig:A3} presents results obtained for $P_{stim}=0.3\cdot P_{tank}$ for every numerical fluid and with the best experimental math. From these first results, either $\tau_e = 0.75 \mu s$  or $\tau_e = 0.85 \mu s$ are potential candidates by matching the best experimental drop shape obtained with a  disturbance amplitude of $54.5V$. While results lie in the non linear regime (see Fig. \ref{fig:LbInk}) the influence of the relaxation time has a moderate effect onto the drop shapes.
+Figure \ref{fig:A3} presents numerical results (red shapes) for $P_{stim}=0.3\cdot P_{tank}$ for Newtonian and Oldroyd-B fluids ranging from $0.5 \mu s$  to $1 \mu s$. When considering the shapes, the best match candidates of the experimental black drop (for a disturbance amplitude of $54.5V$) are Figs.\ref{fig:A3}d and \ref{fig:A3}e, $\tau_e = 0.75 \mu s$  and $\tau_e = 0.85 \mu s$, respectively.
+
+% Figure \ref{fig:A3} presents results obtained for $P_{stim}=0.3\cdot P_{tank}$ for every numerical fluid and with the best experimental math. From these first results, either $\tau_e = 0.75 \mu s$  or $\tau_e = 0.85 \mu s$ are potential candidates by matching the best experimental drop shape obtained with a  disturbance amplitude of $54.5V$. 
+While results lie in the non linear regime (see Figs.\ref{fig:LbInk} and \ref{fig:LbGlycerol}), surprisingly, the influence of the relaxation time has a moderate effect onto the drop shapes.
 
 \begin{figure}[]
     % \centering
@@ -513,13 +519,14 @@ Figure \ref{fig:A3} presents results obtained for $P_{stim}=0.3\cdot P_{tank}$ f
     \caption{Breakup shapes for $P_{stim}=0.5\cdot P_{tank}$ for both experimental (black) and numerical (red) fluids.}
     \label{fig:A5}
 \end{figure}
-However when comparing the breakup length $\mathcal{L}^{0.3}_b$ we observe a strong influence of the relaxation time and, as expected, some discrepancies between the candidates and the experimental lengths which are shorter. 
+However, when comparing the breakup length $\mathcal{L}^{0.3}_b$, we observe a strong influence of the relaxation time and, as expected, some discrepancies between the candidates and the experimental lengths which are shorter as can be seen in Table \ref{tab:lbInkExNum}. 
 
-Figure \ref{fig:A5} presents results for $P_{stim}=0.3\cdot P_{tank}$. In this case, the Newtonian case and the Oldroyd-B model at  $\tau_e = 0.5 \mu s$ both exhibit significant shape differences compared to the experimental case. The computation for  $\tau_e = 1 \mu s$ is not presented as a breakup inversion occurs, and as a result, the jet breaks up outside the numerical domain, i.e. at a length greater than $6.5mm$.
+
+Figure \ref{fig:A5} presents results for $P_{stim}=0.5\cdot P_{tank}$. In this case, the Newtonian case and the Oldroyd-B model at  $\tau_e = 0.5 \mu s$ both exhibit significant shape differences compared to the experimental case. The computation for  $\tau_e = 1 \mu s$ is not presented as a breakup inversion occurs, and as a result, the jet breaks up outside the numerical domain, i.e. at a length greater than $6.5mm$.
 Again, relation time of  $\tau_e = 0.75 \mu s$ and  $\tau_e = 0.85 \mu s$ give the most accurate breakup shapes, as already observed for $P_{stim}=0.3\cdot P_{tank}$.
 
 
-Small differences between numerical and experimental drop shapes may due both to non linear viscoelastic effects that are not taken into account in the Oldroyd-B model and experimental uncertainties.
+Small differences between numerical and experimental drop shapes may be due to non-linear viscoelastic effects, not taken into account in the Oldroyd-B model, and experimental uncertainties.
 
 \begin{table}[H]
     \begin{center}
@@ -535,21 +542,21 @@ Small differences between numerical and experimental drop shapes may due both to
             \hline
         \end{tabular}
     \end{center}
-    \label{tab:lbInk}
     \caption{Breakup lengths $\mathcal{L}^{0.3}_b$ and $\mathcal{L}^{0.5}_b$ of the numerical and experimental fluids.}
+    \label{tab:lbInkExNum}
 \end{table}
 
 
 As we can see, small changes in the polymer relaxation time $\tau_E$ have a great influence on the breakup morphology of Rayleigh-Plateau jet instability. 
 
-The present work allowed us to determine a tiny range for the longest relaxation time with a precision of $10^{-7} s$. The numerically measured relaxation time $\tau_e = 0.75-0.85 \mu s$ is coherent with Zimm predictions even if it is slightly higher ($\tau_z = 0.4 \mu s$).  The small difference between analytical and computational results may due to polydispersity of the polymer solution as $\tau_z$ is calculated using the averaged molecular mass $M_w$. Although some polymer chains in the present solution have higher molecular mass which increases the solution relaxation time.
+The present work allowed us to determine a tiny range for the longest relaxation time with a precision of $10^{-7} s$ using a numerical and experimental comparison. The numerically measured relaxation time $\tau_e = 0.75-0.85 \mu s$ is coherent with Zimm's prediction, with $\tau_z = 0.4 \mu s$, but is drastically more accurate. That difference between analytical and computational times may due to polydispersity of the polymer solution as $\tau_z$ is calculated using the averaged molecular mass $M_w$. Although some polymer chains in the present solution have higher molecular mass which increases the solution relaxation time.
 
 \section{Conclusion}
-This original approach allows to determine the rheological properties of low viscosity and weakly viscoelastic polymer solution that can not be addressed by any experimental measurement method. Based on a trial-and-error technique. It relies on the strong dependency of the pinching curvature onto the viscoelastic relaxation time at high disturbance amplitude. However, this approach rely on an accurate numerical description of the physics at play in the process. The rheological model used must be carefully chosen to adequately model the experimental fluid.
+The present original approach allows to determine accurately the relaxation time of low viscosity and weakly viscoelastic polymer solution that can not be addressed by any experimental measurement method. Based on a trial-and-error technique, it relies on the strong dependency of the pinching curvature onto the viscoelastic relaxation time at high disturbance amplitude. However, this approach needs an accurate numerical description of the physics at play in the process and the rheological model used must be carefully chosen to adequately model the experimental fluid. Finally the analytical relaxation time determined using Zimm's theory is found to be a good rule of thumb relaxation time but twice lower than the determined one. 
 \section{Acknowledgements}
 The authors thank Markem-Imaje\textcopyright, a {Dover\textregistered} company, for their ongoing financial support, nozzle manufacture and CIJ expertise.
 
-The Laboratoire Rhéologie et Procédés is part of the LabEx Tec 21 (Investissements d'Avenir - grant agreement n\textsuperscript{o}ANR-11-LABX-0030) and of the PolyNat Carnot Institut (Investissements d'Avenir - grant agreement n\textsuperscript{o}ANR-11- CARN-030-01).
+The Laboratoire Rh\'eologie et Proc\'ed\'es is part of the LabEx Tec 21 (Investissements d'Avenir - grant agreement n\textsuperscript{o}ANR-11-LABX-0030) and of the PolyNat Carnot Institut (Investissements d'Avenir - grant agreement n\textsuperscript{o}ANR-11- CARN-030-01).
 \bibliographystyle{asmems4}
 \bibliography{biblio}
 \end{document}

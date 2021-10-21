@@ -20,13 +20,12 @@ x1 = np.arange(0, 1, 0.01)
 exp_x,exp_y = np.loadtxt('./Encre/DP_tau.txt', delimiter=';', unpack=True)
 
 plt.plot(x1, f(x1), '-k')
-plt.plot(exp_x, exp_y, 'ob', label='$P_{tank}$')
+plt.plot(exp_x, exp_y, 'ob')
 
-plt.legend()
 # plt.tight_layout()
 
 plt.xlabel('$\\tau_e (\mu s)$')
-plt.ylabel('$\Delta P(bar)$')
+plt.ylabel('$P_{tank}$(bar)')
 plt.grid(True)
 plt.savefig("dP.eps", dpi=300)
 plt.show()

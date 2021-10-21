@@ -33,7 +33,7 @@ ax1.plot(num_x, num_y, 'or', label='$\mathcal{L}_{num}^b$')
 ax1.plot(exp_x, exp_y, 'ob', label='$\mathcal{L}_{exp}^b$')
 # ax2.plot(x2, f(x2), 'k', label='Best Fit') 
 ax1.legend()
-ax1.set_xlabel('P ($mbar$)')
+ax1.set_xlabel('$P_{stim}$ ($mbar$)')
 ax2.set_xlabel('$V$')
 ax1.set_ylabel('Breakup length ($mm$)')
 
